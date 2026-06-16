@@ -32,10 +32,10 @@ No code changes are needed as long as the XML keeps the same structure
 
 ## Publish
 
-The included GitHub Actions workflow builds the app on pushes to `main` and
-force-publishes `dist` to the `gh-pages` branch. Manual publishing is also
-available with:
+The included GitHub Actions workflow builds the app on pushes to `main`, uploads
+`dist` as a GitHub Pages artifact, and deploys it with GitHub Pages Actions. The
+site is published at:
 
-```bash
-npm run deploy
-```
+https://opensouthcode.github.io/schedule-2026/
+
+Manual publishing with `npm run deploy` is not needed for the normal workflow.
