@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import scheduleXml from './data/schedule.xml?raw';
 import opensouthcodeLogo from './assets/opensouthcode-logo.png';
@@ -19,7 +19,7 @@ const translations = {
     duration: 'Duration',
     close: 'Close',
     clearSearch: 'Clear search',
-    openSource: 'Source schedule',
+    openSource: 'Website',
     events: 'sessions',
     today: 'today',
     filtered: 'filtered',
@@ -42,7 +42,7 @@ const translations = {
     duration: 'Duración',
     close: 'Cerrar',
     clearSearch: 'Limpiar búsqueda',
-    openSource: 'Programa original',
+    openSource: 'Website',
     events: 'sesiones',
     today: 'hoy',
     filtered: 'filtradas',
@@ -168,7 +168,9 @@ function App() {
     return new Set(stored ? JSON.parse(stored) : []);
   });
   const [expandedEventId, setExpandedEventId] = useState(null);
+  const [clickedExpandedEventId, setClickedExpandedEventId] = useState(null);
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const cardRefs = useRef(new Map());
   const labels = translations[locale];
   const activeSchedule = schedule.find((day) => day.date === activeDay) ?? schedule[0];
   const normalizedQuery = normalize(query.trim());
@@ -176,6 +178,54 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem(starredStorageKey, JSON.stringify([...starredIds]));
   }, [starredIds]);
+
+  useEffect(() => {
+    if (!selectedEvent) {
+      return undefined;
+    }
+
+    const root = document.documentElement;
+    const viewport = window.visualViewport;
+
+    function updateModalViewport() {
+      root.style.setProperty('--modal-vv-left', `${viewport?.offsetLeft ?? 0}px`);
+      root.style.setProperty('--modal-vv-top', `${viewport?.offsetTop ?? 0}px`);
+      root.style.setProperty('--modal-vv-width', `${viewport?.width ?? window.innerWidth}px`);
+      root.style.setProperty('--modal-vv-height', `${viewport?.height ?? window.innerHeight}px`);
+    }
+
+    updateModalViewport();
+    document.body.classList.add('modal-open');
+    viewport?.addEventListener('resize', updateModalViewport);
+    viewport?.addEventListener('scroll', updateModalViewport);
+
+    return () => {
+      document.body.classList.remove('modal-open');
+      viewport?.removeEventListener('resize', updateModalViewport);
+      viewport?.removeEventListener('scroll', updateModalViewport);
+      root.style.removeProperty('--modal-vv-left');
+      root.style.removeProperty('--modal-vv-top');
+      root.style.removeProperty('--modal-vv-width');
+      root.style.removeProperty('--modal-vv-height');
+    };
+  }, [selectedEvent]);
+
+  useEffect(() => {
+    if (!clickedExpandedEventId) {
+      return undefined;
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      cardRefs.current.get(clickedExpandedEventId)?.scrollIntoView({
+        block: 'nearest',
+        inline: 'nearest',
+        behavior: 'smooth',
+      });
+      setClickedExpandedEventId(null);
+    }, 440);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [clickedExpandedEventId]);
 
   function toggleStar(eventId) {
     setStarredIds((current) => {
@@ -198,6 +248,7 @@ function App() {
     }
 
     setExpandedEventId(event.id);
+    setClickedExpandedEventId(event.id);
   }
 
   function handleCardKeyDown(keyEvent, event) {
@@ -381,6 +432,13 @@ function App() {
 
                   return (
                     <article
+                      ref={(node) => {
+                        if (node) {
+                          cardRefs.current.set(event.id, node);
+                        } else {
+                          cardRefs.current.delete(event.id);
+                        }
+                      }}
                       className={`session-card session-${event.language || 'any'} ${
                         event.matchesSearch ? '' : 'session-dimmed'
                       } ${isExpanded ? 'expanded' : ''}`}
