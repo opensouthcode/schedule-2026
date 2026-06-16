@@ -389,7 +389,6 @@ function App() {
                       tabIndex={0}
                       onClick={() => handleCardClick(event)}
                       onKeyDown={(keyEvent) => handleCardKeyDown(keyEvent, event)}
-                      onFocus={() => setExpandedEventId(event.id)}
                       onMouseEnter={() => setExpandedEventId(event.id)}
                       onMouseLeave={() =>
                         setExpandedEventId((current) => (current === event.id ? null : current))
