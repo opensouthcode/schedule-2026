@@ -110,6 +110,10 @@ a {
   text-decoration: none;
 }
 
+.github-link {
+  gap: 8px;
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--green-bright);
