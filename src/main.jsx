@@ -167,6 +167,7 @@ function App() {
     const stored = window.localStorage.getItem(starredStorageKey);
     return new Set(stored ? JSON.parse(stored) : []);
   });
+  const [expandedEventId, setExpandedEventId] = useState(null);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const labels = translations[locale];
   const activeSchedule = schedule.find((day) => day.date === activeDay) ?? schedule[0];
@@ -188,6 +189,24 @@ function App() {
 
       return next;
     });
+  }
+
+  function handleCardClick(event) {
+    if (expandedEventId === event.id) {
+      setSelectedEvent(event);
+      return;
+    }
+
+    setExpandedEventId(event.id);
+  }
+
+  function handleCardKeyDown(keyEvent, event) {
+    if (keyEvent.key !== 'Enter' && keyEvent.key !== ' ') {
+      return;
+    }
+
+    keyEvent.preventDefault();
+    handleCardClick(event);
   }
 
   const displayRooms = useMemo(() => {
@@ -344,14 +363,24 @@ function App() {
                 ))}
                 {room.events.map((event) => {
                   const eventHeight = event.duration * minuteHeight;
-                  const expandedHeight = eventHeight < 78 ? 78 : eventHeight;
+                  const expandedHeight = (eventHeight < 78 ? 78 : eventHeight) * 1.2;
+                  const isExpanded = expandedEventId === event.id;
 
                   return (
                     <article
                       className={`session-card session-${event.language || 'any'} ${
                         event.matchesSearch ? '' : 'session-dimmed'
-                      }`}
+                      } ${isExpanded ? 'expanded' : ''}`}
                       key={event.guid}
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => handleCardClick(event)}
+                      onKeyDown={(keyEvent) => handleCardKeyDown(keyEvent, event)}
+                      onFocus={() => setExpandedEventId(event.id)}
+                      onMouseEnter={() => setExpandedEventId(event.id)}
+                      onMouseLeave={() =>
+                        setExpandedEventId((current) => (current === event.id ? null : current))
+                      }
                       style={{
                         top: (event.startMinutes - activeSchedule.startMinutes) * minuteHeight,
                         height: eventHeight,
@@ -361,7 +390,11 @@ function App() {
                       <button
                         className={`star-button session-star ${event.isStarred ? 'active' : ''}`}
                         type="button"
-                        onClick={() => toggleStar(event.id)}
+                        onClick={(clickEvent) => {
+                          clickEvent.stopPropagation();
+                          toggleStar(event.id);
+                        }}
+                        onKeyDown={(keyEvent) => keyEvent.stopPropagation()}
                         aria-pressed={event.isStarred}
                         aria-label={event.isStarred ? labels.unstar : labels.star}
                         title={event.isStarred ? labels.unstar : labels.star}
@@ -370,13 +403,6 @@ function App() {
                       </button>
                       <strong>{event.title}</strong>
                       {event.speakers.length > 0 && <span>{event.speakers.join(', ')}</span>}
-                      <button
-                        className="session-details"
-                        type="button"
-                        onClick={() => setSelectedEvent(event)}
-                      >
-                        {labels.details}
-                      </button>
                     </article>
                   );
                 })}
@@ -393,33 +419,38 @@ function App() {
           onClick={() => setSelectedEvent(null)}
         >
           <article className="modal-card" role="dialog" aria-modal="true" onClick={(event) => event.stopPropagation()}>
-            <button className="close-button" onClick={() => setSelectedEvent(null)}>
-              {labels.close}
-            </button>
-            <p className="eyebrow">
-              {selectedEvent.start} · {formatDuration(selectedEvent.duration, locale)}
-            </p>
-            <h2>{selectedEvent.title}</h2>
-            {selectedEvent.subtitle && <h3>{selectedEvent.subtitle}</h3>}
-            <dl className="event-details">
-              <div>
-                <dt>{labels.speakers}</dt>
-                <dd>{selectedEvent.speakers.join(', ')}</dd>
-              </div>
-              <div>
-                <dt>{labels.room}</dt>
-                <dd>{selectedEvent.room}</dd>
-              </div>
-              <div>
-                <dt>{labels.type}</dt>
-                <dd>{selectedEvent.type || labels.all}</dd>
-              </div>
-              <div>
-                <dt>{labels.sessionLanguage}</dt>
-                <dd>{selectedEvent.language?.toUpperCase() || '-'}</dd>
-              </div>
-            </dl>
-            {selectedEvent.abstract && <p className="abstract">{selectedEvent.abstract}</p>}
+            <header className="modal-header">
+              <button className="close-button" onClick={() => setSelectedEvent(null)} aria-label={labels.close}>
+                ×
+              </button>
+              <p className="eyebrow">
+                {dayLabels[locale][selectedEvent.date.slice(0, 10)]?.full} · {selectedEvent.start} ·{' '}
+                {formatDuration(selectedEvent.duration, locale)}
+              </p>
+              <h2>{selectedEvent.title}</h2>
+              {selectedEvent.subtitle && <h3>{selectedEvent.subtitle}</h3>}
+            </header>
+            <div className="modal-body">
+              <dl className="event-details">
+                <div>
+                  <dt>{labels.speakers}</dt>
+                  <dd>{selectedEvent.speakers.join(', ')}</dd>
+                </div>
+                <div>
+                  <dt>{labels.room}</dt>
+                  <dd>{selectedEvent.room}</dd>
+                </div>
+                <div>
+                  <dt>{labels.type}</dt>
+                  <dd>{selectedEvent.type || labels.all}</dd>
+                </div>
+                <div>
+                  <dt>{labels.sessionLanguage}</dt>
+                  <dd>{selectedEvent.language?.toUpperCase() || '-'}</dd>
+                </div>
+              </dl>
+              {selectedEvent.abstract && <p className="abstract">{selectedEvent.abstract}</p>}
+            </div>
           </article>
         </div>
       )}

@@ -152,6 +152,7 @@ h1 {
 .day-tabs {
   display: grid;
   grid-template-columns: repeat(2, minmax(128px, 1fr));
+  flex: 0 0 auto;
   justify-self: start;
   min-height: 48px;
   overflow: hidden;
@@ -161,12 +162,17 @@ h1 {
 }
 
 .day-tabs button {
+  display: grid;
+  place-items: center;
   min-width: 0;
   padding: 0 14px;
+  appearance: none;
   color: var(--brown-dark);
   border: 0;
   background: transparent;
   font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .day-tabs button + button {
@@ -270,8 +276,8 @@ h1 {
 
 .locale-toggle {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 48px;
+  grid-template-columns: repeat(2, 44px);
+  min-height: 36px;
   overflow: hidden;
   border: 1px solid rgba(67, 40, 20, 0.22);
   border-radius: 16px;
@@ -283,6 +289,7 @@ h1 {
   border: 0;
   background: transparent;
   font-weight: 900;
+  min-height: 36px;
 }
 
 .locale-toggle button + button {
@@ -302,10 +309,10 @@ h1 {
 
 .schedule-wrap {
   position: relative;
-  border: 1px solid rgba(67, 40, 20, 0.38);
-  border-radius: 28px;
-  background: rgba(255, 245, 217, 0.48);
-  box-shadow: var(--shadow);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .schedule-grid {
@@ -383,6 +390,7 @@ h1 {
   border-radius: 11px;
   background: linear-gradient(135deg, var(--green-dark), var(--green));
   box-shadow: 0 12px 26px rgba(39, 24, 14, 0.2);
+  cursor: pointer;
   text-align: left;
   transition:
     width 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
@@ -410,9 +418,10 @@ h1 {
 }
 
 .session-card:hover,
-.session-card:focus-within {
+.session-card:focus-within,
+.session-card.expanded {
   z-index: 4;
-  width: calc(160% - 14px);
+  width: calc(192% - 14px);
   height: var(--expanded-height) !important;
   transform: translateY(-3px);
   box-shadow: 0 20px 42px rgba(39, 24, 14, 0.34);
@@ -435,6 +444,9 @@ h1 {
   line-height: 1;
   text-overflow: ellipsis;
   white-space: nowrap;
+  transition:
+    font-size 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    line-height 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .session-card > span {
@@ -444,42 +456,29 @@ h1 {
   line-height: 1.1;
   text-overflow: ellipsis;
   white-space: nowrap;
+  transition:
+    font-size 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    line-height 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .session-card:hover strong,
 .session-card:hover > span,
 .session-card:focus-within strong,
-.session-card:focus-within > span {
+.session-card:focus-within > span,
+.session-card.expanded strong,
+.session-card.expanded > span {
   overflow: visible;
+  font-size: 0.82rem;
+  line-height: 1.18;
   text-overflow: clip;
   white-space: normal;
 }
 
-.session-details {
-  position: absolute;
-  right: 7px;
-  bottom: 7px;
-  min-height: 24px;
-  padding: 0 9px;
-  color: var(--brown-dark);
-  border: 0;
-  border-radius: 999px;
-  background: var(--cream);
-  font-size: 0.62rem;
-  font-weight: 900;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(4px);
-  transition:
-    opacity 520ms ease,
-    transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.session-card:hover .session-details,
-.session-card:focus-within .session-details {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0);
+.session-card:hover > span,
+.session-card:focus-within > span,
+.session-card.expanded > span {
+  font-size: 0.72rem;
+  line-height: 1.2;
 }
 
 .empty-state {
@@ -505,16 +504,49 @@ h1 {
 }
 
 .modal-card {
+  --modal-pad: clamp(24px, 5vw, 48px);
   width: min(920px, 100%);
   max-height: min(840px, calc(100vh - 44px));
   overflow: auto;
-  padding: clamp(24px, 5vw, 48px);
+  scrollbar-color: var(--brown) rgba(237, 224, 194, 0.85);
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  padding: 0;
   color: var(--brown-dark);
   border: 1px solid rgba(32, 19, 9, 0.72);
-  border-radius: 32px;
+  border-radius: 32px 8px 8px 32px;
   background: var(--cream);
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.35);
   animation: zoom-in 180ms ease-out;
+}
+
+.modal-card::-webkit-scrollbar {
+  width: 12px;
+}
+
+.modal-card::-webkit-scrollbar-track {
+  background: rgba(237, 224, 194, 0.85);
+  border-left: 1px solid rgba(67, 40, 20, 0.16);
+}
+
+.modal-card::-webkit-scrollbar-thumb {
+  background: var(--brown);
+  border: 3px solid rgba(237, 224, 194, 0.85);
+  border-radius: 999px;
+}
+
+.modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: var(--modal-pad) calc(var(--modal-pad) + 52px) 18px var(--modal-pad);
+  border-bottom: 1px solid rgba(67, 40, 20, 0.14);
+  background: rgba(255, 245, 217, 0.96);
+  backdrop-filter: blur(12px);
+}
+
+.modal-body {
+  padding: 0 var(--modal-pad) var(--modal-pad);
 }
 
 .modal-card h2 {
@@ -531,14 +563,21 @@ h1 {
 }
 
 .close-button {
-  float: right;
-  min-height: 42px;
-  padding: 0 16px;
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  padding: 0;
   color: var(--cream);
   border: 0;
-  border-radius: 999px;
+  border-radius: 50%;
   background: var(--brown-dark);
+  font-size: 1.65rem;
   font-weight: 900;
+  line-height: 1;
 }
 
 .event-details {
@@ -616,7 +655,7 @@ h1 {
   }
 
   .day-tabs {
-    grid-template-columns: repeat(2, minmax(62px, 1fr));
+    grid-template-columns: repeat(2, 74px);
   }
 
   .day-label-full {
