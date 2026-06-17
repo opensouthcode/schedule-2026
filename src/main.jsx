@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import scheduleXml from './data/schedule.xml?raw';
 import opensouthcodeLogo from './assets/opensouthcode-logo.png';
+import donationsBg from './assets/donations-bg.jpg';
 import './styles.css';
 
 const translations = {
@@ -552,6 +553,7 @@ function App() {
           onClick={() => setShowDonations(false)}
         >
           <article className="modal-card donation-modal" role="dialog" aria-modal="true" onClick={(event) => event.stopPropagation()}>
+            <div className="donation-modal-bg" style={{ backgroundImage: `url(${donationsBg})` }} />
             <header className="modal-header">
               <button className="close-button" onClick={() => setShowDonations(false)} aria-label={labels.close}>
                 ×

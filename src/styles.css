@@ -726,3 +726,26 @@ h1 {
     min-width: calc(54px + var(--room-count) * 150px);
   }
 }
+
+/* Donations modal background */
+.donation-modal {
+  position: relative;
+  overflow: hidden;
+}
+
+.donation-modal .modal-header,
+.donation-modal .modal-body {
+  position: relative;
+  z-index: 1;
+}
+
+.donation-modal-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: inherit;
+}
