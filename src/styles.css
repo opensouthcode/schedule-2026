@@ -744,7 +744,7 @@ h1 {
   inset: 0;
   background-size: cover;
   background-position: center;
-  opacity: 0.4;
+  opacity: 0.25;
   pointer-events: none;
   z-index: 0;
   border-radius: inherit;

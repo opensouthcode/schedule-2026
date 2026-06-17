@@ -64,7 +64,7 @@ const translations = {
     donationsRegisterPrefix: 'La conferencia es de libre acceso, solo tienes que registrarte en la',
     donationsRegisterLink: 'web',
     donationsCausePrefix:
-      'Si quieres una Camiseta, o quieres participar en la Fiesta Malaguita del viernes por la noche, se requiere donar a la causa solidaria. Este año todo lo recaudado va íntegramente a',
+      'Si quieres una Camiseta, o quieres participar en la Fiesta Malaguita del viernes por la noche, se requiere donar a la causa solidaria. Este año parte de lo recaudado va a',
     donationsTickets: 'Tickets aquí:',
     donationsBoth: '¿Camiseta o Cena? Why not both!',
   },
