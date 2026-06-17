@@ -27,6 +27,14 @@ const translations = {
     star: 'Save session',
     unstar: 'Remove saved session',
     starredOnly: 'Show saved sessions',
+    donations: 'Donors',
+    donationsTitle: 'Donations',
+    donationsRegisterPrefix: 'The conference is free to attend; you only need to register on the',
+    donationsRegisterLink: 'website',
+    donationsCausePrefix:
+      'If you want a T-shirt, or want to join the Fiesta Malaguita on Friday night, you need to donate to the charity cause. This year all proceeds go entirely to',
+    donationsTickets: 'Tickets here:',
+    donationsBoth: 'T-shirt or dinner? Why not both!',
   },
   es: {
     eyebrow: 'Programa',
@@ -50,6 +58,14 @@ const translations = {
     star: 'Guardar sesión',
     unstar: 'Quitar sesión guardada',
     starredOnly: 'Mostrar sesiones guardadas',
+    donations: 'Donors',
+    donationsTitle: 'Donaciones',
+    donationsRegisterPrefix: 'La conferencia es de libre acceso, solo tienes que registrarte en la',
+    donationsRegisterLink: 'web',
+    donationsCausePrefix:
+      'Si quieres una Camiseta, o quieres participar en la Fiesta Malaguita del viernes por la noche, se requiere donar a la causa solidaria. Este año todo lo recaudado va íntegramente a',
+    donationsTickets: 'Tickets aquí:',
+    donationsBoth: '¿Camiseta o Cena? Why not both!',
   },
 };
 
@@ -170,6 +186,7 @@ function App() {
   const [expandedEventId, setExpandedEventId] = useState(null);
   const [clickedExpandedEventId, setClickedExpandedEventId] = useState(null);
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const [showDonations, setShowDonations] = useState(false);
   const cardRefs = useRef(new Map());
   const labels = translations[locale];
   const activeSchedule = schedule.find((day) => day.date === activeDay) ?? schedule[0];
@@ -180,7 +197,7 @@ function App() {
   }, [starredIds]);
 
   useEffect(() => {
-    if (!selectedEvent) {
+    if (!selectedEvent && !showDonations) {
       return undefined;
     }
 
@@ -208,7 +225,7 @@ function App() {
       root.style.removeProperty('--modal-vv-width');
       root.style.removeProperty('--modal-vv-height');
     };
-  }, [selectedEvent]);
+  }, [selectedEvent, showDonations]);
 
   useEffect(() => {
     if (!clickedExpandedEventId) {
@@ -307,10 +324,14 @@ function App() {
             >
               {labels.openSource}
             </a>
+            <button className="hero-link donor-link" type="button" onClick={() => setShowDonations(true)}>
+              {labels.donations}
+            </button>
             <a
               className="hero-link github-link"
               href="https://github.com/opensouthcode/schedule-2026"
               aria-label="GitHub repository"
+              title="GitHub repository"
             >
               <svg aria-hidden="true" viewBox="0 0 16 16" width="18" height="18">
                 <path
@@ -318,7 +339,6 @@ function App() {
                   d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 3.87c.68 0 1.36.09 2 .26 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"
                 />
               </svg>
-              GitHub
             </a>
             <div className="locale-switcher" aria-label={labels.language}>
               <div className="locale-toggle" role="group">
@@ -520,6 +540,44 @@ function App() {
                 </div>
               </dl>
               {selectedEvent.abstract && <p className="abstract">{selectedEvent.abstract}</p>}
+            </div>
+          </article>
+        </div>
+      )}
+
+      {showDonations && (
+        <div
+          className="modal-backdrop"
+          role="presentation"
+          onClick={() => setShowDonations(false)}
+        >
+          <article className="modal-card donation-modal" role="dialog" aria-modal="true" onClick={(event) => event.stopPropagation()}>
+            <header className="modal-header">
+              <button className="close-button" onClick={() => setShowDonations(false)} aria-label={labels.close}>
+                ×
+              </button>
+              <p className="eyebrow">OpenSouthCode 2026</p>
+              <h2>{labels.donationsTitle}</h2>
+            </header>
+            <div className="modal-body donation-copy">
+              <p>
+                {labels.donationsRegisterPrefix}{' '}
+                <a href="https://www.opensouthcode.org/conferences/opensouthcode2026/register/new">
+                  {labels.donationsRegisterLink}
+                </a>
+                .
+              </p>
+              <p>
+                {labels.donationsCausePrefix}{' '}
+                <a href="http://civio.es/">Fundación Civio</a>.
+              </p>
+              <p>
+                {labels.donationsTickets}{' '}
+                <a href="https://www.eventbrite.es/e/opensouthcode-2026-tickets-1991388009142">
+                  Eventbrite
+                </a>
+              </p>
+              <p className="donation-punchline">{labels.donationsBoth}</p>
             </div>
           </article>
         </div>

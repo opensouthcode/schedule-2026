@@ -106,6 +106,7 @@ a {
   display: inline-flex;
   min-height: 48px;
   align-items: center;
+  justify-content: center;
   padding: 0 18px;
   color: var(--cream);
   border: 1px solid rgba(255, 245, 217, 0.35);
@@ -114,8 +115,14 @@ a {
   text-decoration: none;
 }
 
+.donor-link {
+  appearance: none;
+  font-weight: 800;
+}
+
 .github-link {
-  gap: 8px;
+  width: 48px;
+  padding: 0;
   color: #ffffff;
   border-color: rgba(255, 255, 255, 0.16);
   background: #0d1117;
@@ -568,6 +575,24 @@ h1 {
 
 .modal-body {
   padding: 0 var(--modal-pad) var(--modal-pad);
+}
+
+.donation-copy {
+  padding-top: var(--modal-pad);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.65;
+}
+
+.donation-copy a {
+  color: var(--green-dark);
+  overflow-wrap: anywhere;
+}
+
+.donation-punchline {
+  margin-bottom: 0;
+  color: var(--brown-dark);
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 900;
 }
 
 .modal-card h2 {
