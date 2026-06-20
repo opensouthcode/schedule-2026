@@ -1,5 +1,5 @@
 <schedule>
-<version>615</version>
+<version>641</version>
 <conference>
 <acronym>opensouthcode2026</acronym>
 <title>OpenSouthCode 2026</title>
@@ -207,17 +207,19 @@ Explicamos por qué elegimos SparkSQL sobre Beam o Flink, cómo gestionamos dato
 <abstract>Las universidades y las comunidades del software libre comparten el principio del libre intercambio del conocimiento.
 Esta mesa redonda propone un espacio de diálogo donde analizar la relación actual entre la Universidad de Málaga y las tecnologías abiertas.
 
-Nos acercamos a las tres grandes realidades de la academia: la educación, la investigación y la institución.
+Escarlata González entrevista a Manuel Enciso, Director de la ETSI de Informática en la UMA, para conocer las realidades de la academia: la educación, la investigación y la institución.
 
 
-(Ponentes aún pendientes de confirmación)</abstract>
+---
+Esta actividad ha sido promovida por [Open Bokeron](https://openbokeron.uma.es/), una comunidad de estudiantes y graduados de la UMA que busca fomentar el software libre y tecnologías abiertas en la Universidad.</abstract>
 <description>Las universidades y las comunidades del software libre comparten el principio del libre intercambio del conocimiento.
 Esta mesa redonda propone un espacio de diálogo donde analizar la relación actual entre la Universidad de Málaga y las tecnologías abiertas.
 
-Nos acercamos a las tres grandes realidades de la academia: la educación, la investigación y la institución.
+Escarlata González entrevista a Manuel Enciso, Director de la ETSI de Informática en la UMA, para conocer las realidades de la academia: la educación, la investigación y la institución.
 
 
-(Ponentes aún pendientes de confirmación)</description>
+---
+Esta actividad ha sido promovida por [Open Bokeron](https://openbokeron.uma.es/), una comunidad de estudiantes y graduados de la UMA que busca fomentar el software libre y tecnologías abiertas en la Universidad.</description>
 <recording>
 <license />
 <optout>false</optout>
@@ -284,12 +286,16 @@ In this talk, we will present a full open source stack that provides competitive
 <room>Sala Fuengirola</room>
 <type>Talk</type>
 <language>es</language>
-<slug>1138-malagajug</slug>
-<title>MalagaJug</title>
+<slug>1138-java-cumple-31-anos-y-repasamos-las-novedades-de-java-26-y-27-malaga-jug</slug>
+<title>Java cumple 31 años y repasamos las novedades de Java 26 y 27 (Málaga JUG)</title>
 <subtitle></subtitle>
 <track></track>
-<abstract>MalagaJug</abstract>
-<description>MalagaJug</description>
+<abstract>Málaga JUG un año más no se pierde la cita de OpenSouthCode y traemos como es ya casi tradición la charla con las novedades de este último año en Java. Si el año pasado cubrimos las novedades de Java 25 este año ponemos el foco en Java 26 y 27.
+Haremos también un repaso rápido de lo más importante de los últimos años (ya sabemos que algunos aun estáis trabajando con Java 8, 11 o 17, así que no viene mal).
+Habrá código en vivo con ejemplos, y seguro que nos echamos algunas risas. Prometido no hacer chistes de P%&amp;/$n ni de J&amp;%/$()&amp;pt.</abstract>
+<description>Málaga JUG un año más no se pierde la cita de OpenSouthCode y traemos como es ya casi tradición la charla con las novedades de este último año en Java. Si el año pasado cubrimos las novedades de Java 25 este año ponemos el foco en Java 26 y 27.
+Haremos también un repaso rápido de lo más importante de los últimos años (ya sabemos que algunos aun estáis trabajando con Java 8, 11 o 17, así que no viene mal).
+Habrá código en vivo con ejemplos, y seguro que nos echamos algunas risas. Prometido no hacer chistes de P%&amp;/$n ni de J&amp;%/$()&amp;pt.</description>
 <recording>
 <license />
 <optout>false</optout>
@@ -1133,6 +1139,43 @@ En esta charla le daremos una vuelta de tuerca a varios cuentos clásicos, que u
 <person id='3782'>Mar Bartolomé</person>
 </persons>
 </event>
+<event guid='Riv34VdQN5YoDoPGPMrq5g' id='1139'>
+<date>2026-06-26T15:30:00+02:00</date>
+<start>15:30</start>
+<duration>00:45</duration>
+<room>Sala Benamocarra 23</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1139-descubre-e-intercepta-un-ciberataque</slug>
+<title>Descubre e intercepta un Ciberataque</title>
+<subtitle>Cómo usar herramientas Open Source para descubrir y bloquear un ataque antes de que sea tarde (Live Demo)</subtitle>
+<track></track>
+<abstract>¿Qué ocurre realmente en los ordenadores de una empresa cuando un empleado hace clic en el enlace equivocado? 
+Esta charla es una demostración en vivo que nos lleva por el ciclo completo de un ciberataque.
+
+Empezaremos desde el principio: la creación de un malware y su envío a través de un correo de phishing muy convincente. 
+Una vez que el payload se ejecuta y el dispositivo queda comprometido, la charla da un giro para ponernos en la perspectiva del Blue Team. 
+
+Acompañaremos al SOC de la empresa en una carrera contrarreloj, ejecutando el protocolo de detección a través de alertas SIEM, realizando el análisis forense de la infección y aplicando las medidas de remediación para expulsar al atacante de la red. 
+
+Una sesión práctica y muy visual para entender la ciberdefensa en un entorno real, explicada para todos los públicos.</abstract>
+<description>¿Qué ocurre realmente en los ordenadores de una empresa cuando un empleado hace clic en el enlace equivocado? 
+Esta charla es una demostración en vivo que nos lleva por el ciclo completo de un ciberataque.
+
+Empezaremos desde el principio: la creación de un malware y su envío a través de un correo de phishing muy convincente. 
+Una vez que el payload se ejecuta y el dispositivo queda comprometido, la charla da un giro para ponernos en la perspectiva del Blue Team. 
+
+Acompañaremos al SOC de la empresa en una carrera contrarreloj, ejecutando el protocolo de detección a través de alertas SIEM, realizando el análisis forense de la infección y aplicando las medidas de remediación para expulsar al atacante de la red. 
+
+Una sesión práctica y muy visual para entender la ciberdefensa en un entorno real, explicada para todos los públicos.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id='3986'>Javier González</person>
+</persons>
+</event>
 <event guid='pMe6IbQIGQeX6rKdB3YadA' id='1055'>
 <date>2026-06-26T17:30:00+02:00</date>
 <start>17:30</start>
@@ -1144,16 +1187,56 @@ En esta charla le daremos una vuelta de tuerca a varios cuentos clásicos, que u
 <title>De la Torre de Babel al Internet de Agentes: el proyecto open-source AGNTCY</title>
 <subtitle>De la Torre de Babel al Internet de Agentes: el proyecto open-source AGNTCY</subtitle>
 <track></track>
-<abstract>**Construir sistemas de IA multi-agente hoy en día es como la Torre de Babel en su peor momento**: LangChain, CrewAI, frameworks propietarios y protocolos incompatibles, cada uno hablando su propio idioma sin entenderse. El resultado es predecible: se invierte más tiempo en integración que en resolver el problema de negocio, y la torre nunca termina de construirse.
+<abstract>## De la Torre de Babel al Internet de Agentes
 
-**AGNTCY es el proyecto open-source de la Linux Foundation que propone una infraestructura común y estandarizada** para este ecosistema fragmentado. Funciona sobre tres pilares: un Agent Directory que actúa como el DNS de los agentes (descubrimiento estandarizado de capacidades mediante OASF), soporte nativo para A2A y MCP como protocolos de comunicación entre agentes y herramientas, y SLIM, una capa de transporte con mensajería segura.
+Construir sistemas de IA multi-agente hoy se parece demasiado a la **Torre de Babel**:
+demasiados frameworks, demasiados protocolos… y muy poco entendimiento entre ellos. **¿El resultado? Más tiempo integrando que innovando.**
 
-En esta sesión analizaremos los diferentes componentes de este proyecto abierto, y además veremos código real conectando agentes de distintos frameworks en una arquitectura coherente y lista para producción. Saldrás con un patrón de integración funcional y los pasos concretos para registrar tus propios agentes y contribuir al ecosistema.</abstract>
-<description>**Construir sistemas de IA multi-agente hoy en día es como la Torre de Babel en su peor momento**: LangChain, CrewAI, frameworks propietarios y protocolos incompatibles, cada uno hablando su propio idioma sin entenderse. El resultado es predecible: se invierte más tiempo en integración que en resolver el problema de negocio, y la torre nunca termina de construirse.
+---
 
-**AGNTCY es el proyecto open-source de la Linux Foundation que propone una infraestructura común y estandarizada** para este ecosistema fragmentado. Funciona sobre tres pilares: un Agent Directory que actúa como el DNS de los agentes (descubrimiento estandarizado de capacidades mediante OASF), soporte nativo para A2A y MCP como protocolos de comunicación entre agentes y herramientas, y SLIM, una capa de transporte con mensajería segura.
+En esta sesión descubrirás **AGNTCY**, un proyecto open-source de la Linux Foundation que busca poner orden en el caos:
 
-En esta sesión analizaremos los diferentes componentes de este proyecto abierto, y además veremos código real conectando agentes de distintos frameworks en una arquitectura coherente y lista para producción. Saldrás con un patrón de integración funcional y los pasos concretos para registrar tus propios agentes y contribuir al ecosistema.</description>
+* 🔍 Descubrir agentes de forma estándar
+* 🔗 Conectarlos sin fricción
+* 🤝 Hacerlos colaborar, sin importar la tecnología
+
+---
+
+No nos quedaremos en teoría. Veremos **cómo funciona por dentro** y, sobre todo, cómo llevarlo a la práctica conectando agentes reales en un caso de uso.
+
+---
+
+Si estás construyendo (o pensando en construir) sistemas multi-agente, esta charla te dará un camino claro para dejar de pelearte con la infraestructura, y empezar a enfocarte en lo que realmente importa.
+
+---
+
+Todo el código fuente de la sesión será compartido al final en un repositorio público.
+</abstract>
+<description>## De la Torre de Babel al Internet de Agentes
+
+Construir sistemas de IA multi-agente hoy se parece demasiado a la **Torre de Babel**:
+demasiados frameworks, demasiados protocolos… y muy poco entendimiento entre ellos. **¿El resultado? Más tiempo integrando que innovando.**
+
+---
+
+En esta sesión descubrirás **AGNTCY**, un proyecto open-source de la Linux Foundation que busca poner orden en el caos:
+
+* 🔍 Descubrir agentes de forma estándar
+* 🔗 Conectarlos sin fricción
+* 🤝 Hacerlos colaborar, sin importar la tecnología
+
+---
+
+No nos quedaremos en teoría. Veremos **cómo funciona por dentro** y, sobre todo, cómo llevarlo a la práctica conectando agentes reales en un caso de uso.
+
+---
+
+Si estás construyendo (o pensando en construir) sistemas multi-agente, esta charla te dará un camino claro para dejar de pelearte con la infraestructura, y empezar a enfocarte en lo que realmente importa.
+
+---
+
+Todo el código fuente de la sesión será compartido al final en un repositorio público.
+</description>
 <recording>
 <license />
 <optout>false</optout>
@@ -1189,6 +1272,37 @@ En esta charla, usando para ello mi experiencia personal, veremos qué es el Sof
 </recording>
 <persons>
 <person id='3748'>anaghz</person>
+</persons>
+</event>
+</room>
+<room name='Sala Benamargosa 21'>
+<event guid='SiJGxXcsDK53dgNLlO9crA' id='1140'>
+<date>2026-06-26T15:30:00+02:00</date>
+<start>15:30</start>
+<duration>04:00</duration>
+<room>Sala Benamargosa 21</room>
+<type>Workshop 4h</type>
+<language>es</language>
+<slug>1140-opensouthretro</slug>
+<title>OpenSouthRetro</title>
+<subtitle>La combinación entre la retroinformática y el código abierto en una exposición viva donde rendimos homenaje a los juegos de 8, 16 y 32 bits con los que crecimos.</subtitle>
+<track></track>
+<abstract>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
+Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
+OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
+Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</abstract>
+<description>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
+Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
+OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
+Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id='94'>Jorge Hidalgo</person>
+<person id='1958'>Juan A. Ortega</person>
+<person id='4089'>Eramis</person>
 </persons>
 </event>
 </room>
@@ -1286,6 +1400,72 @@ En este taller aprenderás cómo usar técnicas y herramientas modernas de paque
 </room>
 </day>
 <day date='2026-06-27' index='2'>
+<room name='Sala Málaga'>
+<event guid='arlbeW7t-6EfTXIav4n5dg' id='1134'>
+<date>2026-06-27T10:00:00+02:00</date>
+<start>10:00</start>
+<duration>04:00</duration>
+<room>Sala Málaga</room>
+<type>Workshop 4h</type>
+<language>es</language>
+<slug>1134-opensouthkids</slug>
+<title>OpenSouthKids</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
+
+OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
+
+Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
+
+OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
+
+Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
+
+Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
+
+Un resumen, con algunos de nuestros clásicos y también algunas novedades:
+
+- Programa un robot humano desenchufao
+- micro:bit para programar pequeños dispositivos
+- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
+- makey makey para jugar con la electricidad
+- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
+- Aprende cómo funcionan los NFCs
+- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
+- YesWeTech Squad Girls
+</abstract>
+<description>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
+
+OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
+
+Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
+
+OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
+
+Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
+
+Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
+
+Un resumen, con algunos de nuestros clásicos y también algunas novedades:
+
+- Programa un robot humano desenchufao
+- micro:bit para programar pequeños dispositivos
+- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
+- makey makey para jugar con la electricidad
+- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
+- Aprende cómo funcionan los NFCs
+- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
+- YesWeTech Squad Girls
+</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
 <room name='Sala Benalmádena 002'>
 <event guid='-zva3lmS90NhlEJ5Kzne9w' id='1085'>
 <date>2026-06-27T10:00:00+02:00</date>
@@ -1470,193 +1650,34 @@ You’ll leave with concrete techniques, open-source tooling, and a mental model
 </persons>
 </event>
 </room>
-<room name='Sala Frigiliana - 20'>
-<event guid='0fWasxGYzhODwlqUlTVNGA' id='977'>
-<date>2026-06-27T10:00:00+02:00</date>
-<start>10:00</start>
-<duration>02:00</duration>
-<room>Sala Frigiliana - 20</room>
-<type>Workshop</type>
-<language>en</language>
-<slug>977-how-to-prototype-impactful-products-using-ai</slug>
-<title>How to Prototype Impactful Products Using AI</title>
-<subtitle>Proposals to have a hands on prototyping</subtitle>
-<track></track>
-<abstract>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
-
-In an era of rapid technological shifts, the challenge isn&#39;t just building faster, it&#39;s building the right product. This hands-on workshop explores how to leverage Artificial Intelligence and open technologies to create products that solve real-world problems. We bridge the gap between &quot;product thinking&quot; and &quot;technical execution,&quot; moving beyond basic automation to focus on meaningful impact.
-
-Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
-
-The Workflow
-Ideation &amp; Framing: Using LLMs (ChatGPT/Gemini) to enhance the problem statements, analyze user needs, and validate market opportunities.
-
-Rapid Prototyping: Leveraging Lovable and open-code principles to transform conceptual ideas into functional, high-fidelity prototypes.
-
-Product Logic: Grounding every technical decision in user value and measurable outcomes.(this is not a pure technical workshop)
-
-What You Will Learn
-Responsible AI Integration: How to use AI across the product lifecycle without losing the user-centric perspective.
-
-Velocity vs. Haste: Techniques to prototype at lightning speed while maintaining high standards for user experience.
-
-Bridge the Gap: How to connect a high-level product vision with tangible execution.
-
-Open Mindset: Utilizing open tools to ensure solutions remain flexible and impactful.
-
-This workshop is designed for Product Managers, Designers, Developers, and everyone who want to master the art of AI-product prototyping.</abstract>
-<description>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
-
-In an era of rapid technological shifts, the challenge isn&#39;t just building faster, it&#39;s building the right product. This hands-on workshop explores how to leverage Artificial Intelligence and open technologies to create products that solve real-world problems. We bridge the gap between &quot;product thinking&quot; and &quot;technical execution,&quot; moving beyond basic automation to focus on meaningful impact.
-
-Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
-
-The Workflow
-Ideation &amp; Framing: Using LLMs (ChatGPT/Gemini) to enhance the problem statements, analyze user needs, and validate market opportunities.
-
-Rapid Prototyping: Leveraging Lovable and open-code principles to transform conceptual ideas into functional, high-fidelity prototypes.
-
-Product Logic: Grounding every technical decision in user value and measurable outcomes.(this is not a pure technical workshop)
-
-What You Will Learn
-Responsible AI Integration: How to use AI across the product lifecycle without losing the user-centric perspective.
-
-Velocity vs. Haste: Techniques to prototype at lightning speed while maintaining high standards for user experience.
-
-Bridge the Gap: How to connect a high-level product vision with tangible execution.
-
-Open Mindset: Utilizing open tools to ensure solutions remain flexible and impactful.
-
-This workshop is designed for Product Managers, Designers, Developers, and everyone who want to master the art of AI-product prototyping.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3316'>Amalia Gómez</person>
-</persons>
-</event>
-<event guid='K4zdG1vmKs7cHDE1ku-43w' id='990'>
-<date>2026-06-27T12:00:00+02:00</date>
-<start>12:00</start>
-<duration>02:00</duration>
-<room>Sala Frigiliana - 20</room>
-<type>Workshop</type>
-<language>en</language>
-<slug>990-load-testing-workshop-with-k6-oss</slug>
-<title>Load testing workshop with k6 OSS</title>
-<subtitle>A hands-on introduction to performance and reliability testing</subtitle>
-<track></track>
-<abstract>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
-
-This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
-
-The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
-
-The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
-
-By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
-
-**Target audience**
-Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
-
-**Requirements**
-
-- An IDE installed to write k6 scripts
-- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
-- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
-- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</abstract>
-<description>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
-
-This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
-
-The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
-
-The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
-
-By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
-
-**Target audience**
-Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
-
-**Requirements**
-
-- An IDE installed to write k6 scripts
-- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
-- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
-- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3667'>Pepe Cano</person>
-</persons>
-</event>
-</room>
-<room name='Sala Málaga'>
-<event guid='arlbeW7t-6EfTXIav4n5dg' id='1134'>
+<room name='Sala Benamargosa 21'>
+<event guid='i5RmD0SRO8f7QR9K41-iMw' id='1141'>
 <date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>04:00</duration>
-<room>Sala Málaga</room>
+<room>Sala Benamargosa 21</room>
 <type>Workshop 4h</type>
 <language>es</language>
-<slug>1134-opensouthkids</slug>
-<title>OpenSouthKids</title>
-<subtitle></subtitle>
+<slug>1141-opensouthretro</slug>
+<title>OpenSouthRetro</title>
+<subtitle>La combinación entre la retroinformática y el código abierto en una exposición viva donde rendimos homenaje a los juegos de 8, 16 y 32 bits con los que crecimos.</subtitle>
 <track></track>
-<abstract>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
-
-OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
-
-Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
-
-OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
-
-Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
-
-Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
-
-Un resumen, con algunos de nuestros clásicos y también algunas novedades:
-
-- Programa un robot humano desenchufao
-- micro:bit para programar pequeños dispositivos
-- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
-- makey makey para jugar con la electricidad
-- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
-- Aprende cómo funcionan los NFCs
-- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
-- YesWeTech Squad Girls
-</abstract>
-<description>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
-
-OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
-
-Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
-
-OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
-
-Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
-
-Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
-
-Un resumen, con algunos de nuestros clásicos y también algunas novedades:
-
-- Programa un robot humano desenchufao
-- micro:bit para programar pequeños dispositivos
-- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
-- makey makey para jugar con la electricidad
-- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
-- Aprende cómo funcionan los NFCs
-- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
-- YesWeTech Squad Girls
-</description>
+<abstract>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
+Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
+OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
+Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</abstract>
+<description>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
+Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
+OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
+Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</description>
 <recording>
 <license />
 <optout>false</optout>
 </recording>
 <persons>
+<person id='94'>Jorge Hidalgo</person>
+<person id='1958'>Juan A. Ortega</person>
+<person id='4089'>Eramis</person>
 </persons>
 </event>
 </room>
@@ -1802,6 +1823,130 @@ Prepárate para una sesión que **cambiará tu forma de pensar sobre la interacc
 </recording>
 <persons>
 <person id='804'>Alfredo Bautista Santos</person>
+</persons>
+</event>
+</room>
+<room name='Sala Frigiliana - 20'>
+<event guid='0fWasxGYzhODwlqUlTVNGA' id='977'>
+<date>2026-06-27T10:00:00+02:00</date>
+<start>10:00</start>
+<duration>02:00</duration>
+<room>Sala Frigiliana - 20</room>
+<type>Workshop</type>
+<language>en</language>
+<slug>977-how-to-prototype-impactful-products-using-ai</slug>
+<title>How to Prototype Impactful Products Using AI</title>
+<subtitle>Proposals to have a hands on prototyping</subtitle>
+<track></track>
+<abstract>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
+
+In an era of rapid technological shifts, the challenge isn&#39;t just building faster, it&#39;s building the right product. This hands-on workshop explores how to leverage Artificial Intelligence and open technologies to create products that solve real-world problems. We bridge the gap between &quot;product thinking&quot; and &quot;technical execution,&quot; moving beyond basic automation to focus on meaningful impact.
+
+Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
+
+The Workflow
+Ideation &amp; Framing: Using LLMs (ChatGPT/Gemini) to enhance the problem statements, analyze user needs, and validate market opportunities.
+
+Rapid Prototyping: Leveraging Lovable and open-code principles to transform conceptual ideas into functional, high-fidelity prototypes.
+
+Product Logic: Grounding every technical decision in user value and measurable outcomes.(this is not a pure technical workshop)
+
+What You Will Learn
+Responsible AI Integration: How to use AI across the product lifecycle without losing the user-centric perspective.
+
+Velocity vs. Haste: Techniques to prototype at lightning speed while maintaining high standards for user experience.
+
+Bridge the Gap: How to connect a high-level product vision with tangible execution.
+
+Open Mindset: Utilizing open tools to ensure solutions remain flexible and impactful.
+
+This workshop is designed for Product Managers, Designers, Developers, and everyone who want to master the art of AI-product prototyping.</abstract>
+<description>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
+
+In an era of rapid technological shifts, the challenge isn&#39;t just building faster, it&#39;s building the right product. This hands-on workshop explores how to leverage Artificial Intelligence and open technologies to create products that solve real-world problems. We bridge the gap between &quot;product thinking&quot; and &quot;technical execution,&quot; moving beyond basic automation to focus on meaningful impact.
+
+Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
+
+The Workflow
+Ideation &amp; Framing: Using LLMs (ChatGPT/Gemini) to enhance the problem statements, analyze user needs, and validate market opportunities.
+
+Rapid Prototyping: Leveraging Lovable and open-code principles to transform conceptual ideas into functional, high-fidelity prototypes.
+
+Product Logic: Grounding every technical decision in user value and measurable outcomes.(this is not a pure technical workshop)
+
+What You Will Learn
+Responsible AI Integration: How to use AI across the product lifecycle without losing the user-centric perspective.
+
+Velocity vs. Haste: Techniques to prototype at lightning speed while maintaining high standards for user experience.
+
+Bridge the Gap: How to connect a high-level product vision with tangible execution.
+
+Open Mindset: Utilizing open tools to ensure solutions remain flexible and impactful.
+
+This workshop is designed for Product Managers, Designers, Developers, and everyone who want to master the art of AI-product prototyping.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id='3316'>Amalia Gómez</person>
+</persons>
+</event>
+<event guid='K4zdG1vmKs7cHDE1ku-43w' id='990'>
+<date>2026-06-27T12:00:00+02:00</date>
+<start>12:00</start>
+<duration>02:00</duration>
+<room>Sala Frigiliana - 20</room>
+<type>Workshop</type>
+<language>en</language>
+<slug>990-load-testing-workshop-with-k6-oss</slug>
+<title>Load testing workshop with k6 OSS</title>
+<subtitle>A hands-on introduction to performance and reliability testing</subtitle>
+<track></track>
+<abstract>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
+
+This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
+
+The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
+
+The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
+
+By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
+
+**Target audience**
+Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
+
+**Requirements**
+
+- An IDE installed to write k6 scripts
+- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
+- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
+- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</abstract>
+<description>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
+
+This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
+
+The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
+
+The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
+
+By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
+
+**Target audience**
+Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
+
+**Requirements**
+
+- An IDE installed to write k6 scripts
+- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
+- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
+- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id='3667'>Pepe Cano</person>
 </persons>
 </event>
 </room>
