@@ -1,5 +1,5 @@
 <schedule>
-<version>641</version>
+<version>656</version>
 <conference>
 <acronym>opensouthcode2026</acronym>
 <title>OpenSouthCode 2026</title>
@@ -8,10 +8,10 @@
 <days>2</days>
 <timeslot_duration>00:15</timeslot_duration>
 </conference>
-<day date='2026-06-26' index='1'>
-<room name='Sala Fuengirola'>
-<event guid='D_4dMixF7kPoot4gPq-1wg' id='1136'>
-<date>2026-06-26T09:15:00+02:00</date>
+<day date="2026-06-26" index="1">
+<room name="Sala Fuengirola">
+<event guid="D_4dMixF7kPoot4gPq-1wg" id="1136">
+<date>2026-06-26T11:15:00+02:00</date>
 <start>09:15</start>
 <duration>00:15</duration>
 <room>Sala Fuengirola</room>
@@ -30,8 +30,8 @@
 <persons>
 </persons>
 </event>
-<event guid='yb3jaCSldQJ4suUeE11hQQ' id='1012'>
-<date>2026-06-26T09:30:00+02:00</date>
+<event guid="yb3jaCSldQJ4suUeE11hQQ" id="1012">
+<date>2026-06-26T11:30:00+02:00</date>
 <start>09:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -78,11 +78,11 @@ Outline (45 minutes):
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3246'>antfperez</person>
+<person id="3246">antfperez</person>
 </persons>
 </event>
-<event guid='K42D5La2wFITAx30Jcp4Uw' id='1046'>
-<date>2026-06-26T10:30:00+02:00</date>
+<event guid="K42D5La2wFITAx30Jcp4Uw" id="1046">
+<date>2026-06-26T12:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -127,11 +127,11 @@ Si te apasiona la privacidad, el código abierto y quieres dejar de depender de 
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3753'>Alejandro Ríos</person>
+<person id="3753">Alejandro Ríos</person>
 </persons>
 </event>
-<event guid='Yhwmvsh6FYcoLbtytb7D0A' id='1094'>
-<date>2026-06-26T11:30:00+02:00</date>
+<event guid="Yhwmvsh6FYcoLbtytb7D0A" id="1094">
+<date>2026-06-26T13:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -160,11 +160,11 @@ Para resolverlas, entraremos en detalle en el _hardening_ a nivel de host e imag
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3396'>Alejandro Galán Rita</person>
+<person id="3396">Alejandro Galán Rita</person>
 </persons>
 </event>
-<event guid='sKMzbLdKNBiIG921Te-0xA' id='1090'>
-<date>2026-06-26T12:30:00+02:00</date>
+<event guid="sKMzbLdKNBiIG921Te-0xA" id="1090">
+<date>2026-06-26T14:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -189,12 +189,12 @@ Explicamos por qué elegimos SparkSQL sobre Beam o Flink, cómo gestionamos dato
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1939'>Juanlu Hidalgo</person>
-<person id='3868'>Ignacio</person>
+<person id="1939">Juanlu Hidalgo</person>
+<person id="3868">Ignacio</person>
 </persons>
 </event>
-<event guid='Ifztt32jJsNqpT6oOALW1Q' id='1130'>
-<date>2026-06-26T13:30:00+02:00</date>
+<event guid="Ifztt32jJsNqpT6oOALW1Q" id="1130">
+<date>2026-06-26T15:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:30</duration>
 <room>Sala Fuengirola</room>
@@ -225,12 +225,12 @@ Esta actividad ha sido promovida por [Open Bokeron](https://openbokeron.uma.es/)
 <optout>false</optout>
 </recording>
 <persons>
-<person id='4063'>enciso</person>
-<person id='1725'>Escarlata</person>
+<person id="4063">Manuel Enciso</person>
+<person id="1725">Escarlata</person>
 </persons>
 </event>
-<event guid='iH5xFMEMavBUk16DoLpDUA' id='1102'>
-<date>2026-06-26T15:30:00+02:00</date>
+<event guid="iH5xFMEMavBUk16DoLpDUA" id="1102">
+<date>2026-06-26T17:30:00+02:00</date>
 <start>15:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -251,11 +251,11 @@ This talk will explain the current state of Router Freedom in Europe and why the
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3186'>Dario Presutti</person>
+<person id="3186">Dario Presutti</person>
 </persons>
 </event>
-<event guid='SKxPe2JywZ-t38-38eUbKw' id='1072'>
-<date>2026-06-26T16:30:00+02:00</date>
+<event guid="SKxPe2JywZ-t38-38eUbKw" id="1072">
+<date>2026-06-26T18:30:00+02:00</date>
 <start>16:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -276,11 +276,11 @@ In this talk, we will present a full open source stack that provides competitive
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1407'>Adrian Tineo</person>
+<person id="1407">Adrian Tineo</person>
 </persons>
 </event>
-<event guid='4_5y8vF29BZtLOZvjMqkNA' id='1138'>
-<date>2026-06-26T17:30:00+02:00</date>
+<event guid="4_5y8vF29BZtLOZvjMqkNA" id="1138">
+<date>2026-06-26T19:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -301,11 +301,11 @@ Habrá código en vivo con ejemplos, y seguro que nos echamos algunas risas. Pro
 <optout>false</optout>
 </recording>
 <persons>
-<person id='94'>Jorge Hidalgo</person>
+<person id="94">Jorge Hidalgo</person>
 </persons>
 </event>
-<event guid='OIqm38scUzTaeLsZzijNjA' id='1135'>
-<date>2026-06-26T18:30:00+02:00</date>
+<event guid="OIqm38scUzTaeLsZzijNjA" id="1135">
+<date>2026-06-26T20:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -330,13 +330,309 @@ We will reveal how we designed the app and then developed it from scratch with A
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1407'>Adrian Tineo</person>
+<person id="1407">Adrian Tineo</person>
 </persons>
 </event>
 </room>
-<room name='Sala Canillas 013'>
-<event guid='2YRsoZdINrGTM6JPrwdxNg' id='1101'>
-<date>2026-06-26T09:30:00+02:00</date>
+<room name="Sala Benalmádena 002">
+<event guid="NzGvmbT7IOXwfUTYyOyhnw" id="1133">
+<date>2026-06-26T11:30:00+02:00</date>
+<start>09:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1133-migrando-la-criptografia-de-internet-retos-y-oportunidades</slug>
+<title>Migrando la criptografía de Internet. Retos y oportunidades </title>
+<subtitle>Un breve paseo por el mundo de la criptografía postcuántica</subtitle>
+<track></track>
+<abstract>En esta charla se abordarán los principios fundamentales de la computación cuántica y, a partir de ellos, se contextualizarán y analizarán los riesgos que plantea esta para la ciberseguridad, en particular en el ámbito de la criptografía de clave pública.
+
+Se presentará la criptografía postcuántica (PQC) como una potencial solución a estos retos, y se ofrecerá una visón general de los esfuerzos que existen a nivel mundial para estandarizar algoritmos resistentes a ordenadores cuánticos. Además, se dará una breve visión de los fundamentos matemáticos detrás de cada una de las grandes familias de algoritmos de criptografía postcuántica: retículos, polinomios multivariables, códigos de corrección de errores o firmas basadas en hashes, entre otros.
+
+Finalmente, se analizarán más en detalle las limitaciones de estos algoritmos: tamaños de claves y firmas, rendimiento y compatibilidad con los protocolos actuales usados en Internet.</abstract>
+<description>En esta charla se abordarán los principios fundamentales de la computación cuántica y, a partir de ellos, se contextualizarán y analizarán los riesgos que plantea esta para la ciberseguridad, en particular en el ámbito de la criptografía de clave pública.
+
+Se presentará la criptografía postcuántica (PQC) como una potencial solución a estos retos, y se ofrecerá una visón general de los esfuerzos que existen a nivel mundial para estandarizar algoritmos resistentes a ordenadores cuánticos. Además, se dará una breve visión de los fundamentos matemáticos detrás de cada una de las grandes familias de algoritmos de criptografía postcuántica: retículos, polinomios multivariables, códigos de corrección de errores o firmas basadas en hashes, entre otros.
+
+Finalmente, se analizarán más en detalle las limitaciones de estos algoritmos: tamaños de claves y firmas, rendimiento y compatibilidad con los protocolos actuales usados en Internet.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3171">Osiris García Parras</person>
+<person id="3163">Isaac</person>
+</persons>
+</event>
+<event guid="TffTP86gfQOacjWoIx6uPw" id="1122">
+<date>2026-06-26T12:30:00+02:00</date>
+<start>10:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1122-decoding-design-why-open-source-can-t-thrive-without-open-design</slug>
+<title>Decoding design: why open source can’t thrive without open design</title>
+<subtitle>Open source design</subtitle>
+<track></track>
+<abstract>Open source relies heavily on engineering-driven process; fast feedback loops, terminal tools, and Git workflows. But in order for open source to thrive, we need to include open design. To truly succeed and scale, we must build experiences that are as empowering to use as they are to code.
+
+In this talk, we will explore how to dismantle the ‘us vs them’ mentality between engineers and designers and successfully navigate engineering-focused environments. Drawing on insights from my FOSS Backstage 2026 panel (featuring design and engineering leaders from Canonical, GitHub, and Home Assistant), I will share practical strategies for blending UX seamlessly into developer workflows.
+
+Attendees will walk away with actionable takeaways on dismantling engineering and design silos, sharing work cycles, and proving value of
+
+Whether you are a designer trying to make an impact in a developer-heavy project or an engineer looking to build more accessible and approachable tools, this talk will equip you with the collaborative mindset needed to succeed. Open source is as much about software as it is about being in community with each other. Join to learn how to lower the drawbridge between our disciplines and build better software together!</abstract>
+<description>Open source relies heavily on engineering-driven process; fast feedback loops, terminal tools, and Git workflows. But in order for open source to thrive, we need to include open design. To truly succeed and scale, we must build experiences that are as empowering to use as they are to code.
+
+In this talk, we will explore how to dismantle the ‘us vs them’ mentality between engineers and designers and successfully navigate engineering-focused environments. Drawing on insights from my FOSS Backstage 2026 panel (featuring design and engineering leaders from Canonical, GitHub, and Home Assistant), I will share practical strategies for blending UX seamlessly into developer workflows.
+
+Attendees will walk away with actionable takeaways on dismantling engineering and design silos, sharing work cycles, and proving value of
+
+Whether you are a designer trying to make an impact in a developer-heavy project or an engineer looking to build more accessible and approachable tools, this talk will equip you with the collaborative mindset needed to succeed. Open source is as much about software as it is about being in community with each other. Join to learn how to lower the drawbridge between our disciplines and build better software together!</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3364">Miguel Divo</person>
+</persons>
+</event>
+<event guid="O1SP3Z7lyOiEUSsPCA2xUw" id="1035">
+<date>2026-06-26T13:30:00+02:00</date>
+<start>11:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1035-supercharging-grafana-with-community-plugins</slug>
+<title>Supercharging Grafana with Community Plugins</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>[Grafana](https://github.com/grafana/grafana) is powerful on its own. However, its true potential lies in its vibrant community of plugin developers. In this talk, we’ll explore how community plugins extend Grafana’s core functionality, enabling you to connect to a broader range of data sources and visualize your data in new ways, or start creating your own.
+
+As a practical example, we’ll introduce the [Kafka Data Source plugin](https://grafana.com/grafana/plugins/hamedkarbasi93-kafka-datasource/) and demonstrate how it enables you to directly query and visualize Kafka topic data in your dashboards, eliminating the need for intermediate storage or external services. We&#39;ll also demo how to build your first plugin.</abstract>
+<description>[Grafana](https://github.com/grafana/grafana) is powerful on its own. However, its true potential lies in its vibrant community of plugin developers. In this talk, we’ll explore how community plugins extend Grafana’s core functionality, enabling you to connect to a broader range of data sources and visualize your data in new ways, or start creating your own.
+
+As a practical example, we’ll introduce the [Kafka Data Source plugin](https://grafana.com/grafana/plugins/hamedkarbasi93-kafka-datasource/) and demonstrate how it enables you to directly query and visualize Kafka topic data in your dashboards, eliminating the need for intermediate storage or external services. We&#39;ll also demo how to build your first plugin.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3744">eyeveebee</person>
+</persons>
+</event>
+<event guid="XwTR7dGRZAm_HEzveRZ9Cw" id="1132">
+<date>2026-06-26T14:30:00+02:00</date>
+<start>12:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1132-docs-as-code-past-present-and-future</slug>
+<title>Docs-as-code: past, present, and future.</title>
+<subtitle>As experienced at SUSE.</subtitle>
+<track></track>
+<abstract>**Abstract**
+
+Docs-as-code isn&#39;t new. We&#39;ll dip into its evolution, moving from the foundations of UNIX towards an AI-assisted present and future. 
+
+With live demonstrations, we’ll look at docs-as-code using UNIX V7 on a PDP-11/70 (PiDP11/70) from 1978 and compare with a modern, open-source localized documentation environment at SUSE. Conceptually, not as different as you would initially think. Despite the 48-year gap.
+
+We’ll see how we use AI at SUSE as a multiplier both to assist technical writer development and to help community and customers navigate documentation complexity in large projects like Rancher and SUSE Linux Enterprise Server (SLES).
+
+**Takeaways**
+
+* History: How past workflows inspired modern docs-as-code.
+* Open Source Strategy: How a docs-as-code strategy is providing documentation for both the open-source project community and enterprise customers at SUSE.
+* Practical ways AI is used to help develop human technical writing expertise and to improve technical clarity for community and customers at SUSE.
+* How docs-as-code improves your AI efforts.
+
+**Target Audience**
+
+Technical writers, DevOps, developers, open-source people, and anyone interested in a little technology history.</abstract>
+<description>**Abstract**
+
+Docs-as-code isn&#39;t new. We&#39;ll dip into its evolution, moving from the foundations of UNIX towards an AI-assisted present and future. 
+
+With live demonstrations, we’ll look at docs-as-code using UNIX V7 on a PDP-11/70 (PiDP11/70) from 1978 and compare with a modern, open-source localized documentation environment at SUSE. Conceptually, not as different as you would initially think. Despite the 48-year gap.
+
+We’ll see how we use AI at SUSE as a multiplier both to assist technical writer development and to help community and customers navigate documentation complexity in large projects like Rancher and SUSE Linux Enterprise Server (SLES).
+
+**Takeaways**
+
+* History: How past workflows inspired modern docs-as-code.
+* Open Source Strategy: How a docs-as-code strategy is providing documentation for both the open-source project community and enterprise customers at SUSE.
+* Practical ways AI is used to help develop human technical writing expertise and to improve technical clarity for community and customers at SUSE.
+* How docs-as-code improves your AI efforts.
+
+**Target Audience**
+
+Technical writers, DevOps, developers, open-source people, and anyone interested in a little technology history.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3150">John Krug</person>
+</persons>
+</event>
+<event guid="f2MWNbOkfd546vEk71L59A" id="1001">
+<date>2026-06-26T15:30:00+02:00</date>
+<start>13:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1001-aspire-orquestacion-devex-y-observabilidad-con-ia-integrada</slug>
+<title>Aspire: Orquestación, DevEx y observabilidad con IA integrada</title>
+<subtitle>Domina los microservicios: integrando agentes de IA, arquitecturas políglotas y observabilidad total en una plataforma abierta.</subtitle>
+<track></track>
+<abstract>El desarrollo de aplicaciones modernas a menudo se siente como intentar armar un rompecabezas cuyas piezas no siempre encajan de forma natural. En esta charla descubriremos **Aspire**, la plataforma que se ha consolidado como el **&quot;pegamento universal&quot;** para cualquier **arquitectura distribuida**. A través de un enfoque centrado radicalmente en la experiencia del desarrollador, Aspire permite integrar APIs, bases de datos y contenedores de manera fluida, pero su evolución reciente va mucho más allá del desarrollo local.   
+
+Exploraremos cómo Aspire integra ahora la **Inteligencia Artificial** como un ciudadano de primera clase. Analizaremos la orquestación de **sistemas multi-agente**, permitiendo que la IA comprenda y opere sobre la topología de tu sistema de forma autónoma.  Además, abordaremos su naturaleza **políglota**, con soporte para multitud de lenguajes, lo que permite unificar equipos heterogéneos bajo un mismo estándar de observabilidad total basado en **OpenTelemetry**, con dashboards que correlacionan trazas, métricas y logs en tiempo real.   
+
+Finalmente, demostraremos cómo Aspire elimina la fricción en el despliegue hacia entornos de producción. Veremos el nuevo **soporte de primera clase para Kubernetes** y Azure Kubernetes Service (AKS), donde mediante el uso de Helm y comandos simplificados como aspire deploy, es posible automatizar la **infraestructura y el despliegue en minutos**, garantizando paridad total entre entornos y seguridad por defecto.  
+
+**Si buscas dominar el diagnóstico de sistemas complejos y escalar tus aplicaciones con IA de vanguardia, esta sesión te proporcionará las claves para conquistar la observabilidad total.**
+</abstract>
+<description>El desarrollo de aplicaciones modernas a menudo se siente como intentar armar un rompecabezas cuyas piezas no siempre encajan de forma natural. En esta charla descubriremos **Aspire**, la plataforma que se ha consolidado como el **&quot;pegamento universal&quot;** para cualquier **arquitectura distribuida**. A través de un enfoque centrado radicalmente en la experiencia del desarrollador, Aspire permite integrar APIs, bases de datos y contenedores de manera fluida, pero su evolución reciente va mucho más allá del desarrollo local.   
+
+Exploraremos cómo Aspire integra ahora la **Inteligencia Artificial** como un ciudadano de primera clase. Analizaremos la orquestación de **sistemas multi-agente**, permitiendo que la IA comprenda y opere sobre la topología de tu sistema de forma autónoma.  Además, abordaremos su naturaleza **políglota**, con soporte para multitud de lenguajes, lo que permite unificar equipos heterogéneos bajo un mismo estándar de observabilidad total basado en **OpenTelemetry**, con dashboards que correlacionan trazas, métricas y logs en tiempo real.   
+
+Finalmente, demostraremos cómo Aspire elimina la fricción en el despliegue hacia entornos de producción. Veremos el nuevo **soporte de primera clase para Kubernetes** y Azure Kubernetes Service (AKS), donde mediante el uso de Helm y comandos simplificados como aspire deploy, es posible automatizar la **infraestructura y el despliegue en minutos**, garantizando paridad total entre entornos y seguridad por defecto.  
+
+**Si buscas dominar el diagnóstico de sistemas complejos y escalar tus aplicaciones con IA de vanguardia, esta sesión te proporcionará las claves para conquistar la observabilidad total.**
+</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="2537">Javier Torralbo</person>
+</persons>
+</event>
+<event guid="F9cJKo9VPGkWw6K8nds_Hw" id="1077">
+<date>2026-06-26T17:30:00+02:00</date>
+<start>15:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1077-css-as-a-game-engine</slug>
+<title>CSS as a game engine</title>
+<subtitle>Practicing web development the fun way</subtitle>
+<track></track>
+<abstract>What if the browser is already a game console, and CSS is your game engine?
+
+In this talk, we&#39;ll explore how far you can push the web platform using nothing but HTML and CSS. By treating CSS as a Finite State Machine, we can build surprisingly rich, interactive experiences: movement, hazards, timers, win conditions, even simple game logic. Along the way, we’ll break down the techniques that make this possible and show how they map to real engineering and web development concepts.
+
+As part of this session, we&#39;ll build a small playable game live on stage, constructed step by step in front of the audience! Beyond the fun, attendees will walk away with new mental models for UI state, fresh ideas for micro‑interactions, and a deeper understanding of how the browser thinks.
+
+This talk is ideal for developers who enjoy creative constraints, want to sharpen their understanding of CSS as a state system, or simply want to see the web do something unexpected.</abstract>
+<description>What if the browser is already a game console, and CSS is your game engine?
+
+In this talk, we&#39;ll explore how far you can push the web platform using nothing but HTML and CSS. By treating CSS as a Finite State Machine, we can build surprisingly rich, interactive experiences: movement, hazards, timers, win conditions, even simple game logic. Along the way, we’ll break down the techniques that make this possible and show how they map to real engineering and web development concepts.
+
+As part of this session, we&#39;ll build a small playable game live on stage, constructed step by step in front of the audience! Beyond the fun, attendees will walk away with new mental models for UI state, fresh ideas for micro‑interactions, and a deeper understanding of how the browser thinks.
+
+This talk is ideal for developers who enjoy creative constraints, want to sharpen their understanding of CSS as a state system, or simply want to see the web do something unexpected.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="2470">alvaromontoro</person>
+</persons>
+</event>
+<event guid="Q2idDdkoRhJtTXaIfmlA5w" id="1042">
+<date>2026-06-26T18:30:00+02:00</date>
+<start>16:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1042-sintonizando-tus-apps-en-flutter</slug>
+<title>Sintonizando tus apps en Flutter</title>
+<subtitle>Para aprender sobre state management y backend en este framework crossplatform</subtitle>
+<track></track>
+<abstract>Ya conoces Flutter, así que... ¿por qué no ir más allá?
+
+Es el momento de empezar a hablar de _state_ (para gestionar la información que fluye por las apps), y también de _backend_ (para tratar y almacenar esos datos con los que operas).
+
+Hay mucho para profundizar en estos dos conceptos y nunca se habla lo suficiente de ellos... ¡y de todas las alternativas que nos ofrecen! Únete para aprender más y alcanzar el equilibrio, buscando la sintonización entre tu _core_ de developer, _state management_ y _backend_ en Flutter.</abstract>
+<description>Ya conoces Flutter, así que... ¿por qué no ir más allá?
+
+Es el momento de empezar a hablar de _state_ (para gestionar la información que fluye por las apps), y también de _backend_ (para tratar y almacenar esos datos con los que operas).
+
+Hay mucho para profundizar en estos dos conceptos y nunca se habla lo suficiente de ellos... ¡y de todas las alternativas que nos ofrecen! Únete para aprender más y alcanzar el equilibrio, buscando la sintonización entre tu _core_ de developer, _state management_ y _backend_ en Flutter.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="204">Asher Guzmán Blanco</person>
+</persons>
+</event>
+<event guid="Wd1PQHYnJtY-HxO9sSvfrw" id="1054">
+<date>2026-06-26T19:30:00+02:00</date>
+<start>17:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1054-ai-agents-for-vulnerability-detection-in-smart-contracts</slug>
+<title>AI Agents for Vulnerability Detection in Smart Contracts</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>This session explores the critical architectural shifts between Web2 and Web3 vulnerabilities. We will dive into the emerging landscape of agentic open-source tools and demonstrate practical workflows that security professionals can leverage to secure the decentralized ecosystem.</abstract>
+<description>This session explores the critical architectural shifts between Web2 and Web3 vulnerabilities. We will dive into the emerging landscape of agentic open-source tools and demonstrate practical workflows that security professionals can leverage to secure the decentralized ecosystem.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1969">A. Rosa Castillo</person>
+</persons>
+</event>
+<event guid="r4A8_3p-ZFvlHsSq-plNNQ" id="1088">
+<date>2026-06-26T20:30:00+02:00</date>
+<start>18:30</start>
+<duration>00:45</duration>
+<room>Sala Benalmádena 002</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1088-the-binary-you-ship-is-the-binary-you-test</slug>
+<title>The Binary You Ship Is the Binary You Test</title>
+<subtitle>Runtime coverage for any binary, no instrumentation required</subtitle>
+<track></track>
+<abstract>Coverage tooling today assumes you control the build. You add flags, compile twice, maintain separate instrumented artifacts. At scale, with hundreds of thousands of packages, multiple languages, this compounds into real operational burden.
+
+xcover takes a different approach: eBPF uprobes attach to any compiled binary at runtime, no source changes, no build flags, no instrumentation. The binary you ship to production is the binary you test. One tool, any language, any binary.
+
+This talk walks through how xcover works, how it handles stripped binaries via function recovery, and what the real overhead numbers look like, because the data matters.
+
+We&#39;ll also look at what&#39;s next for xcover: removing the kernel trap cost with userspace BPF runtimes. Active experiment, hypothesis worth exploring out loud</abstract>
+<description>Coverage tooling today assumes you control the build. You add flags, compile twice, maintain separate instrumented artifacts. At scale, with hundreds of thousands of packages, multiple languages, this compounds into real operational burden.
+
+xcover takes a different approach: eBPF uprobes attach to any compiled binary at runtime, no source changes, no build flags, no instrumentation. The binary you ship to production is the binary you test. One tool, any language, any binary.
+
+This talk walks through how xcover works, how it handles stripped binaries via function recovery, and what the real overhead numbers look like, because the data matters.
+
+We&#39;ll also look at what&#39;s next for xcover: removing the kernel trap cost with userspace BPF runtimes. Active experiment, hypothesis worth exploring out loud</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3789">Massimiliano Giovagnoli</person>
+</persons>
+</event>
+</room>
+<room name="Sala Canillas 013">
+<event guid="2YRsoZdINrGTM6JPrwdxNg" id="1101">
+<date>2026-06-26T11:30:00+02:00</date>
 <start>09:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -363,11 +659,11 @@ Ya seas desarrollador, administrador de sistemas o entusiasta de la seguridad, d
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3966'>Federico Quattrin</person>
+<person id="3966">Federico Quattrin</person>
 </persons>
 </event>
-<event guid='TvUPa0loi2L55dfbvPwjXw' id='1079'>
-<date>2026-06-26T10:30:00+02:00</date>
+<event guid="TvUPa0loi2L55dfbvPwjXw" id="1079">
+<date>2026-06-26T12:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -400,12 +696,12 @@ Designed to be vendor-agnostic, the operator runs seamlessly on any Kubernetes d
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3780'>Enrique Andrés Villar</person>
-<person id='3897'>luisreciomelero</person>
+<person id="3780">Enrique Andrés Villar</person>
+<person id="3897">luisreciomelero</person>
 </persons>
 </event>
-<event guid='Q9m8_paOU7lP2tTzEcZ7Zw' id='979'>
-<date>2026-06-26T11:30:00+02:00</date>
+<event guid="Q9m8_paOU7lP2tTzEcZ7Zw" id="979">
+<date>2026-06-26T13:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -432,12 +728,12 @@ El sistema no solo se enfoca en el control remoto, sino que prioriza la segurida
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3640'>Adrian Duardo Yanes</person>
-<person id='3890'>jduardo</person>
+<person id="3640">Adrian Duardo Yanes</person>
+<person id="3890">jduardo</person>
 </persons>
 </event>
-<event guid='0Jfe13-eXRsZF81Jb60Ftw' id='1118'>
-<date>2026-06-26T12:30:00+02:00</date>
+<event guid="0Jfe13-eXRsZF81Jb60Ftw" id="1118">
+<date>2026-06-26T14:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -484,11 +780,11 @@ See also the linked videos.
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3216'>Till Kamppeter</person>
+<person id="3216">Till Kamppeter</person>
 </persons>
 </event>
-<event guid='xC8BWRkC1Z3s1fMns4Ld5Q' id='1089'>
-<date>2026-06-26T13:30:00+02:00</date>
+<event guid="xC8BWRkC1Z3s1fMns4Ld5Q" id="1089">
+<date>2026-06-26T15:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -517,11 +813,11 @@ Finally, we will outline the value proposition for maintainers seeking mentored 
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3523'>Graham Morrison</person>
+<person id="3523">Graham Morrison</person>
 </persons>
 </event>
-<event guid='4D15vhJJ6jv8-7RD-XHBbg' id='1067'>
-<date>2026-06-26T15:30:00+02:00</date>
+<event guid="4D15vhJJ6jv8-7RD-XHBbg" id="1067">
+<date>2026-06-26T17:30:00+02:00</date>
 <start>15:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -624,11 +920,11 @@ https://code.visualstudio.com/docs/copilot/overview#_getting-started</descriptio
 <optout>false</optout>
 </recording>
 <persons>
-<person id='35'>fcjurado</person>
+<person id="35">fcjurado</person>
 </persons>
 </event>
-<event guid='c5ZMduzjN5Z0uImV8dBU9Q' id='1080'>
-<date>2026-06-26T16:30:00+02:00</date>
+<event guid="c5ZMduzjN5Z0uImV8dBU9Q" id="1080">
+<date>2026-06-26T18:30:00+02:00</date>
 <start>16:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -651,12 +947,12 @@ In this talk, we will introduce the fast track approach for onboarding a softwar
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3781'>Erin Conley</person>
-<person id='3149'>Grégory Schiano</person>
+<person id="3781">Erin Conley</person>
+<person id="3149">Grégory Schiano</person>
 </persons>
 </event>
-<event guid='YwrfJ9O-WSdsGHezpxFjjg' id='1095'>
-<date>2026-06-26T17:30:00+02:00</date>
+<event guid="YwrfJ9O-WSdsGHezpxFjjg" id="1095">
+<date>2026-06-26T19:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -675,11 +971,11 @@ Trae tu portátil: nos mancharemos las manos configurando y desplegando desde ce
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1352'>Fede</person>
+<person id="1352">Fede</person>
 </persons>
 </event>
-<event guid='XUaxEsUhQzsu3FW0eI-BLA' id='1082'>
-<date>2026-06-26T18:30:00+02:00</date>
+<event guid="XUaxEsUhQzsu3FW0eI-BLA" id="1082">
+<date>2026-06-26T20:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -687,11 +983,11 @@ Trae tu portátil: nos mancharemos las manos configurando y desplegando desde ce
 <language>en</language>
 <slug>1082-why-most-tech-communities-die-and-how-to-make-sure-yours-doesn-t</slug>
 <title>Why most tech communities die (and how to make sure yours doesn&#39;t)</title>
-<subtitle></subtitle>
+<subtitle>Practical lessons from 15 years of building and sustaining communities</subtitle>
 <track></track>
 <abstract>Running a tech community doesn&#39;t require being a management expert. It requires concrete tactics, knowing about event formats, and learning from people who&#39;ve already tried.
 
-In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old 👴🏻 🤣).
+In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old ?? ?).
 
 I&#39;ll combine lessons gathered by collaborating with other organizers through [Community Builders](https://combuilderses.github.io/), open spaces, and other gatherings with community leaders ([like these](https://github.com/orgs/ComBuildersES/discussions/categories/encuentros)), and things I have learned while [contributing to an **open directory of 400+ tech communities**](https://combuilderses.github.io/communities-directory/en/) in Spain.
 
@@ -700,7 +996,7 @@ I&#39;ll share tips &amp; ideas to attract new people, keep them engaged, encour
 My goal is for you to walk away with resources and ideas to spin up a community, or help boost an existing one.</abstract>
 <description>Running a tech community doesn&#39;t require being a management expert. It requires concrete tactics, knowing about event formats, and learning from people who&#39;ve already tried.
 
-In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old 👴🏻 🤣).
+In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old ?? ?).
 
 I&#39;ll combine lessons gathered by collaborating with other organizers through [Community Builders](https://combuilderses.github.io/), open spaces, and other gatherings with community leaders ([like these](https://github.com/orgs/ComBuildersES/discussions/categories/encuentros)), and things I have learned while [contributing to an **open directory of 400+ tech communities**](https://combuilderses.github.io/communities-directory/en/) in Spain.
 
@@ -712,309 +1008,13 @@ My goal is for you to walk away with resources and ideas to spin up a community,
 <optout>false</optout>
 </recording>
 <persons>
-<person id='2452'>Raúl Jiménez Ortega</person>
+<person id="2452">Raúl Jiménez Ortega</person>
 </persons>
 </event>
 </room>
-<room name='Sala Benalmádena 002'>
-<event guid='NzGvmbT7IOXwfUTYyOyhnw' id='1133'>
-<date>2026-06-26T09:30:00+02:00</date>
-<start>09:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1133-migrando-la-criptografia-de-internet-retos-y-oportunidades</slug>
-<title>Migrando la criptografía de Internet. Retos y oportunidades </title>
-<subtitle>Un breve paseo por el mundo de la criptografía postcuántica</subtitle>
-<track></track>
-<abstract>En esta charla se abordarán los principios fundamentales de la computación cuántica y, a partir de ellos, se contextualizarán y analizarán los riesgos que plantea esta para la ciberseguridad, en particular en el ámbito de la criptografía de clave pública.
-
-Se presentará la criptografía postcuántica (PQC) como una potencial solución a estos retos, y se ofrecerá una visón general de los esfuerzos que existen a nivel mundial para estandarizar algoritmos resistentes a ordenadores cuánticos. Además, se dará una breve visión de los fundamentos matemáticos detrás de cada una de las grandes familias de algoritmos de criptografía postcuántica: retículos, polinomios multivariables, códigos de corrección de errores o firmas basadas en hashes, entre otros.
-
-Finalmente, se analizarán más en detalle las limitaciones de estos algoritmos: tamaños de claves y firmas, rendimiento y compatibilidad con los protocolos actuales usados en Internet.</abstract>
-<description>En esta charla se abordarán los principios fundamentales de la computación cuántica y, a partir de ellos, se contextualizarán y analizarán los riesgos que plantea esta para la ciberseguridad, en particular en el ámbito de la criptografía de clave pública.
-
-Se presentará la criptografía postcuántica (PQC) como una potencial solución a estos retos, y se ofrecerá una visón general de los esfuerzos que existen a nivel mundial para estandarizar algoritmos resistentes a ordenadores cuánticos. Además, se dará una breve visión de los fundamentos matemáticos detrás de cada una de las grandes familias de algoritmos de criptografía postcuántica: retículos, polinomios multivariables, códigos de corrección de errores o firmas basadas en hashes, entre otros.
-
-Finalmente, se analizarán más en detalle las limitaciones de estos algoritmos: tamaños de claves y firmas, rendimiento y compatibilidad con los protocolos actuales usados en Internet.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3171'>Osiris García Parras</person>
-<person id='3163'>Isaac</person>
-</persons>
-</event>
-<event guid='TffTP86gfQOacjWoIx6uPw' id='1122'>
-<date>2026-06-26T10:30:00+02:00</date>
-<start>10:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1122-decoding-design-why-open-source-can-t-thrive-without-open-design</slug>
-<title>Decoding design: why open source can’t thrive without open design</title>
-<subtitle>Open source design</subtitle>
-<track></track>
-<abstract>Open source relies heavily on engineering-driven process; fast feedback loops, terminal tools, and Git workflows. But in order for open source to thrive, we need to include open design. To truly succeed and scale, we must build experiences that are as empowering to use as they are to code.
-
-In this talk, we will explore how to dismantle the ‘us vs them’ mentality between engineers and designers and successfully navigate engineering-focused environments. Drawing on insights from my FOSS Backstage 2026 panel (featuring design and engineering leaders from Canonical, GitHub, and Home Assistant), I will share practical strategies for blending UX seamlessly into developer workflows.
-
-Attendees will walk away with actionable takeaways on dismantling engineering and design silos, sharing work cycles, and proving value of
-
-Whether you are a designer trying to make an impact in a developer-heavy project or an engineer looking to build more accessible and approachable tools, this talk will equip you with the collaborative mindset needed to succeed. Open source is as much about software as it is about being in community with each other. Join to learn how to lower the drawbridge between our disciplines and build better software together!</abstract>
-<description>Open source relies heavily on engineering-driven process; fast feedback loops, terminal tools, and Git workflows. But in order for open source to thrive, we need to include open design. To truly succeed and scale, we must build experiences that are as empowering to use as they are to code.
-
-In this talk, we will explore how to dismantle the ‘us vs them’ mentality between engineers and designers and successfully navigate engineering-focused environments. Drawing on insights from my FOSS Backstage 2026 panel (featuring design and engineering leaders from Canonical, GitHub, and Home Assistant), I will share practical strategies for blending UX seamlessly into developer workflows.
-
-Attendees will walk away with actionable takeaways on dismantling engineering and design silos, sharing work cycles, and proving value of
-
-Whether you are a designer trying to make an impact in a developer-heavy project or an engineer looking to build more accessible and approachable tools, this talk will equip you with the collaborative mindset needed to succeed. Open source is as much about software as it is about being in community with each other. Join to learn how to lower the drawbridge between our disciplines and build better software together!</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3364'>Miguel Divo</person>
-</persons>
-</event>
-<event guid='O1SP3Z7lyOiEUSsPCA2xUw' id='1035'>
-<date>2026-06-26T11:30:00+02:00</date>
-<start>11:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1035-supercharging-grafana-with-community-plugins</slug>
-<title>Supercharging Grafana with Community Plugins</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>[Grafana](https://github.com/grafana/grafana) is powerful on its own. However, its true potential lies in its vibrant community of plugin developers. In this talk, we’ll explore how community plugins extend Grafana’s core functionality, enabling you to connect to a broader range of data sources and visualize your data in new ways, or start creating your own.
-
-As a practical example, we’ll introduce the [Kafka Data Source plugin](https://grafana.com/grafana/plugins/hamedkarbasi93-kafka-datasource/) and demonstrate how it enables you to directly query and visualize Kafka topic data in your dashboards, eliminating the need for intermediate storage or external services. We&#39;ll also demo how to build your first plugin.</abstract>
-<description>[Grafana](https://github.com/grafana/grafana) is powerful on its own. However, its true potential lies in its vibrant community of plugin developers. In this talk, we’ll explore how community plugins extend Grafana’s core functionality, enabling you to connect to a broader range of data sources and visualize your data in new ways, or start creating your own.
-
-As a practical example, we’ll introduce the [Kafka Data Source plugin](https://grafana.com/grafana/plugins/hamedkarbasi93-kafka-datasource/) and demonstrate how it enables you to directly query and visualize Kafka topic data in your dashboards, eliminating the need for intermediate storage or external services. We&#39;ll also demo how to build your first plugin.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3744'>eyeveebee</person>
-</persons>
-</event>
-<event guid='XwTR7dGRZAm_HEzveRZ9Cw' id='1132'>
+<room name="Sala Benamocarra 23">
+<event guid="LWMh98JuP2FqrZjOSITiLg" id="1068">
 <date>2026-06-26T12:30:00+02:00</date>
-<start>12:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1132-docs-as-code-past-present-and-future</slug>
-<title>Docs-as-code: past, present, and future.</title>
-<subtitle>As experienced at SUSE.</subtitle>
-<track></track>
-<abstract>**Abstract**
-
-Docs-as-code isn&#39;t new. We&#39;ll dip into its evolution, moving from the foundations of UNIX towards an AI-assisted present and future. 
-
-With live demonstrations, we’ll look at docs-as-code using UNIX V7 on a PDP-11/70 (PiDP11/70) from 1978 and compare with a modern, open-source localized documentation environment at SUSE. Conceptually, not as different as you would initially think. Despite the 48-year gap.
-
-We’ll see how we use AI at SUSE as a multiplier both to assist technical writer development and to help community and customers navigate documentation complexity in large projects like Rancher and SUSE Linux Enterprise Server (SLES).
-
-**Takeaways**
-
-* History: How past workflows inspired modern docs-as-code.
-* Open Source Strategy: How a docs-as-code strategy is providing documentation for both the open-source project community and enterprise customers at SUSE.
-* Practical ways AI is used to help develop human technical writing expertise and to improve technical clarity for community and customers at SUSE.
-* How docs-as-code improves your AI efforts.
-
-**Target Audience**
-
-Technical writers, DevOps, developers, open-source people, and anyone interested in a little technology history.</abstract>
-<description>**Abstract**
-
-Docs-as-code isn&#39;t new. We&#39;ll dip into its evolution, moving from the foundations of UNIX towards an AI-assisted present and future. 
-
-With live demonstrations, we’ll look at docs-as-code using UNIX V7 on a PDP-11/70 (PiDP11/70) from 1978 and compare with a modern, open-source localized documentation environment at SUSE. Conceptually, not as different as you would initially think. Despite the 48-year gap.
-
-We’ll see how we use AI at SUSE as a multiplier both to assist technical writer development and to help community and customers navigate documentation complexity in large projects like Rancher and SUSE Linux Enterprise Server (SLES).
-
-**Takeaways**
-
-* History: How past workflows inspired modern docs-as-code.
-* Open Source Strategy: How a docs-as-code strategy is providing documentation for both the open-source project community and enterprise customers at SUSE.
-* Practical ways AI is used to help develop human technical writing expertise and to improve technical clarity for community and customers at SUSE.
-* How docs-as-code improves your AI efforts.
-
-**Target Audience**
-
-Technical writers, DevOps, developers, open-source people, and anyone interested in a little technology history.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3150'>John Krug</person>
-</persons>
-</event>
-<event guid='f2MWNbOkfd546vEk71L59A' id='1001'>
-<date>2026-06-26T13:30:00+02:00</date>
-<start>13:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1001-aspire-orquestacion-devex-y-observabilidad-con-ia-integrada</slug>
-<title>Aspire: Orquestación, DevEx y observabilidad con IA integrada</title>
-<subtitle>Domina los microservicios: integrando agentes de IA, arquitecturas políglotas y observabilidad total en una plataforma abierta.</subtitle>
-<track></track>
-<abstract>El desarrollo de aplicaciones modernas a menudo se siente como intentar armar un rompecabezas cuyas piezas no siempre encajan de forma natural. En esta charla descubriremos **Aspire**, la plataforma que se ha consolidado como el **&quot;pegamento universal&quot;** para cualquier **arquitectura distribuida**. A través de un enfoque centrado radicalmente en la experiencia del desarrollador, Aspire permite integrar APIs, bases de datos y contenedores de manera fluida, pero su evolución reciente va mucho más allá del desarrollo local.   
-
-Exploraremos cómo Aspire integra ahora la **Inteligencia Artificial** como un ciudadano de primera clase. Analizaremos la orquestación de **sistemas multi-agente**, permitiendo que la IA comprenda y opere sobre la topología de tu sistema de forma autónoma.  Además, abordaremos su naturaleza **políglota**, con soporte para multitud de lenguajes, lo que permite unificar equipos heterogéneos bajo un mismo estándar de observabilidad total basado en **OpenTelemetry**, con dashboards que correlacionan trazas, métricas y logs en tiempo real.   
-
-Finalmente, demostraremos cómo Aspire elimina la fricción en el despliegue hacia entornos de producción. Veremos el nuevo **soporte de primera clase para Kubernetes** y Azure Kubernetes Service (AKS), donde mediante el uso de Helm y comandos simplificados como aspire deploy, es posible automatizar la **infraestructura y el despliegue en minutos**, garantizando paridad total entre entornos y seguridad por defecto.  
-
-**Si buscas dominar el diagnóstico de sistemas complejos y escalar tus aplicaciones con IA de vanguardia, esta sesión te proporcionará las claves para conquistar la observabilidad total.**
-</abstract>
-<description>El desarrollo de aplicaciones modernas a menudo se siente como intentar armar un rompecabezas cuyas piezas no siempre encajan de forma natural. En esta charla descubriremos **Aspire**, la plataforma que se ha consolidado como el **&quot;pegamento universal&quot;** para cualquier **arquitectura distribuida**. A través de un enfoque centrado radicalmente en la experiencia del desarrollador, Aspire permite integrar APIs, bases de datos y contenedores de manera fluida, pero su evolución reciente va mucho más allá del desarrollo local.   
-
-Exploraremos cómo Aspire integra ahora la **Inteligencia Artificial** como un ciudadano de primera clase. Analizaremos la orquestación de **sistemas multi-agente**, permitiendo que la IA comprenda y opere sobre la topología de tu sistema de forma autónoma.  Además, abordaremos su naturaleza **políglota**, con soporte para multitud de lenguajes, lo que permite unificar equipos heterogéneos bajo un mismo estándar de observabilidad total basado en **OpenTelemetry**, con dashboards que correlacionan trazas, métricas y logs en tiempo real.   
-
-Finalmente, demostraremos cómo Aspire elimina la fricción en el despliegue hacia entornos de producción. Veremos el nuevo **soporte de primera clase para Kubernetes** y Azure Kubernetes Service (AKS), donde mediante el uso de Helm y comandos simplificados como aspire deploy, es posible automatizar la **infraestructura y el despliegue en minutos**, garantizando paridad total entre entornos y seguridad por defecto.  
-
-**Si buscas dominar el diagnóstico de sistemas complejos y escalar tus aplicaciones con IA de vanguardia, esta sesión te proporcionará las claves para conquistar la observabilidad total.**
-</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='2537'>Javier Torralbo</person>
-</persons>
-</event>
-<event guid='F9cJKo9VPGkWw6K8nds_Hw' id='1077'>
-<date>2026-06-26T15:30:00+02:00</date>
-<start>15:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1077-css-as-a-game-engine</slug>
-<title>CSS as a game engine</title>
-<subtitle>Practicing web development the fun way</subtitle>
-<track></track>
-<abstract>What if the browser is already a game console, and CSS is your game engine?
-
-In this talk, we&#39;ll explore how far you can push the web platform using nothing but HTML and CSS. By treating CSS as a Finite State Machine, we can build surprisingly rich, interactive experiences: movement, hazards, timers, win conditions, even simple game logic. Along the way, we’ll break down the techniques that make this possible and show how they map to real engineering and web development concepts.
-
-As part of this session, we&#39;ll build a small playable game live on stage, constructed step by step in front of the audience! Beyond the fun, attendees will walk away with new mental models for UI state, fresh ideas for micro‑interactions, and a deeper understanding of how the browser thinks.
-
-This talk is ideal for developers who enjoy creative constraints, want to sharpen their understanding of CSS as a state system, or simply want to see the web do something unexpected.</abstract>
-<description>What if the browser is already a game console, and CSS is your game engine?
-
-In this talk, we&#39;ll explore how far you can push the web platform using nothing but HTML and CSS. By treating CSS as a Finite State Machine, we can build surprisingly rich, interactive experiences: movement, hazards, timers, win conditions, even simple game logic. Along the way, we’ll break down the techniques that make this possible and show how they map to real engineering and web development concepts.
-
-As part of this session, we&#39;ll build a small playable game live on stage, constructed step by step in front of the audience! Beyond the fun, attendees will walk away with new mental models for UI state, fresh ideas for micro‑interactions, and a deeper understanding of how the browser thinks.
-
-This talk is ideal for developers who enjoy creative constraints, want to sharpen their understanding of CSS as a state system, or simply want to see the web do something unexpected.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='2470'>alvaromontoro</person>
-</persons>
-</event>
-<event guid='Q2idDdkoRhJtTXaIfmlA5w' id='1042'>
-<date>2026-06-26T16:30:00+02:00</date>
-<start>16:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1042-sintonizando-tus-apps-en-flutter</slug>
-<title>Sintonizando tus apps en Flutter</title>
-<subtitle>Para aprender sobre state management y backend en este framework crossplatform</subtitle>
-<track></track>
-<abstract>Ya conoces Flutter, así que... ¿por qué no ir más allá?
-
-Es el momento de empezar a hablar de _state_ (para gestionar la información que fluye por las apps), y también de _backend_ (para tratar y almacenar esos datos con los que operas).
-
-Hay mucho para profundizar en estos dos conceptos y nunca se habla lo suficiente de ellos... ¡y de todas las alternativas que nos ofrecen! Únete para aprender más y alcanzar el equilibrio, buscando la sintonización entre tu _core_ de developer, _state management_ y _backend_ en Flutter.</abstract>
-<description>Ya conoces Flutter, así que... ¿por qué no ir más allá?
-
-Es el momento de empezar a hablar de _state_ (para gestionar la información que fluye por las apps), y también de _backend_ (para tratar y almacenar esos datos con los que operas).
-
-Hay mucho para profundizar en estos dos conceptos y nunca se habla lo suficiente de ellos... ¡y de todas las alternativas que nos ofrecen! Únete para aprender más y alcanzar el equilibrio, buscando la sintonización entre tu _core_ de developer, _state management_ y _backend_ en Flutter.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='204'>Asher Guzmán Blanco</person>
-</persons>
-</event>
-<event guid='Wd1PQHYnJtY-HxO9sSvfrw' id='1054'>
-<date>2026-06-26T17:30:00+02:00</date>
-<start>17:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1054-ai-agents-for-vulnerability-detection-in-smart-contracts</slug>
-<title>AI Agents for Vulnerability Detection in Smart Contracts</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>This session explores the critical architectural shifts between Web2 and Web3 vulnerabilities. We will dive into the emerging landscape of agentic open-source tools and demonstrate practical workflows that security professionals can leverage to secure the decentralized ecosystem.</abstract>
-<description>This session explores the critical architectural shifts between Web2 and Web3 vulnerabilities. We will dive into the emerging landscape of agentic open-source tools and demonstrate practical workflows that security professionals can leverage to secure the decentralized ecosystem.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='1969'>A. Rosa Castillo</person>
-</persons>
-</event>
-<event guid='r4A8_3p-ZFvlHsSq-plNNQ' id='1088'>
-<date>2026-06-26T18:30:00+02:00</date>
-<start>18:30</start>
-<duration>00:45</duration>
-<room>Sala Benalmádena 002</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1088-the-binary-you-ship-is-the-binary-you-test</slug>
-<title>The Binary You Ship Is the Binary You Test</title>
-<subtitle>Runtime coverage for any binary, no instrumentation required</subtitle>
-<track></track>
-<abstract>Coverage tooling today assumes you control the build. You add flags, compile twice, maintain separate instrumented artifacts. At scale, with hundreds of thousands of packages, multiple languages, this compounds into real operational burden.
-
-xcover takes a different approach: eBPF uprobes attach to any compiled binary at runtime, no source changes, no build flags, no instrumentation. The binary you ship to production is the binary you test. One tool, any language, any binary.
-
-This talk walks through how xcover works, how it handles stripped binaries via function recovery, and what the real overhead numbers look like, because the data matters.
-
-We&#39;ll also look at what&#39;s next for xcover: removing the kernel trap cost with userspace BPF runtimes. Active experiment, hypothesis worth exploring out loud</abstract>
-<description>Coverage tooling today assumes you control the build. You add flags, compile twice, maintain separate instrumented artifacts. At scale, with hundreds of thousands of packages, multiple languages, this compounds into real operational burden.
-
-xcover takes a different approach: eBPF uprobes attach to any compiled binary at runtime, no source changes, no build flags, no instrumentation. The binary you ship to production is the binary you test. One tool, any language, any binary.
-
-This talk walks through how xcover works, how it handles stripped binaries via function recovery, and what the real overhead numbers look like, because the data matters.
-
-We&#39;ll also look at what&#39;s next for xcover: removing the kernel trap cost with userspace BPF runtimes. Active experiment, hypothesis worth exploring out loud</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='3789'>Massimiliano Giovagnoli</person>
-</persons>
-</event>
-</room>
-<room name='Sala Benamocarra 23'>
-<event guid='LWMh98JuP2FqrZjOSITiLg' id='1068'>
-<date>2026-06-26T10:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1037,11 +1037,11 @@ Attendees will gain insight into how hardware innovation and open-source collabo
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3152'>Yuning Liang</person>
+<person id="3152">Yuning Liang</person>
 </persons>
 </event>
-<event guid='7hS_72gA4Uya7-E-Mvzt7g' id='1061'>
-<date>2026-06-26T11:30:00+02:00</date>
+<event guid="7hS_72gA4Uya7-E-Mvzt7g" id="1061">
+<date>2026-06-26T13:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1078,11 +1078,11 @@ Participants will learn how Newelle brings state‑of‑the‑art NLP to a light
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3194'>Khairul Aizat Kamarudzzzaman</person>
+<person id="3194">Khairul Aizat Kamarudzzzaman</person>
 </persons>
 </event>
-<event guid='IxamYLwRLNo8040YYqEeWQ' id='1087'>
-<date>2026-06-26T12:30:00+02:00</date>
+<event guid="IxamYLwRLNo8040YYqEeWQ" id="1087">
+<date>2026-06-26T14:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1107,11 +1107,11 @@ En esta charla hablaré de un proyecto que tengo actualmente en el que busco imp
 <optout>false</optout>
 </recording>
 <persons>
-<person id='359'>Almudena Garcia</person>
+<person id="359">Almudena Garcia</person>
 </persons>
 </event>
-<event guid='FgZuRIZGa12gIQE5E90M1w' id='1081'>
-<date>2026-06-26T13:30:00+02:00</date>
+<event guid="FgZuRIZGa12gIQE5E90M1w" id="1081">
+<date>2026-06-26T15:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1136,11 +1136,11 @@ En esta charla le daremos una vuelta de tuerca a varios cuentos clásicos, que u
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3782'>Mar Bartolomé</person>
+<person id="3782">Mar Bartolomé</person>
 </persons>
 </event>
-<event guid='Riv34VdQN5YoDoPGPMrq5g' id='1139'>
-<date>2026-06-26T15:30:00+02:00</date>
+<event guid="Riv34VdQN5YoDoPGPMrq5g" id="1139">
+<date>2026-06-26T17:30:00+02:00</date>
 <start>15:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1173,11 +1173,11 @@ Una sesión práctica y muy visual para entender la ciberdefensa en un entorno r
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3986'>Javier González</person>
+<person id="3986">Javier González</person>
 </persons>
 </event>
-<event guid='pMe6IbQIGQeX6rKdB3YadA' id='1055'>
-<date>2026-06-26T17:30:00+02:00</date>
+<event guid="pMe6IbQIGQeX6rKdB3YadA" id="1055">
+<date>2026-06-26T19:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1189,64 +1189,64 @@ Una sesión práctica y muy visual para entender la ciberdefensa en un entorno r
 <track></track>
 <abstract>## De la Torre de Babel al Internet de Agentes
 
-Construir sistemas de IA multi-agente hoy se parece demasiado a la **Torre de Babel**:
+Construir sistemas de IA multi-agente (MAS, o multi-agent systems) hoy se parece demasiado a la **Torre de Babel**:
 demasiados frameworks, demasiados protocolos… y muy poco entendimiento entre ellos. **¿El resultado? Más tiempo integrando que innovando.**
 
 ---
 
-En esta sesión descubrirás **AGNTCY**, un proyecto open-source de la Linux Foundation que busca poner orden en el caos:
+En esta sesión descubrirás **AGNTCY**, un proyecto open-source de la Linux Foundation que busca poner orden en el caos mediante los siguientes tres pilares fundamentales:
 
-* 🔍 Descubrir agentes de forma estándar
-* 🔗 Conectarlos sin fricción
-* 🤝 Hacerlos colaborar, sin importar la tecnología
-
----
-
-No nos quedaremos en teoría. Veremos **cómo funciona por dentro** y, sobre todo, cómo llevarlo a la práctica conectando agentes reales en un caso de uso.
+- `Descubrimiento:` Cómo los agentes encuentran a otros agentes basados en lo que necesitan hacer
+- `Comunicación`: Cómo los agentes hablan entre sí de manera estandarizada, segura y optimizada
+- `Observabilidad`: Cómo saber exactamente qué sucedió durante el razonamiento, ejecución e interacción de mis agentes distribuidos
 
 ---
 
-Si estás construyendo (o pensando en construir) sistemas multi-agente, esta charla te dará un camino claro para dejar de pelearte con la infraestructura, y empezar a enfocarte en lo que realmente importa.
+Así mismo, llevaremos a la práctica estos principios mediante un caso de uso que consistirá en un NOC (Centro de Operación de Redes) multi-agente.
 
 ---
 
-Todo el código fuente de la sesión será compartido al final en un repositorio público.
+Si estás construyendo, o pensando en construir sistemas multi-agente, esta charla te dará un camino claro para dejar de pelearte con la infraestructura, y empezar a enfocarte en lo que realmente importa.
+
+---
+
+Todo el código fuente de la sesión se encuentra en [este repositorio público](https://github.com/ponchotitlan/packet-panic-agntcy), completamente en español.
 </abstract>
 <description>## De la Torre de Babel al Internet de Agentes
 
-Construir sistemas de IA multi-agente hoy se parece demasiado a la **Torre de Babel**:
+Construir sistemas de IA multi-agente (MAS, o multi-agent systems) hoy se parece demasiado a la **Torre de Babel**:
 demasiados frameworks, demasiados protocolos… y muy poco entendimiento entre ellos. **¿El resultado? Más tiempo integrando que innovando.**
 
 ---
 
-En esta sesión descubrirás **AGNTCY**, un proyecto open-source de la Linux Foundation que busca poner orden en el caos:
+En esta sesión descubrirás **AGNTCY**, un proyecto open-source de la Linux Foundation que busca poner orden en el caos mediante los siguientes tres pilares fundamentales:
 
-* 🔍 Descubrir agentes de forma estándar
-* 🔗 Conectarlos sin fricción
-* 🤝 Hacerlos colaborar, sin importar la tecnología
-
----
-
-No nos quedaremos en teoría. Veremos **cómo funciona por dentro** y, sobre todo, cómo llevarlo a la práctica conectando agentes reales en un caso de uso.
+- `Descubrimiento:` Cómo los agentes encuentran a otros agentes basados en lo que necesitan hacer
+- `Comunicación`: Cómo los agentes hablan entre sí de manera estandarizada, segura y optimizada
+- `Observabilidad`: Cómo saber exactamente qué sucedió durante el razonamiento, ejecución e interacción de mis agentes distribuidos
 
 ---
 
-Si estás construyendo (o pensando en construir) sistemas multi-agente, esta charla te dará un camino claro para dejar de pelearte con la infraestructura, y empezar a enfocarte en lo que realmente importa.
+Así mismo, llevaremos a la práctica estos principios mediante un caso de uso que consistirá en un NOC (Centro de Operación de Redes) multi-agente.
 
 ---
 
-Todo el código fuente de la sesión será compartido al final en un repositorio público.
+Si estás construyendo, o pensando en construir sistemas multi-agente, esta charla te dará un camino claro para dejar de pelearte con la infraestructura, y empezar a enfocarte en lo que realmente importa.
+
+---
+
+Todo el código fuente de la sesión se encuentra en [este repositorio público](https://github.com/ponchotitlan/packet-panic-agntcy), completamente en español.
 </description>
 <recording>
 <license />
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3752'>Alfonso Sandoval Rosas</person>
+<person id="3752">Alfonso Sandoval Rosas</person>
 </persons>
 </event>
-<event guid='Je62ab3KSerJ6Nk-bhhYIw' id='1040'>
-<date>2026-06-26T18:30:00+02:00</date>
+<event guid="Je62ab3KSerJ6Nk-bhhYIw" id="1040">
+<date>2026-06-26T20:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1271,13 +1271,63 @@ En esta charla, usando para ello mi experiencia personal, veremos qué es el Sof
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3748'>anaghz</person>
+<person id="3748">anaghz</person>
 </persons>
 </event>
 </room>
-<room name='Sala Benamargosa 21'>
-<event guid='SiJGxXcsDK53dgNLlO9crA' id='1140'>
-<date>2026-06-26T15:30:00+02:00</date>
+<room name="Patio del tiempo">
+<event guid="pLaBoOFFmuvj-LTm8GMtsg" id="1143">
+<date>2026-06-26T16:15:00+02:00</date>
+<start>14:15</start>
+<duration>01:15</duration>
+<room>Patio del tiempo</room>
+<type>Networking</type>
+<language>es</language>
+<slug>1143-networking</slug>
+<title>Networking</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>Tendremos 2h para hacer networking con un refrigerio en el Patio del tiempo para los asistentes al evento.
+
+We will have 2h for networking with a snacks for all the attendies at the event.</abstract>
+<description>Tendremos 2h para hacer networking con un refrigerio en el Patio del tiempo para los asistentes al evento.
+
+We will have 2h for networking with a snacks for all the attendies at the event.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+<event guid="gHuIez4mLmQYjaA-3maVOQ" id="1142">
+<date>2026-06-26T21:15:00+02:00</date>
+<start>19:15</start>
+<duration>02:00</duration>
+<room>Patio del tiempo</room>
+<type>Networking</type>
+<language>es</language>
+<slug>1142-cena-networking-dinner-networking</slug>
+<title>Cena Networking / Dinner Networking</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>Si eres speaker / sponsor o has donado en la campaña de donación, podrás acceder a la cena networking que realizaremos en el Patio del tiempo.
+
+If you are speaker / sponsor or has donated in the donation campaign, you can access to the dinner networking in the &quot;Patio del tiempo&quot;.</abstract>
+<description>Si eres speaker / sponsor o has donado en la campaña de donación, podrás acceder a la cena networking que realizaremos en el Patio del tiempo.
+
+If you are speaker / sponsor or has donated in the donation campaign, you can access to the dinner networking in the &quot;Patio del tiempo&quot;.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+<room name="Sala Benamargosa 21">
+<event guid="SiJGxXcsDK53dgNLlO9crA" id="1140">
+<date>2026-06-26T17:30:00+02:00</date>
 <start>15:30</start>
 <duration>04:00</duration>
 <room>Sala Benamargosa 21</room>
@@ -1300,15 +1350,15 @@ Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouth
 <optout>false</optout>
 </recording>
 <persons>
-<person id='94'>Jorge Hidalgo</person>
-<person id='1958'>Juan A. Ortega</person>
-<person id='4089'>Eramis</person>
+<person id="94">Jorge Hidalgo</person>
+<person id="1958">Juan A. Ortega</person>
+<person id="4089">Eramis</person>
 </persons>
 </event>
 </room>
-<room name='Sala Frigiliana - 20'>
-<event guid='J26A28sTcEgzhZAChhqrDQ' id='1092'>
-<date>2026-06-26T15:30:00+02:00</date>
+<room name="Sala Frigiliana - 20">
+<event guid="J26A28sTcEgzhZAChhqrDQ" id="1092">
+<date>2026-06-26T17:30:00+02:00</date>
 <start>15:30</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1347,13 +1397,13 @@ Es un formato de hacking en vivo que ya hemos impartido en muchas ocasiones, per
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3791'>Javier Juárez Zarruk</person>
-<person id='3928'>Cristian Fernández Conejo</person>
-<person id='3930'>Dario Rivas</person>
+<person id="3791">Javier Juárez Zarruk</person>
+<person id="3928">Cristian Fernández Conejo</person>
+<person id="3930">Dario Rivas</person>
 </persons>
 </event>
-<event guid='NDe4bX7DxZ2eb2lpHASi6Q' id='1073'>
-<date>2026-06-26T17:30:00+02:00</date>
+<event guid="NDe4bX7DxZ2eb2lpHASi6Q" id="1073">
+<date>2026-06-26T19:30:00+02:00</date>
 <start>17:30</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1394,81 +1444,46 @@ En este taller aprenderás cómo usar técnicas y herramientas modernas de paque
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1838'>Juan Luis Cano Rodríguez</person>
+<person id="1838">Juan Luis Cano Rodríguez</person>
 </persons>
 </event>
 </room>
 </day>
-<day date='2026-06-27' index='2'>
-<room name='Sala Málaga'>
-<event guid='arlbeW7t-6EfTXIav4n5dg' id='1134'>
-<date>2026-06-27T10:00:00+02:00</date>
+<day date="2026-06-27" index="2">
+<room name="Sala Benamargosa 21">
+<event guid="i5RmD0SRO8f7QR9K41-iMw" id="1141">
+<date>2026-06-27T12:00:00+02:00</date>
 <start>10:00</start>
 <duration>04:00</duration>
-<room>Sala Málaga</room>
+<room>Sala Benamargosa 21</room>
 <type>Workshop 4h</type>
 <language>es</language>
-<slug>1134-opensouthkids</slug>
-<title>OpenSouthKids</title>
-<subtitle></subtitle>
+<slug>1141-opensouthretro</slug>
+<title>OpenSouthRetro</title>
+<subtitle>La combinación entre la retroinformática y el código abierto en una exposición viva donde rendimos homenaje a los juegos de 8, 16 y 32 bits con los que crecimos.</subtitle>
 <track></track>
-<abstract>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
-
-OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
-
-Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
-
-OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
-
-Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
-
-Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
-
-Un resumen, con algunos de nuestros clásicos y también algunas novedades:
-
-- Programa un robot humano desenchufao
-- micro:bit para programar pequeños dispositivos
-- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
-- makey makey para jugar con la electricidad
-- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
-- Aprende cómo funcionan los NFCs
-- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
-- YesWeTech Squad Girls
-</abstract>
-<description>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
-
-OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
-
-Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
-
-OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
-
-Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
-
-Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
-
-Un resumen, con algunos de nuestros clásicos y también algunas novedades:
-
-- Programa un robot humano desenchufao
-- micro:bit para programar pequeños dispositivos
-- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
-- makey makey para jugar con la electricidad
-- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
-- Aprende cómo funcionan los NFCs
-- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
-- YesWeTech Squad Girls
-</description>
+<abstract>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
+Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
+OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
+Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</abstract>
+<description>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
+Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
+OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
+Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</description>
 <recording>
 <license />
 <optout>false</optout>
 </recording>
 <persons>
+<person id="94">Jorge Hidalgo</person>
+<person id="1958">Juan A. Ortega</person>
+<person id="4089">Eramis</person>
 </persons>
 </event>
 </room>
-<room name='Sala Benalmádena 002'>
-<event guid='-zva3lmS90NhlEJ5Kzne9w' id='1085'>
-<date>2026-06-27T10:00:00+02:00</date>
+<room name="Sala Benalmádena 002">
+<event guid="-zva3lmS90NhlEJ5Kzne9w" id="1085">
+<date>2026-06-27T12:00:00+02:00</date>
 <start>10:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1539,11 +1554,11 @@ En esta charla veremos:
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1817'>Diego Parrilla</person>
+<person id="1817">Diego Parrilla</person>
 </persons>
 </event>
-<event guid='WDE-XKeQgR64vJV8_Q5VAw' id='995'>
-<date>2026-06-27T11:00:00+02:00</date>
+<event guid="WDE-XKeQgR64vJV8_Q5VAw" id="995">
+<date>2026-06-27T13:00:00+02:00</date>
 <start>11:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1570,11 +1585,11 @@ cómo construir dispositivos y servicios que sigan siendo inteligentes… sin vo
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3675'>Sebastian Luna</person>
+<person id="3675">Sebastian Luna</person>
 </persons>
 </event>
-<event guid='RgDyrw-Mx-BzAdULEP6bUA' id='1053'>
-<date>2026-06-27T12:00:00+02:00</date>
+<event guid="RgDyrw-Mx-BzAdULEP6bUA" id="1053">
+<date>2026-06-27T14:00:00+02:00</date>
 <start>12:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1605,11 +1620,11 @@ By the end of this talk, you will have a clear understanding of how to use obser
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3147'>antoniocm</person>
+<person id="3147">antoniocm</person>
 </persons>
 </event>
-<event guid='OkZfLIs93QxN_3NOcIRDNg' id='1128'>
-<date>2026-06-27T13:00:00+02:00</date>
+<event guid="OkZfLIs93QxN_3NOcIRDNg" id="1128">
+<date>2026-06-27T15:00:00+02:00</date>
 <start>13:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1646,44 +1661,13 @@ You’ll leave with concrete techniques, open-source tooling, and a mental model
 <optout>false</optout>
 </recording>
 <persons>
-<person id='2528'>Guillermo Ruiz</person>
+<person id="2528">Guillermo Ruiz</person>
 </persons>
 </event>
 </room>
-<room name='Sala Benamargosa 21'>
-<event guid='i5RmD0SRO8f7QR9K41-iMw' id='1141'>
-<date>2026-06-27T10:00:00+02:00</date>
-<start>10:00</start>
-<duration>04:00</duration>
-<room>Sala Benamargosa 21</room>
-<type>Workshop 4h</type>
-<language>es</language>
-<slug>1141-opensouthretro</slug>
-<title>OpenSouthRetro</title>
-<subtitle>La combinación entre la retroinformática y el código abierto en una exposición viva donde rendimos homenaje a los juegos de 8, 16 y 32 bits con los que crecimos.</subtitle>
-<track></track>
-<abstract>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
-Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
-OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
-Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</abstract>
-<description>OpenSouthRetro es una pequeña exposición sobre la fusión entre la retroinformática y el código abierto.
-Rendiremos homenaje a las plataformas y juegos de 8, 16 y 32 bits con los que crecimos utilizando para ello sistemas basados en Linux que se utilizan en infinidad de dispositivos de docenas de fabricantes para traernos de vuelta todos esos clásicos. También tendremos juegos liberados como Doom o Quake, juegos re-implementados en abierto como los de OpenBOR y OpenLara, Pico-8, y hasta juegos de código abierto para Game Boy!
-OpenSouthRetro también incluye una pequeña exposición de algunos de estos sistemas clave en el desarrollo de la microinformática aportados desinteresadamente por voluntarios de la organización.
-Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouthRetro!</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id='94'>Jorge Hidalgo</person>
-<person id='1958'>Juan A. Ortega</person>
-<person id='4089'>Eramis</person>
-</persons>
-</event>
-</room>
-<room name='Sala Canillas 013'>
-<event guid='0xiHmTATRujcOtlwNy4HGg' id='1038'>
-<date>2026-06-27T10:00:00+02:00</date>
+<room name="Sala Canillas 013">
+<event guid="0xiHmTATRujcOtlwNy4HGg" id="1038">
+<date>2026-06-27T12:00:00+02:00</date>
 <start>10:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -1712,11 +1696,11 @@ comprobar en tiempo real el rendimiento de los módulos.</description>
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3746'>Álvaro</person>
+<person id="3746">Álvaro</person>
 </persons>
 </event>
-<event guid='3Lryarf7k56494n8yppULg' id='1116'>
-<date>2026-06-27T11:00:00+02:00</date>
+<event guid="3Lryarf7k56494n8yppULg" id="1116">
+<date>2026-06-27T13:00:00+02:00</date>
 <start>11:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -1763,11 +1747,11 @@ The goal is to establish a usable mental model for engineers building on top of 
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3173'>Akarshan Kapoor</person>
+<person id="3173">Akarshan Kapoor</person>
 </persons>
 </event>
-<event guid='DZndMUqP8kcmtzyLgi94fg' id='1108'>
-<date>2026-06-27T12:00:00+02:00</date>
+<event guid="DZndMUqP8kcmtzyLgi94fg" id="1108">
+<date>2026-06-27T14:00:00+02:00</date>
 <start>12:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -1792,12 +1776,12 @@ El objetivo es que los asistentes no solo vean como usar IA, sino que entiendan 
 <optout>false</optout>
 </recording>
 <persons>
-<person id='1490'>Patri</person>
-<person id='1660'>Estefanía Ríos</person>
+<person id="1490">Patri</person>
+<person id="1660">Estefanía Ríos</person>
 </persons>
 </event>
-<event guid='Qb-53OdSe0T34wJDKY-ZhA' id='996'>
-<date>2026-06-27T13:00:00+02:00</date>
+<event guid="Qb-53OdSe0T34wJDKY-ZhA" id="996">
+<date>2026-06-27T15:00:00+02:00</date>
 <start>13:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -1822,13 +1806,13 @@ Prepárate para una sesión que **cambiará tu forma de pensar sobre la interacc
 <optout>false</optout>
 </recording>
 <persons>
-<person id='804'>Alfredo Bautista Santos</person>
+<person id="804">Alfredo Bautista Santos</person>
 </persons>
 </event>
 </room>
-<room name='Sala Frigiliana - 20'>
-<event guid='0fWasxGYzhODwlqUlTVNGA' id='977'>
-<date>2026-06-27T10:00:00+02:00</date>
+<room name="Sala Frigiliana - 20">
+<event guid="0fWasxGYzhODwlqUlTVNGA" id="977">
+<date>2026-06-27T12:00:00+02:00</date>
 <start>10:00</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1839,61 +1823,55 @@ Prepárate para una sesión que **cambiará tu forma de pensar sobre la interacc
 <subtitle>Proposals to have a hands on prototyping</subtitle>
 <track></track>
 <abstract>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
-
-In an era of rapid technological shifts, the challenge isn&#39;t just building faster, it&#39;s building the right product. This hands-on workshop explores how to leverage Artificial Intelligence and open technologies to create products that solve real-world problems. We bridge the gap between &quot;product thinking&quot; and &quot;technical execution,&quot; moving beyond basic automation to focus on meaningful impact.
-
+In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
 Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
 
-The Workflow
-Ideation &amp; Framing: Using LLMs (ChatGPT/Gemini) to enhance the problem statements, analyze user needs, and validate market opportunities.
+**The Workflow
+Ideation &amp; Framing**
 
-Rapid Prototyping: Leveraging Lovable and open-code principles to transform conceptual ideas into functional, high-fidelity prototypes.
+Using LLMs (ChatGPT / Claude) to sharpen problem statements, analyze user needs, and validate market opportunities before writing a single line of code.
+Rapid Prototyping
 
-Product Logic: Grounding every technical decision in user value and measurable outcomes.(this is not a pure technical workshop)
+Designing clickable, high-fidelity prototypes in Penpot — the open-source design tool — using Lucide Icons for a clean, consistent visual language. No Figma license required.
+AI Integration
 
-What You Will Learn
-Responsible AI Integration: How to use AI across the product lifecycle without losing the user-centric perspective.
+Running a local AI model with Ollama — fully open-source, no API keys, no cloud dependency — to power real intelligent features directly from your laptop.
+Functional Build
 
-Velocity vs. Haste: Techniques to prototype at lightning speed while maintaining high standards for user experience.
+Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
+Product Logic
 
-Bridge the Gap: How to connect a high-level product vision with tangible execution.
-
-Open Mindset: Utilizing open tools to ensure solutions remain flexible and impactful.
-
-This workshop is designed for Product Managers, Designers, Developers, and everyone who want to master the art of AI-product prototyping.</abstract>
+Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</abstract>
 <description>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
-
-In an era of rapid technological shifts, the challenge isn&#39;t just building faster, it&#39;s building the right product. This hands-on workshop explores how to leverage Artificial Intelligence and open technologies to create products that solve real-world problems. We bridge the gap between &quot;product thinking&quot; and &quot;technical execution,&quot; moving beyond basic automation to focus on meaningful impact.
-
+In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
 Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
 
-The Workflow
-Ideation &amp; Framing: Using LLMs (ChatGPT/Gemini) to enhance the problem statements, analyze user needs, and validate market opportunities.
+**The Workflow
+Ideation &amp; Framing**
 
-Rapid Prototyping: Leveraging Lovable and open-code principles to transform conceptual ideas into functional, high-fidelity prototypes.
+Using LLMs (ChatGPT / Claude) to sharpen problem statements, analyze user needs, and validate market opportunities before writing a single line of code.
+Rapid Prototyping
 
-Product Logic: Grounding every technical decision in user value and measurable outcomes.(this is not a pure technical workshop)
+Designing clickable, high-fidelity prototypes in Penpot — the open-source design tool — using Lucide Icons for a clean, consistent visual language. No Figma license required.
+AI Integration
 
-What You Will Learn
-Responsible AI Integration: How to use AI across the product lifecycle without losing the user-centric perspective.
+Running a local AI model with Ollama — fully open-source, no API keys, no cloud dependency — to power real intelligent features directly from your laptop.
+Functional Build
 
-Velocity vs. Haste: Techniques to prototype at lightning speed while maintaining high standards for user experience.
+Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
+Product Logic
 
-Bridge the Gap: How to connect a high-level product vision with tangible execution.
-
-Open Mindset: Utilizing open tools to ensure solutions remain flexible and impactful.
-
-This workshop is designed for Product Managers, Designers, Developers, and everyone who want to master the art of AI-product prototyping.</description>
+Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</description>
 <recording>
 <license />
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3316'>Amalia Gómez</person>
+<person id="3316">Amalia Gómez</person>
 </persons>
 </event>
-<event guid='K4zdG1vmKs7cHDE1ku-43w' id='990'>
-<date>2026-06-27T12:00:00+02:00</date>
+<event guid="K4zdG1vmKs7cHDE1ku-43w" id="990">
+<date>2026-06-27T14:00:00+02:00</date>
 <start>12:00</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1946,18 +1924,18 @@ Software developers, QA engineers, SREs, and platform engineers interested in pe
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3667'>Pepe Cano</person>
+<person id="3667">Pepe Cano</person>
 </persons>
 </event>
 </room>
-<room name='Sala Fuengirola'>
-<event guid='WsYmFZ82rihn59SuQFWZUw' id='1106'>
-<date>2026-06-27T10:00:00+02:00</date>
+<room name="Sala Fuengirola">
+<event guid="WsYmFZ82rihn59SuQFWZUw" id="1106">
+<date>2026-06-27T12:00:00+02:00</date>
 <start>10:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
 <type>Talk</type>
-<language>en</language>
+<language>es</language>
 <slug>1106-our-ai-agents-are-finally-in-production-and-now-what</slug>
 <title>Our AI Agents Are Finally In Production — And Now What?</title>
 <subtitle></subtitle>
@@ -1987,12 +1965,12 @@ The &quot;swiss army knife&quot; of AI-intensive platforms.
 <optout>false</optout>
 </recording>
 <persons>
-<person id='94'>Jorge Hidalgo</person>
-<person id='368'>José María Gutiérrez Ramírez</person>
+<person id="94">Jorge Hidalgo</person>
+<person id="368">José María Gutiérrez Ramírez</person>
 </persons>
 </event>
-<event guid='df0Ldm-OmUvaN9Z50XvQfA' id='1031'>
-<date>2026-06-27T11:00:00+02:00</date>
+<event guid="df0Ldm-OmUvaN9Z50XvQfA" id="1031">
+<date>2026-06-27T13:00:00+02:00</date>
 <start>11:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -2015,11 +1993,11 @@ The &quot;swiss army knife&quot; of AI-intensive platforms.
 <optout>false</optout>
 </recording>
 <persons>
-<person id='2270'>Iván Sánchez Valencia</person>
+<person id="2270">Iván Sánchez Valencia</person>
 </persons>
 </event>
-<event guid='3FcGqPAHWgWwViprjEkqfw' id='1086'>
-<date>2026-06-27T12:00:00+02:00</date>
+<event guid="3FcGqPAHWgWwViprjEkqfw" id="1086">
+<date>2026-06-27T14:00:00+02:00</date>
 <start>12:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -2048,12 +2026,12 @@ We&#39;ll share real stories behind our metrics, spectacular failures that taugh
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3787'>Philip Hope</person>
-<person id='3788'>Dimitrios Sotirakis</person>
+<person id="3787">Philip Hope</person>
+<person id="3788">Dimitrios Sotirakis</person>
 </persons>
 </event>
-<event guid='GEZs4HqsE2LCCE8zYM_waQ' id='1028'>
-<date>2026-06-27T13:00:00+02:00</date>
+<event guid="GEZs4HqsE2LCCE8zYM_waQ" id="1028">
+<date>2026-06-27T15:00:00+02:00</date>
 <start>13:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -2090,11 +2068,11 @@ Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y
 <optout>false</optout>
 </recording>
 <persons>
-<person id='3740'>Iker Pedrosa</person>
+<person id="3740">Iker Pedrosa</person>
 </persons>
 </event>
-<event guid='5CzK3Ao3NhsZtbhPdfwxig' id='1137'>
-<date>2026-06-27T13:45:00+02:00</date>
+<event guid="5CzK3Ao3NhsZtbhPdfwxig" id="1137">
+<date>2026-06-27T15:45:00+02:00</date>
 <start>13:45</start>
 <duration>00:15</duration>
 <room>Sala Fuengirola</room>
@@ -2106,6 +2084,72 @@ Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y
 <track></track>
 <abstract>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</abstract>
 <description>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+<room name="Sala Málaga">
+<event guid="arlbeW7t-6EfTXIav4n5dg" id="1134">
+<date>2026-06-27T12:00:00+02:00</date>
+<start>10:00</start>
+<duration>04:00</duration>
+<room>Sala Málaga</room>
+<type>Workshop 4h</type>
+<language>es</language>
+<slug>1134-opensouthkids</slug>
+<title>OpenSouthKids</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
+
+OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
+
+Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
+
+OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
+
+Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
+
+Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
+
+Un resumen, con algunos de nuestros clásicos y también algunas novedades:
+
+- Programa un robot humano desenchufao
+- micro:bit para programar pequeños dispositivos
+- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
+- makey makey para jugar con la electricidad
+- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
+- Aprende cómo funcionan los NFCs
+- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
+- YesWeTech Squad Girls
+</abstract>
+<description>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
+
+OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
+
+Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
+
+OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
+
+Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
+
+Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
+
+Un resumen, con algunos de nuestros clásicos y también algunas novedades:
+
+- Programa un robot humano desenchufao
+- micro:bit para programar pequeños dispositivos
+- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
+- makey makey para jugar con la electricidad
+- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
+- Aprende cómo funcionan los NFCs
+- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
+- YesWeTech Squad Girls
+</description>
 <recording>
 <license />
 <optout>false</optout>
