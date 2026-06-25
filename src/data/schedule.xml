@@ -1,5 +1,5 @@
 <schedule>
-<version>656</version>
+<version>658</version>
 <conference>
 <acronym>opensouthcode2026</acronym>
 <title>OpenSouthCode 2026</title>
@@ -334,6 +334,364 @@ We will reveal how we designed the app and then developed it from scratch with A
 </persons>
 </event>
 </room>
+<room name="Sala Canillas 013">
+<event guid="2YRsoZdINrGTM6JPrwdxNg" id="1101">
+<date>2026-06-26T11:30:00+02:00</date>
+<start>09:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1101-las-claves-de-la-seguridad-en-ubuntu</slug>
+<title>Las claves de la seguridad en Ubuntu</title>
+<subtitle>Una mirada desde el interior del Security Team</subtitle>
+<track></track>
+<abstract>En un panorama de ciberamenazas cada vez más complejas, la gestión integral de la seguridad de un sistema operativo, desde el kernel hasta las aplicaciones de usuario, requiere mucho más que parches reactivos; exige una estrategia proactiva y multicapa. En esta sesión, abriremos las puertas del equipo de Seguridad de Ubuntu para compartir de primera mano cómo garantizamos que la distribución sea y se mantenga como una de las plataformas más robustas del mundo.
+
+Exploraremos nuestra metodología para gestionar y corregir vulnerabilidades en miles de paquetes, destacando cómo equilibramos la estabilidad con la entrega rápida de actualizaciones críticas. Además, veremos cómo estamos integrando la Inteligencia Artificial en nuestros flujos de trabajo para escalar estas operaciones con precisión.
+Más allá de la respuesta a incidentes, analizaremos las iniciativas de hardening de Ubuntu, diseñadas para mitigar proactivamente posibles amenazas incluso antes de que sean descubiertas. Paralelamente, abordaremos la filosofía de seguridad de los Snaps, detallando cómo la participación directa de nuestro equipo en el confinamiento y supervisión de las aplicaciones en la Snap Store contribuye decisivamente a la seguridad del ecosistema.
+
+Ya seas desarrollador, administrador de sistemas o entusiasta de la seguridad, descubrirás la ingeniería y la innovación que protegen el ecosistema de Ubuntu.</abstract>
+<description>En un panorama de ciberamenazas cada vez más complejas, la gestión integral de la seguridad de un sistema operativo, desde el kernel hasta las aplicaciones de usuario, requiere mucho más que parches reactivos; exige una estrategia proactiva y multicapa. En esta sesión, abriremos las puertas del equipo de Seguridad de Ubuntu para compartir de primera mano cómo garantizamos que la distribución sea y se mantenga como una de las plataformas más robustas del mundo.
+
+Exploraremos nuestra metodología para gestionar y corregir vulnerabilidades en miles de paquetes, destacando cómo equilibramos la estabilidad con la entrega rápida de actualizaciones críticas. Además, veremos cómo estamos integrando la Inteligencia Artificial en nuestros flujos de trabajo para escalar estas operaciones con precisión.
+Más allá de la respuesta a incidentes, analizaremos las iniciativas de hardening de Ubuntu, diseñadas para mitigar proactivamente posibles amenazas incluso antes de que sean descubiertas. Paralelamente, abordaremos la filosofía de seguridad de los Snaps, detallando cómo la participación directa de nuestro equipo en el confinamiento y supervisión de las aplicaciones en la Snap Store contribuye decisivamente a la seguridad del ecosistema.
+
+Ya seas desarrollador, administrador de sistemas o entusiasta de la seguridad, descubrirás la ingeniería y la innovación que protegen el ecosistema de Ubuntu.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3966">Federico Quattrin</person>
+</persons>
+</event>
+<event guid="TvUPa0loi2L55dfbvPwjXw" id="1079">
+<date>2026-06-26T12:30:00+02:00</date>
+<start>10:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1079-stop-wasting-nodes-a-surgical-way-to-make-overcommit-on-kubernetes</slug>
+<title>Stop wasting nodes! A surgical way to make overcommit on Kubernetes</title>
+<subtitle>Kubernetes overcommit operator</subtitle>
+<track></track>
+<abstract>In a large organization, developers shouldn’t need to manage infrastructure complexity. Most configurations are predefined through standardized templates, keeping teams focused on code and business logic rather than cluster tuning. Our challenge was that Kubernetes nodes appeared fully allocated while much of their capacity remained unused due to oversized resource requests. By introducing dynamic overcommit through our operator, we improved node utilization, reduced infrastructure usage for non critical workloads, and maintained full stability for critical services, all without requiring any changes from development teams.
+
+At peak events large-scale Kubernetes environments must handle extreme load variations. Static resource requests often cause massive hidden capacity nodes to appear full while most CPU or memory remains unused. A single, uniform overcommit policy can’t safely account for differences between critical and non-critical workloads. This approach allows us to reserve more resources for the most critical applications while still improving overall cluster utilization.
+
+We built k8s-overcommit Operator, an open-source Kubernetes operator that automates fine-grained overcommit control. It defines reusable Overcommit Classes through Custom Resource Definitions (CRDs) and enforces safety with validating admission webhooks. This enables consistent, policy-driven overcommit across workloads without manual configuration.
+
+These policies can be applied at the pod level, namespace level, or set as a default for the entire cluster.
+
+Designed to be vendor-agnostic, the operator runs seamlessly on any Kubernetes distribution. It helps organizations to improve node density, and reduce cost while preserving the stability of critical workloads.</abstract>
+<description>In a large organization, developers shouldn’t need to manage infrastructure complexity. Most configurations are predefined through standardized templates, keeping teams focused on code and business logic rather than cluster tuning. Our challenge was that Kubernetes nodes appeared fully allocated while much of their capacity remained unused due to oversized resource requests. By introducing dynamic overcommit through our operator, we improved node utilization, reduced infrastructure usage for non critical workloads, and maintained full stability for critical services, all without requiring any changes from development teams.
+
+At peak events large-scale Kubernetes environments must handle extreme load variations. Static resource requests often cause massive hidden capacity nodes to appear full while most CPU or memory remains unused. A single, uniform overcommit policy can’t safely account for differences between critical and non-critical workloads. This approach allows us to reserve more resources for the most critical applications while still improving overall cluster utilization.
+
+We built k8s-overcommit Operator, an open-source Kubernetes operator that automates fine-grained overcommit control. It defines reusable Overcommit Classes through Custom Resource Definitions (CRDs) and enforces safety with validating admission webhooks. This enables consistent, policy-driven overcommit across workloads without manual configuration.
+
+These policies can be applied at the pod level, namespace level, or set as a default for the entire cluster.
+
+Designed to be vendor-agnostic, the operator runs seamlessly on any Kubernetes distribution. It helps organizations to improve node density, and reduce cost while preserving the stability of critical workloads.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3780">Enrique Andrés Villar</person>
+<person id="3897">luisreciomelero</person>
+</persons>
+</event>
+<event guid="Q9m8_paOU7lP2tTzEcZ7Zw" id="979">
+<date>2026-06-26T13:30:00+02:00</date>
+<start>11:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>es</language>
+<slug>979-plataforma-de-domotica-open-source</slug>
+<title>Plataforma de Domotica Open Source</title>
+<subtitle>Domotic AI</subtitle>
+<track></track>
+<abstract>Demostración práctica sobre la instalación, configuración y uso de una avanzada plataforma de domótica diseñada para la gestión integral y el monitoreo de alertas en entornos residenciales. El sistema, cuyo código fuente y documentación técnica se encuentran disponibles en el repositorio público [https://github.com/adriandy89/domotic-ai](https://github.com/adriandy89/domotic-ai), ha sido desarrollado con el objetivo de centralizar el control de una o varias viviendas de manera eficiente y escalable.
+
+Uno de los pilares fundamentales de esta solución es su capacidad de interoperabilidad. La plataforma permite la integración fluida de una amplia gama de dispositivos basados en el protocolo Zigbee, tales como sensores de movimiento, contactos de puerta/ventana, sensores de temperatura y actuadores inteligentes. Además, su arquitectura flexible facilita la incorporación de otros estándares y tecnologías IoT (Internet de las Cosas), permitiendo al usuario personalizar la red domótica según sus necesidades específicas.
+
+El sistema no solo se enfoca en el control remoto, sino que prioriza la seguridad mediante un motor de alertas inteligentes. Estas notificaciones permiten una supervisión constante del estado de los inmuebles, garantizando una respuesta rápida ante cualquier eventualidad. En definitiva, este proyecto ofrece una infraestructura robusta para quienes buscan una gestión automatizada, moderna y centralizada del hogar digital.
+</abstract>
+<description>Demostración práctica sobre la instalación, configuración y uso de una avanzada plataforma de domótica diseñada para la gestión integral y el monitoreo de alertas en entornos residenciales. El sistema, cuyo código fuente y documentación técnica se encuentran disponibles en el repositorio público [https://github.com/adriandy89/domotic-ai](https://github.com/adriandy89/domotic-ai), ha sido desarrollado con el objetivo de centralizar el control de una o varias viviendas de manera eficiente y escalable.
+
+Uno de los pilares fundamentales de esta solución es su capacidad de interoperabilidad. La plataforma permite la integración fluida de una amplia gama de dispositivos basados en el protocolo Zigbee, tales como sensores de movimiento, contactos de puerta/ventana, sensores de temperatura y actuadores inteligentes. Además, su arquitectura flexible facilita la incorporación de otros estándares y tecnologías IoT (Internet de las Cosas), permitiendo al usuario personalizar la red domótica según sus necesidades específicas.
+
+El sistema no solo se enfoca en el control remoto, sino que prioriza la seguridad mediante un motor de alertas inteligentes. Estas notificaciones permiten una supervisión constante del estado de los inmuebles, garantizando una respuesta rápida ante cualquier eventualidad. En definitiva, este proyecto ofrece una infraestructura robusta para quienes buscan una gestión automatizada, moderna y centralizada del hogar digital.
+</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3640">Adrian Duardo Yanes</person>
+<person id="3890">jduardo</person>
+</persons>
+</event>
+<event guid="LWMh98JuP2FqrZjOSITiLg" id="1068">
+<date>2026-06-26T14:30:00+02:00</date>
+<start>12:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1068-growing-the-linux-app-ecosystem-with-risc-v-and-rva23-platforms</slug>
+<title>Growing the Linux App Ecosystem with RISC-V and RVA23 Platforms</title>
+<subtitle>RISC-V &amp; RVA23</subtitle>
+<track></track>
+<abstract>The Linux application ecosystem continues to expand as new hardware platforms and distribution channels bring Linux to more developers and users worldwide. One of the most promising developments in this space is the rapid growth of the RISC-V ecosystem, which introduces an open instruction set architecture designed to encourage innovation and collaboration across hardware and software communities.
+With the introduction of the RVA23 profile, RISC-V platforms are becoming more standardized and software-friendly, enabling better compatibility for operating systems, development tools, and applications. These improvements help reduce fragmentation and make it easier for developers to build and distribute applications that run reliably across multiple RISC-V devices.
+This session explores how emerging RISC-V platforms—particularly new developer systems and laptops—are helping expand the reach of Linux applications and create new opportunities for developers. We will discuss how standardized profiles like RVA23 support better software portability, how open hardware platforms can attract new contributors, and why growing the developer base is essential for sustaining the Linux app ecosystem.
+Attendees will gain insight into how hardware innovation and open-source collaboration can reinforce each other, enabling a broader and more resilient Linux ecosystem. The session will also highlight practical ways developers, distributions, and communities can participate in building a thriving Linux application landscape for the next generation of computing platforms.</abstract>
+<description>The Linux application ecosystem continues to expand as new hardware platforms and distribution channels bring Linux to more developers and users worldwide. One of the most promising developments in this space is the rapid growth of the RISC-V ecosystem, which introduces an open instruction set architecture designed to encourage innovation and collaboration across hardware and software communities.
+With the introduction of the RVA23 profile, RISC-V platforms are becoming more standardized and software-friendly, enabling better compatibility for operating systems, development tools, and applications. These improvements help reduce fragmentation and make it easier for developers to build and distribute applications that run reliably across multiple RISC-V devices.
+This session explores how emerging RISC-V platforms—particularly new developer systems and laptops—are helping expand the reach of Linux applications and create new opportunities for developers. We will discuss how standardized profiles like RVA23 support better software portability, how open hardware platforms can attract new contributors, and why growing the developer base is essential for sustaining the Linux app ecosystem.
+Attendees will gain insight into how hardware innovation and open-source collaboration can reinforce each other, enabling a broader and more resilient Linux ecosystem. The session will also highlight practical ways developers, distributions, and communities can participate in building a thriving Linux application landscape for the next generation of computing platforms.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3152">Yuning Liang</person>
+</persons>
+</event>
+<event guid="xC8BWRkC1Z3s1fMns4Ld5Q" id="1089">
+<date>2026-06-26T15:30:00+02:00</date>
+<start>13:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1089-coda-a-new-contribution-model-for-open-source</slug>
+<title>CODA: A new contribution model for open source</title>
+<subtitle>How an aggregated task tracker and mentorship solve the contributor&#39;s dilemma</subtitle>
+<track></track>
+<abstract>Open source needs contributors, but traditional onboarding is broken. Finding a project, understanding the codebase, and making a first pull request is intimidating. Meanwhile, maintainers desperately want help but lack the bandwidth to guide newcomers. We need a paradigm shift: moving from contributors working across isolated repositories to tasks finding *them* in a centralized, supported environment.
+
+Canonical&#39;s Open Documentation Academy (CODA) offers a solution. Now two years old, it unites newcomers, experts, and maintainers to lower the barrier to entry. At its core is the *aggregated task list*, a &quot;social feed&quot; where users browse bite-sized, clearly scoped tasks across participating projects. Momentum is growing: in just the last six months, it helped merge over 50 contributions from 26+ individuals across numerous open source projects.
+
+This data-driven talk explores where the Academy has succeeded and what it could do better. We will present metrics on task claims versus completions, analyzing contribution volume, activation, and drop-off rates before and after project enrollment. Crucially, the data highlights how *task mentoring* is the key variable pushing completion rates up.
+
+Finally, we will outline the value proposition for maintainers seeking mentored contributors, and argue that this aggregated task model could and should be scaled beyond documentation, spanning project management, legal assistance, design, programming, and marketing.</abstract>
+<description>Open source needs contributors, but traditional onboarding is broken. Finding a project, understanding the codebase, and making a first pull request is intimidating. Meanwhile, maintainers desperately want help but lack the bandwidth to guide newcomers. We need a paradigm shift: moving from contributors working across isolated repositories to tasks finding *them* in a centralized, supported environment.
+
+Canonical&#39;s Open Documentation Academy (CODA) offers a solution. Now two years old, it unites newcomers, experts, and maintainers to lower the barrier to entry. At its core is the *aggregated task list*, a &quot;social feed&quot; where users browse bite-sized, clearly scoped tasks across participating projects. Momentum is growing: in just the last six months, it helped merge over 50 contributions from 26+ individuals across numerous open source projects.
+
+This data-driven talk explores where the Academy has succeeded and what it could do better. We will present metrics on task claims versus completions, analyzing contribution volume, activation, and drop-off rates before and after project enrollment. Crucially, the data highlights how *task mentoring* is the key variable pushing completion rates up.
+
+Finally, we will outline the value proposition for maintainers seeking mentored contributors, and argue that this aggregated task model could and should be scaled beyond documentation, spanning project management, legal assistance, design, programming, and marketing.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3523">Graham Morrison</person>
+</persons>
+</event>
+<event guid="4D15vhJJ6jv8-7RD-XHBbg" id="1067">
+<date>2026-06-26T17:30:00+02:00</date>
+<start>15:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1067-wordpress-mcp-integracion-con-clientes-de-ia-para-una-administracion-simple</slug>
+<title>WordPress &amp; MCP: Integración con Clientes de IA para una administración simple</title>
+<subtitle>Del &#39;clic&#39; al &#39;prompt&#39;: Implementación del protocolo MCP para la administración de sitios WordPress</subtitle>
+<track></track>
+<abstract>La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
+
+En esta sesión práctica, daremos un paso más allá para aplicar esta tecnología a cualquier sitio WordPress (no solo los alojados en plataformas específicas).
+
+Usaremos el **Model Context Protocol (MCP)**, un estándar abierto que actúa como un &quot;conector universal&quot; entre los modelos de lenguaje (LLM) y tus datos. Veremos cómo configurar un servidor MCP en tu propia instalación de WordPress para que clientes populares como Claude Desktop, VSCode o ChatGPT tengan &quot;conciencia&quot; y capacidad de acción directa sobre tu sitio.
+
+Aprenderemos como usar MCP para administrar el sitio.
+
+¿Qué aprenderás?
+
+En este taller/charla, desglosaremos la arquitectura necesaria (Model -&gt; Host -&gt; MCP Server -&gt; MCP Adapter) y mostraremos ejemplos reales de administración general:
+
+    **Gestión de Contenido**: Crear borradores de entradas, actualizar páginas obsoletas o revisar comentarios usando lenguaje natural desde tu chat de IA favorito.
+
+    **Gestión de Medios**: Subir y optimizar descripciones de imágenes sin abrir la biblioteca de medios.
+
+    **Gestión de SEO**: Aplicar a la web conceptos SEO.
+
+    **Configuración y Mantenimiento**: Consultar usuarios, verificar el estado de los plugins o incluso realizar cambios de configuración básicos mediante prompts sencillos.
+
+**Público objetivo:**
+
+Esta sesión está orientada a desarrolladores de WordPress, administradores, configuradores de contenido técnicos que buscan automatizar el mantenimiento y la gestión diaria de su/s sitio/s.
+
+**Material:**
+Si quieres seguir el ritmo de la charla, trae tu PC con estos requisitos:
+1. WordPress 7.0:
+https://es.wordpress.org/download/releases/#betas
+
+2. Node.js (v21+) instalado en tu equipo:
+https://nodejs.org/es/download
+
+3. Plugin WordPress AI:
+https://es.wordpress.org/plugins/ai/ 
+
+4. Plugin MCP Adapter instalado en WordPress: 
+https://github.com/WordPress/mcp-adapter/releases 
+
+5. Plug-ins de Abilities
+https://es.wordpress.org/plugins/enable-abilities-for-mcp/
+https://github.com/kradyy/wordpress-wae
+
+6. VS Code con Github Copilot o Claude Desktop en tu equipo.
+https://code.visualstudio.com/docs/copilot/overview#_getting-started</abstract>
+<description>La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
+
+En esta sesión práctica, daremos un paso más allá para aplicar esta tecnología a cualquier sitio WordPress (no solo los alojados en plataformas específicas).
+
+Usaremos el **Model Context Protocol (MCP)**, un estándar abierto que actúa como un &quot;conector universal&quot; entre los modelos de lenguaje (LLM) y tus datos. Veremos cómo configurar un servidor MCP en tu propia instalación de WordPress para que clientes populares como Claude Desktop, VSCode o ChatGPT tengan &quot;conciencia&quot; y capacidad de acción directa sobre tu sitio.
+
+Aprenderemos como usar MCP para administrar el sitio.
+
+¿Qué aprenderás?
+
+En este taller/charla, desglosaremos la arquitectura necesaria (Model -&gt; Host -&gt; MCP Server -&gt; MCP Adapter) y mostraremos ejemplos reales de administración general:
+
+    **Gestión de Contenido**: Crear borradores de entradas, actualizar páginas obsoletas o revisar comentarios usando lenguaje natural desde tu chat de IA favorito.
+
+    **Gestión de Medios**: Subir y optimizar descripciones de imágenes sin abrir la biblioteca de medios.
+
+    **Gestión de SEO**: Aplicar a la web conceptos SEO.
+
+    **Configuración y Mantenimiento**: Consultar usuarios, verificar el estado de los plugins o incluso realizar cambios de configuración básicos mediante prompts sencillos.
+
+**Público objetivo:**
+
+Esta sesión está orientada a desarrolladores de WordPress, administradores, configuradores de contenido técnicos que buscan automatizar el mantenimiento y la gestión diaria de su/s sitio/s.
+
+**Material:**
+Si quieres seguir el ritmo de la charla, trae tu PC con estos requisitos:
+1. WordPress 7.0:
+https://es.wordpress.org/download/releases/#betas
+
+2. Node.js (v21+) instalado en tu equipo:
+https://nodejs.org/es/download
+
+3. Plugin WordPress AI:
+https://es.wordpress.org/plugins/ai/ 
+
+4. Plugin MCP Adapter instalado en WordPress: 
+https://github.com/WordPress/mcp-adapter/releases 
+
+5. Plug-ins de Abilities
+https://es.wordpress.org/plugins/enable-abilities-for-mcp/
+https://github.com/kradyy/wordpress-wae
+
+6. VS Code con Github Copilot o Claude Desktop en tu equipo.
+https://code.visualstudio.com/docs/copilot/overview#_getting-started</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="35">fcjurado</person>
+</persons>
+</event>
+<event guid="c5ZMduzjN5Z0uImV8dBU9Q" id="1080">
+<date>2026-06-26T18:30:00+02:00</date>
+<start>16:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1080-operate-your-homelab-apps-using-juju</slug>
+<title>Operate your homelab apps using Juju</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>Juju is adapting the way operation engineers manage their homelab applications. [Juju](https://canonical.com/juju) is an operator orchestration engine that provides a streamlined approach for handling the deployment, integration, and lifecycle management of applications while adhering to industry best practices. However, web application developers face a significant learning curve: They must familiarize themselves with Python, the [Juju operator framework](https://documentation.ubuntu.com/ops/latest/), and the [&quot;charm&quot; ecosystem](https://charmhub.io/) when they create a Juju operator for their application. To bridge the gap, we developed a “fast track” approach to the charming journey. The fast track, called [paas-charm](https://github.com/canonical/paas-charm), is a framework built around [12-factor principles](https://www.google.com/url?q=https://canonical-12-factor-app-support.readthedocs-hosted.com/latest/explanation/how-are-12-factor-principles-applied/&amp;sa=D&amp;source=docs&amp;ust=1774632785769324&amp;usg=AOvVaw1u3qkNtnb9GS0zLx_McsE6) that enables Flask, Django, FastAPI, Go, ExpressJS, and Spring Boot developers to set up a fully integrated and observable Kubernetes environment for their applications. This approach makes Juju more accessible to developers of all experience levels by eliminating the need to master charming. 
+
+In this talk, we will introduce the fast track approach for onboarding a software application into the Juju ecosystem. Using popular homelab apps as an example, we will walk through the steps to deploy an app using Juju, showing how straightforward it is to create [light and secure container images](https://documentation.ubuntu.com/rockcraft/stable/), initialize, and operate homelab applications. By the end of the talk, attendees will have a clear understanding of the fast track approach, its built-in integrations, the development process from source to deployment and beyond.
+</abstract>
+<description>Juju is adapting the way operation engineers manage their homelab applications. [Juju](https://canonical.com/juju) is an operator orchestration engine that provides a streamlined approach for handling the deployment, integration, and lifecycle management of applications while adhering to industry best practices. However, web application developers face a significant learning curve: They must familiarize themselves with Python, the [Juju operator framework](https://documentation.ubuntu.com/ops/latest/), and the [&quot;charm&quot; ecosystem](https://charmhub.io/) when they create a Juju operator for their application. To bridge the gap, we developed a “fast track” approach to the charming journey. The fast track, called [paas-charm](https://github.com/canonical/paas-charm), is a framework built around [12-factor principles](https://www.google.com/url?q=https://canonical-12-factor-app-support.readthedocs-hosted.com/latest/explanation/how-are-12-factor-principles-applied/&amp;sa=D&amp;source=docs&amp;ust=1774632785769324&amp;usg=AOvVaw1u3qkNtnb9GS0zLx_McsE6) that enables Flask, Django, FastAPI, Go, ExpressJS, and Spring Boot developers to set up a fully integrated and observable Kubernetes environment for their applications. This approach makes Juju more accessible to developers of all experience levels by eliminating the need to master charming. 
+
+In this talk, we will introduce the fast track approach for onboarding a software application into the Juju ecosystem. Using popular homelab apps as an example, we will walk through the steps to deploy an app using Juju, showing how straightforward it is to create [light and secure container images](https://documentation.ubuntu.com/rockcraft/stable/), initialize, and operate homelab applications. By the end of the talk, attendees will have a clear understanding of the fast track approach, its built-in integrations, the development process from source to deployment and beyond.
+</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3781">Erin Conley</person>
+<person id="3149">Grégory Schiano</person>
+</persons>
+</event>
+<event guid="YwrfJ9O-WSdsGHezpxFjjg" id="1095">
+<date>2026-06-26T19:30:00+02:00</date>
+<start>17:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1095-tu-maquina-tus-modelos-tus-reglas-el-poder-de-la-ia-sin-conexion</slug>
+<title>Tu máquina, tus modelos, tus reglas: El poder de la IA sin conexión</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>Todos hablan de Inteligencia Artificial, pero pocos te enseñan cómo aterrizarla en un negocio tradicional para ahorrar miles de euros. En este taller práctico, destriparemos el caso real de un negocio que eliminó sus altísimas facturas de procesado de catálogo de su Woocommerce (adiós, SaaS caros) montando su propia IA de código abierto.
+Trae tu portátil: nos mancharemos las manos configurando y desplegando desde cero un modelo de IA en local para que domines la tecnología, proceses información de forma masiva y dejes de depender económicamente de terceros.</abstract>
+<description>Todos hablan de Inteligencia Artificial, pero pocos te enseñan cómo aterrizarla en un negocio tradicional para ahorrar miles de euros. En este taller práctico, destriparemos el caso real de un negocio que eliminó sus altísimas facturas de procesado de catálogo de su Woocommerce (adiós, SaaS caros) montando su propia IA de código abierto.
+Trae tu portátil: nos mancharemos las manos configurando y desplegando desde cero un modelo de IA en local para que domines la tecnología, proceses información de forma masiva y dejes de depender económicamente de terceros.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1352">Fede</person>
+</persons>
+</event>
+<event guid="XUaxEsUhQzsu3FW0eI-BLA" id="1082">
+<date>2026-06-26T20:30:00+02:00</date>
+<start>18:30</start>
+<duration>00:45</duration>
+<room>Sala Canillas 013</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1082-why-most-tech-communities-die-and-how-to-make-sure-yours-doesn-t</slug>
+<title>Why most tech communities die (and how to make sure yours doesn&#39;t)</title>
+<subtitle>Practical lessons from 15 years of building and sustaining communities</subtitle>
+<track></track>
+<abstract>Running a tech community doesn&#39;t require being a management expert. It requires concrete tactics, knowing about event formats, and learning from people who&#39;ve already tried.
+
+In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old ?? ?).
+
+I&#39;ll combine lessons gathered by collaborating with other organizers through [Community Builders](https://combuilderses.github.io/), open spaces, and other gatherings with community leaders ([like these](https://github.com/orgs/ComBuildersES/discussions/categories/encuentros)), and things I have learned while [contributing to an **open directory of 400+ tech communities**](https://combuilderses.github.io/communities-directory/en/) in Spain.
+
+I&#39;ll share tips &amp; ideas to attract new people, keep them engaged, encourage others to step up and lead events, fund your community without burning out, and avoid the whole thing collapsing when one person leaves.
+
+My goal is for you to walk away with resources and ideas to spin up a community, or help boost an existing one.</abstract>
+<description>Running a tech community doesn&#39;t require being a management expert. It requires concrete tactics, knowing about event formats, and learning from people who&#39;ve already tried.
+
+In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old ?? ?).
+
+I&#39;ll combine lessons gathered by collaborating with other organizers through [Community Builders](https://combuilderses.github.io/), open spaces, and other gatherings with community leaders ([like these](https://github.com/orgs/ComBuildersES/discussions/categories/encuentros)), and things I have learned while [contributing to an **open directory of 400+ tech communities**](https://combuilderses.github.io/communities-directory/en/) in Spain.
+
+I&#39;ll share tips &amp; ideas to attract new people, keep them engaged, encourage others to step up and lead events, fund your community without burning out, and avoid the whole thing collapsing when one person leaves.
+
+My goal is for you to walk away with resources and ideas to spin up a community, or help boost an existing one.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="2452">Raúl Jiménez Ortega</person>
+</persons>
+</event>
+</room>
 <room name="Sala Benalmádena 002">
 <event guid="NzGvmbT7IOXwfUTYyOyhnw" id="1133">
 <date>2026-06-26T11:30:00+02:00</date>
@@ -630,149 +988,72 @@ We&#39;ll also look at what&#39;s next for xcover: removing the kernel trap cost
 </persons>
 </event>
 </room>
-<room name="Sala Canillas 013">
-<event guid="2YRsoZdINrGTM6JPrwdxNg" id="1101">
-<date>2026-06-26T11:30:00+02:00</date>
-<start>09:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1101-las-claves-de-la-seguridad-en-ubuntu</slug>
-<title>Las claves de la seguridad en Ubuntu</title>
-<subtitle>Una mirada desde el interior del Security Team</subtitle>
-<track></track>
-<abstract>En un panorama de ciberamenazas cada vez más complejas, la gestión integral de la seguridad de un sistema operativo, desde el kernel hasta las aplicaciones de usuario, requiere mucho más que parches reactivos; exige una estrategia proactiva y multicapa. En esta sesión, abriremos las puertas del equipo de Seguridad de Ubuntu para compartir de primera mano cómo garantizamos que la distribución sea y se mantenga como una de las plataformas más robustas del mundo.
-
-Exploraremos nuestra metodología para gestionar y corregir vulnerabilidades en miles de paquetes, destacando cómo equilibramos la estabilidad con la entrega rápida de actualizaciones críticas. Además, veremos cómo estamos integrando la Inteligencia Artificial en nuestros flujos de trabajo para escalar estas operaciones con precisión.
-Más allá de la respuesta a incidentes, analizaremos las iniciativas de hardening de Ubuntu, diseñadas para mitigar proactivamente posibles amenazas incluso antes de que sean descubiertas. Paralelamente, abordaremos la filosofía de seguridad de los Snaps, detallando cómo la participación directa de nuestro equipo en el confinamiento y supervisión de las aplicaciones en la Snap Store contribuye decisivamente a la seguridad del ecosistema.
-
-Ya seas desarrollador, administrador de sistemas o entusiasta de la seguridad, descubrirás la ingeniería y la innovación que protegen el ecosistema de Ubuntu.</abstract>
-<description>En un panorama de ciberamenazas cada vez más complejas, la gestión integral de la seguridad de un sistema operativo, desde el kernel hasta las aplicaciones de usuario, requiere mucho más que parches reactivos; exige una estrategia proactiva y multicapa. En esta sesión, abriremos las puertas del equipo de Seguridad de Ubuntu para compartir de primera mano cómo garantizamos que la distribución sea y se mantenga como una de las plataformas más robustas del mundo.
-
-Exploraremos nuestra metodología para gestionar y corregir vulnerabilidades en miles de paquetes, destacando cómo equilibramos la estabilidad con la entrega rápida de actualizaciones críticas. Además, veremos cómo estamos integrando la Inteligencia Artificial en nuestros flujos de trabajo para escalar estas operaciones con precisión.
-Más allá de la respuesta a incidentes, analizaremos las iniciativas de hardening de Ubuntu, diseñadas para mitigar proactivamente posibles amenazas incluso antes de que sean descubiertas. Paralelamente, abordaremos la filosofía de seguridad de los Snaps, detallando cómo la participación directa de nuestro equipo en el confinamiento y supervisión de las aplicaciones en la Snap Store contribuye decisivamente a la seguridad del ecosistema.
-
-Ya seas desarrollador, administrador de sistemas o entusiasta de la seguridad, descubrirás la ingeniería y la innovación que protegen el ecosistema de Ubuntu.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3966">Federico Quattrin</person>
-</persons>
-</event>
-<event guid="TvUPa0loi2L55dfbvPwjXw" id="1079">
+<room name="Sala Benamocarra 23">
+<event guid="0Jfe13-eXRsZF81Jb60Ftw" id="1118">
 <date>2026-06-26T12:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1079-stop-wasting-nodes-a-surgical-way-to-make-overcommit-on-kubernetes</slug>
-<title>Stop wasting nodes! A surgical way to make overcommit on Kubernetes</title>
-<subtitle>Kubernetes overcommit operator</subtitle>
-<track></track>
-<abstract>In a large organization, developers shouldn’t need to manage infrastructure complexity. Most configurations are predefined through standardized templates, keeping teams focused on code and business logic rather than cluster tuning. Our challenge was that Kubernetes nodes appeared fully allocated while much of their capacity remained unused due to oversized resource requests. By introducing dynamic overcommit through our operator, we improved node utilization, reduced infrastructure usage for non critical workloads, and maintained full stability for critical services, all without requiring any changes from development teams.
-
-At peak events large-scale Kubernetes environments must handle extreme load variations. Static resource requests often cause massive hidden capacity nodes to appear full while most CPU or memory remains unused. A single, uniform overcommit policy can’t safely account for differences between critical and non-critical workloads. This approach allows us to reserve more resources for the most critical applications while still improving overall cluster utilization.
-
-We built k8s-overcommit Operator, an open-source Kubernetes operator that automates fine-grained overcommit control. It defines reusable Overcommit Classes through Custom Resource Definitions (CRDs) and enforces safety with validating admission webhooks. This enables consistent, policy-driven overcommit across workloads without manual configuration.
-
-These policies can be applied at the pod level, namespace level, or set as a default for the entire cluster.
-
-Designed to be vendor-agnostic, the operator runs seamlessly on any Kubernetes distribution. It helps organizations to improve node density, and reduce cost while preserving the stability of critical workloads.</abstract>
-<description>In a large organization, developers shouldn’t need to manage infrastructure complexity. Most configurations are predefined through standardized templates, keeping teams focused on code and business logic rather than cluster tuning. Our challenge was that Kubernetes nodes appeared fully allocated while much of their capacity remained unused due to oversized resource requests. By introducing dynamic overcommit through our operator, we improved node utilization, reduced infrastructure usage for non critical workloads, and maintained full stability for critical services, all without requiring any changes from development teams.
-
-At peak events large-scale Kubernetes environments must handle extreme load variations. Static resource requests often cause massive hidden capacity nodes to appear full while most CPU or memory remains unused. A single, uniform overcommit policy can’t safely account for differences between critical and non-critical workloads. This approach allows us to reserve more resources for the most critical applications while still improving overall cluster utilization.
-
-We built k8s-overcommit Operator, an open-source Kubernetes operator that automates fine-grained overcommit control. It defines reusable Overcommit Classes through Custom Resource Definitions (CRDs) and enforces safety with validating admission webhooks. This enables consistent, policy-driven overcommit across workloads without manual configuration.
-
-These policies can be applied at the pod level, namespace level, or set as a default for the entire cluster.
-
-Designed to be vendor-agnostic, the operator runs seamlessly on any Kubernetes distribution. It helps organizations to improve node density, and reduce cost while preserving the stability of critical workloads.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3780">Enrique Andrés Villar</person>
-<person id="3897">luisreciomelero</person>
-</persons>
-</event>
-<event guid="Q9m8_paOU7lP2tTzEcZ7Zw" id="979">
-<date>2026-06-26T13:30:00+02:00</date>
-<start>11:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>es</language>
-<slug>979-plataforma-de-domotica-open-source</slug>
-<title>Plataforma de Domotica Open Source</title>
-<subtitle>Domotic AI</subtitle>
-<track></track>
-<abstract>Demostración práctica sobre la instalación, configuración y uso de una avanzada plataforma de domótica diseñada para la gestión integral y el monitoreo de alertas en entornos residenciales. El sistema, cuyo código fuente y documentación técnica se encuentran disponibles en el repositorio público [https://github.com/adriandy89/domotic-ai](https://github.com/adriandy89/domotic-ai), ha sido desarrollado con el objetivo de centralizar el control de una o varias viviendas de manera eficiente y escalable.
-
-Uno de los pilares fundamentales de esta solución es su capacidad de interoperabilidad. La plataforma permite la integración fluida de una amplia gama de dispositivos basados en el protocolo Zigbee, tales como sensores de movimiento, contactos de puerta/ventana, sensores de temperatura y actuadores inteligentes. Además, su arquitectura flexible facilita la incorporación de otros estándares y tecnologías IoT (Internet de las Cosas), permitiendo al usuario personalizar la red domótica según sus necesidades específicas.
-
-El sistema no solo se enfoca en el control remoto, sino que prioriza la seguridad mediante un motor de alertas inteligentes. Estas notificaciones permiten una supervisión constante del estado de los inmuebles, garantizando una respuesta rápida ante cualquier eventualidad. En definitiva, este proyecto ofrece una infraestructura robusta para quienes buscan una gestión automatizada, moderna y centralizada del hogar digital.
-</abstract>
-<description>Demostración práctica sobre la instalación, configuración y uso de una avanzada plataforma de domótica diseñada para la gestión integral y el monitoreo de alertas en entornos residenciales. El sistema, cuyo código fuente y documentación técnica se encuentran disponibles en el repositorio público [https://github.com/adriandy89/domotic-ai](https://github.com/adriandy89/domotic-ai), ha sido desarrollado con el objetivo de centralizar el control de una o varias viviendas de manera eficiente y escalable.
-
-Uno de los pilares fundamentales de esta solución es su capacidad de interoperabilidad. La plataforma permite la integración fluida de una amplia gama de dispositivos basados en el protocolo Zigbee, tales como sensores de movimiento, contactos de puerta/ventana, sensores de temperatura y actuadores inteligentes. Además, su arquitectura flexible facilita la incorporación de otros estándares y tecnologías IoT (Internet de las Cosas), permitiendo al usuario personalizar la red domótica según sus necesidades específicas.
-
-El sistema no solo se enfoca en el control remoto, sino que prioriza la seguridad mediante un motor de alertas inteligentes. Estas notificaciones permiten una supervisión constante del estado de los inmuebles, garantizando una respuesta rápida ante cualquier eventualidad. En definitiva, este proyecto ofrece una infraestructura robusta para quienes buscan una gestión automatizada, moderna y centralizada del hogar digital.
-</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3640">Adrian Duardo Yanes</person>
-<person id="3890">jduardo</person>
-</persons>
-</event>
-<event guid="0Jfe13-eXRsZF81Jb60Ftw" id="1118">
-<date>2026-06-26T14:30:00+02:00</date>
-<start>12:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
+<room>Sala Benamocarra 23</room>
 <type>Talk</type>
 <language>en</language>
 <slug>1118-openprinting-we-continue-to-make-printing-just-work</slug>
 <title>OpenPrinting - We continue to make printing just work!</title>
-<subtitle>Stay tuned ...</subtitle>
+<subtitle>2001 - 2026: 25 years of OpenPrinting!</subtitle>
 <track></track>
-<abstract>**Exact content TBD**
+<abstract>Conference attendees to Till:
+&gt; *Printing works better than under Windows or Mac!*
 
-Due to the fact that I got laid off from Canonical last year things are changing at OpenPrinting to assure that we can continue our work in the future.
+Michael Tunnell, TuxDigital, says in [one of his videos](https://youtu.be/sc0B_ckmGwQ?si=HDw5pAotgeCkDFlB&amp;t=180):
+&gt; *There is no such thing like a pain-free experience of printing under Windows ... Linux printing is ridiculously good ...*
 
-This talk is about where we are and what we plan to carry on to keep the work on this essential part of the operating system going.
+This year we are celebrating the 25th anniversary of OpenPrinting. 
 
-The exact content will depend on our progress and this abstract will get edited appropriately when it comes closer to the conference.
+**After having been laid off from Canonical last year I am now covered by the Sovereign Tech Agency until the end of this year. After that I need sponsors and/or members, especially companies who benefit from printing just working in Linux and open source software. So your help is needed.**
 
-See also the linked videos.
+In this talk I will first tell what we are doing and what we have achieved.
+
+Then I will go through our current work: What is planned for CUPS? How do we improve the desktop experience and how do we make the desktop ready for CUPS 3.x?
+
+And I am not only talking about KDE and GNOME but also about the newcomer COSMIC and my collaboration with System 76.
+
+The printing stack is an essential part of the system infrastructure. Therefore it must be reliable and secure, and this requires thorough testing of the code. I will tell about our new development in CI testing, fuzz testing with OSS-Fuzz, and having gotten security-audited.
+
+And to conclude, I will have a special guest today, Akarshan Kapoor, former GSoC contributor for OpenPrinting, presenting the concept of Scanner Applications, scanner drivers for immutable systems and sandboxed packaging. He will also demo his work on the hallway track, at least if we get the hardware needed.
+
+See also the videos linked above.
 
 - [OpenPrinting](https://www.openprinting.org/)
-- [OpenPrinting News](https://openprinting.github.io/news/)
-- [OpenPrinting 25 years](https://openprinting.github.io/OpenPrinting-News-25-years-of-working-full-time-for-printing-with-free-open-source-software/)
-- [Tech over Tea #299](https://openprinting.github.io/OpenPrinting-News-Tech-over-Tea-300-Brodie-interviews-Till-Kamppeter/)
+- [OpenPrinting News](https://openprinting.github.io/news)
+- [OpenPrinting 25 years](https://openprinting.github.io/OpenPrinting-News-25-years-of-working-full-time-for-printing-with-free-open-source-software)
+- [Tech over Tea #299](https://openprinting.github.io/OpenPrinting-News-Tech-over-Tea-299-Brodie-interviews-Till-Kamppeter)
 - [Google Summer of Code](https://openprinting.github.io/OpenPrinting-News-Google-Summer-of-Code-2025-Our-most-successful-one/)
 - [Opportunity Open Source](https://www.linkedin.com/company/opportunityopensource/posts/)</abstract>
-<description>**Exact content TBD**
+<description>Conference attendees to Till:
+&gt; *Printing works better than under Windows or Mac!*
 
-Due to the fact that I got laid off from Canonical last year things are changing at OpenPrinting to assure that we can continue our work in the future.
+Michael Tunnell, TuxDigital, says in [one of his videos](https://youtu.be/sc0B_ckmGwQ?si=HDw5pAotgeCkDFlB&amp;t=180):
+&gt; *There is no such thing like a pain-free experience of printing under Windows ... Linux printing is ridiculously good ...*
 
-This talk is about where we are and what we plan to carry on to keep the work on this essential part of the operating system going.
+This year we are celebrating the 25th anniversary of OpenPrinting. 
 
-The exact content will depend on our progress and this abstract will get edited appropriately when it comes closer to the conference.
+**After having been laid off from Canonical last year I am now covered by the Sovereign Tech Agency until the end of this year. After that I need sponsors and/or members, especially companies who benefit from printing just working in Linux and open source software. So your help is needed.**
 
-See also the linked videos.
+In this talk I will first tell what we are doing and what we have achieved.
+
+Then I will go through our current work: What is planned for CUPS? How do we improve the desktop experience and how do we make the desktop ready for CUPS 3.x?
+
+And I am not only talking about KDE and GNOME but also about the newcomer COSMIC and my collaboration with System 76.
+
+The printing stack is an essential part of the system infrastructure. Therefore it must be reliable and secure, and this requires thorough testing of the code. I will tell about our new development in CI testing, fuzz testing with OSS-Fuzz, and having gotten security-audited.
+
+And to conclude, I will have a special guest today, Akarshan Kapoor, former GSoC contributor for OpenPrinting, presenting the concept of Scanner Applications, scanner drivers for immutable systems and sandboxed packaging. He will also demo his work on the hallway track, at least if we get the hardware needed.
+
+See also the videos linked above.
 
 - [OpenPrinting](https://www.openprinting.org/)
-- [OpenPrinting News](https://openprinting.github.io/news/)
-- [OpenPrinting 25 years](https://openprinting.github.io/OpenPrinting-News-25-years-of-working-full-time-for-printing-with-free-open-source-software/)
-- [Tech over Tea #299](https://openprinting.github.io/OpenPrinting-News-Tech-over-Tea-300-Brodie-interviews-Till-Kamppeter/)
+- [OpenPrinting News](https://openprinting.github.io/news)
+- [OpenPrinting 25 years](https://openprinting.github.io/OpenPrinting-News-25-years-of-working-full-time-for-printing-with-free-open-source-software)
+- [Tech over Tea #299](https://openprinting.github.io/OpenPrinting-News-Tech-over-Tea-299-Brodie-interviews-Till-Kamppeter)
 - [Google Summer of Code](https://openprinting.github.io/OpenPrinting-News-Google-Summer-of-Code-2025-Our-most-successful-one/)
 - [Opportunity Open Source](https://www.linkedin.com/company/opportunityopensource/posts/)</description>
 <recording>
@@ -781,263 +1062,7 @@ See also the linked videos.
 </recording>
 <persons>
 <person id="3216">Till Kamppeter</person>
-</persons>
-</event>
-<event guid="xC8BWRkC1Z3s1fMns4Ld5Q" id="1089">
-<date>2026-06-26T15:30:00+02:00</date>
-<start>13:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1089-coda-a-new-contribution-model-for-open-source</slug>
-<title>CODA: A new contribution model for open source</title>
-<subtitle>How an aggregated task tracker and mentorship solve the contributor&#39;s dilemma</subtitle>
-<track></track>
-<abstract>Open source needs contributors, but traditional onboarding is broken. Finding a project, understanding the codebase, and making a first pull request is intimidating. Meanwhile, maintainers desperately want help but lack the bandwidth to guide newcomers. We need a paradigm shift: moving from contributors working across isolated repositories to tasks finding *them* in a centralized, supported environment.
-
-Canonical&#39;s Open Documentation Academy (CODA) offers a solution. Now two years old, it unites newcomers, experts, and maintainers to lower the barrier to entry. At its core is the *aggregated task list*, a &quot;social feed&quot; where users browse bite-sized, clearly scoped tasks across participating projects. Momentum is growing: in just the last six months, it helped merge over 50 contributions from 26+ individuals across numerous open source projects.
-
-This data-driven talk explores where the Academy has succeeded and what it could do better. We will present metrics on task claims versus completions, analyzing contribution volume, activation, and drop-off rates before and after project enrollment. Crucially, the data highlights how *task mentoring* is the key variable pushing completion rates up.
-
-Finally, we will outline the value proposition for maintainers seeking mentored contributors, and argue that this aggregated task model could and should be scaled beyond documentation, spanning project management, legal assistance, design, programming, and marketing.</abstract>
-<description>Open source needs contributors, but traditional onboarding is broken. Finding a project, understanding the codebase, and making a first pull request is intimidating. Meanwhile, maintainers desperately want help but lack the bandwidth to guide newcomers. We need a paradigm shift: moving from contributors working across isolated repositories to tasks finding *them* in a centralized, supported environment.
-
-Canonical&#39;s Open Documentation Academy (CODA) offers a solution. Now two years old, it unites newcomers, experts, and maintainers to lower the barrier to entry. At its core is the *aggregated task list*, a &quot;social feed&quot; where users browse bite-sized, clearly scoped tasks across participating projects. Momentum is growing: in just the last six months, it helped merge over 50 contributions from 26+ individuals across numerous open source projects.
-
-This data-driven talk explores where the Academy has succeeded and what it could do better. We will present metrics on task claims versus completions, analyzing contribution volume, activation, and drop-off rates before and after project enrollment. Crucially, the data highlights how *task mentoring* is the key variable pushing completion rates up.
-
-Finally, we will outline the value proposition for maintainers seeking mentored contributors, and argue that this aggregated task model could and should be scaled beyond documentation, spanning project management, legal assistance, design, programming, and marketing.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3523">Graham Morrison</person>
-</persons>
-</event>
-<event guid="4D15vhJJ6jv8-7RD-XHBbg" id="1067">
-<date>2026-06-26T17:30:00+02:00</date>
-<start>15:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1067-wordpress-mcp-integracion-con-clientes-de-ia-para-una-administracion-simple</slug>
-<title>WordPress &amp; MCP: Integración con Clientes de IA para una administración simple</title>
-<subtitle>Del &#39;clic&#39; al &#39;prompt&#39;: Implementación del protocolo MCP para la administración de sitios WordPress</subtitle>
-<track></track>
-<abstract>La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
-
-En esta sesión práctica, daremos un paso más allá para aplicar esta tecnología a cualquier sitio WordPress (no solo los alojados en plataformas específicas).
-
-Usaremos el **Model Context Protocol (MCP)**, un estándar abierto que actúa como un &quot;conector universal&quot; entre los modelos de lenguaje (LLM) y tus datos. Veremos cómo configurar un servidor MCP en tu propia instalación de WordPress para que clientes populares como Claude Desktop, VSCode o ChatGPT tengan &quot;conciencia&quot; y capacidad de acción directa sobre tu sitio.
-
-Aprenderemos como usar MCP para administrar el sitio.
-
-¿Qué aprenderás?
-
-En este taller/charla, desglosaremos la arquitectura necesaria (Model -&gt; Host -&gt; MCP Server -&gt; MCP Adapter) y mostraremos ejemplos reales de administración general:
-
-    **Gestión de Contenido**: Crear borradores de entradas, actualizar páginas obsoletas o revisar comentarios usando lenguaje natural desde tu chat de IA favorito.
-
-    **Gestión de Medios**: Subir y optimizar descripciones de imágenes sin abrir la biblioteca de medios.
-
-    **Gestión de SEO**: Aplicar a la web conceptos SEO.
-
-    **Configuración y Mantenimiento**: Consultar usuarios, verificar el estado de los plugins o incluso realizar cambios de configuración básicos mediante prompts sencillos.
-
-**Público objetivo:**
-
-Esta sesión está orientada a desarrolladores de WordPress, administradores, configuradores de contenido técnicos que buscan automatizar el mantenimiento y la gestión diaria de su/s sitio/s.
-
-**Material:**
-Si quieres seguir el ritmo de la charla, trae tu PC con estos requisitos:
-1. WordPress 7.0:
-https://es.wordpress.org/download/releases/#betas
-
-2. Node.js (v21+) instalado en tu equipo:
-https://nodejs.org/es/download
-
-3. Plugin WordPress AI:
-https://es.wordpress.org/plugins/ai/ 
-
-4. Plugin MCP Adapter instalado en WordPress: 
-https://github.com/WordPress/mcp-adapter/releases 
-
-5. Plug-ins de Abilities
-https://es.wordpress.org/plugins/enable-abilities-for-mcp/
-https://github.com/kradyy/wordpress-wae
-
-6. VS Code con Github Copilot o Claude Desktop en tu equipo.
-https://code.visualstudio.com/docs/copilot/overview#_getting-started</abstract>
-<description>La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
-
-En esta sesión práctica, daremos un paso más allá para aplicar esta tecnología a cualquier sitio WordPress (no solo los alojados en plataformas específicas).
-
-Usaremos el **Model Context Protocol (MCP)**, un estándar abierto que actúa como un &quot;conector universal&quot; entre los modelos de lenguaje (LLM) y tus datos. Veremos cómo configurar un servidor MCP en tu propia instalación de WordPress para que clientes populares como Claude Desktop, VSCode o ChatGPT tengan &quot;conciencia&quot; y capacidad de acción directa sobre tu sitio.
-
-Aprenderemos como usar MCP para administrar el sitio.
-
-¿Qué aprenderás?
-
-En este taller/charla, desglosaremos la arquitectura necesaria (Model -&gt; Host -&gt; MCP Server -&gt; MCP Adapter) y mostraremos ejemplos reales de administración general:
-
-    **Gestión de Contenido**: Crear borradores de entradas, actualizar páginas obsoletas o revisar comentarios usando lenguaje natural desde tu chat de IA favorito.
-
-    **Gestión de Medios**: Subir y optimizar descripciones de imágenes sin abrir la biblioteca de medios.
-
-    **Gestión de SEO**: Aplicar a la web conceptos SEO.
-
-    **Configuración y Mantenimiento**: Consultar usuarios, verificar el estado de los plugins o incluso realizar cambios de configuración básicos mediante prompts sencillos.
-
-**Público objetivo:**
-
-Esta sesión está orientada a desarrolladores de WordPress, administradores, configuradores de contenido técnicos que buscan automatizar el mantenimiento y la gestión diaria de su/s sitio/s.
-
-**Material:**
-Si quieres seguir el ritmo de la charla, trae tu PC con estos requisitos:
-1. WordPress 7.0:
-https://es.wordpress.org/download/releases/#betas
-
-2. Node.js (v21+) instalado en tu equipo:
-https://nodejs.org/es/download
-
-3. Plugin WordPress AI:
-https://es.wordpress.org/plugins/ai/ 
-
-4. Plugin MCP Adapter instalado en WordPress: 
-https://github.com/WordPress/mcp-adapter/releases 
-
-5. Plug-ins de Abilities
-https://es.wordpress.org/plugins/enable-abilities-for-mcp/
-https://github.com/kradyy/wordpress-wae
-
-6. VS Code con Github Copilot o Claude Desktop en tu equipo.
-https://code.visualstudio.com/docs/copilot/overview#_getting-started</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="35">fcjurado</person>
-</persons>
-</event>
-<event guid="c5ZMduzjN5Z0uImV8dBU9Q" id="1080">
-<date>2026-06-26T18:30:00+02:00</date>
-<start>16:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1080-operate-your-homelab-apps-using-juju</slug>
-<title>Operate your homelab apps using Juju</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>Juju is adapting the way operation engineers manage their homelab applications. [Juju](https://canonical.com/juju) is an operator orchestration engine that provides a streamlined approach for handling the deployment, integration, and lifecycle management of applications while adhering to industry best practices. However, web application developers face a significant learning curve: They must familiarize themselves with Python, the [Juju operator framework](https://documentation.ubuntu.com/ops/latest/), and the [&quot;charm&quot; ecosystem](https://charmhub.io/) when they create a Juju operator for their application. To bridge the gap, we developed a “fast track” approach to the charming journey. The fast track, called [paas-charm](https://github.com/canonical/paas-charm), is a framework built around [12-factor principles](https://www.google.com/url?q=https://canonical-12-factor-app-support.readthedocs-hosted.com/latest/explanation/how-are-12-factor-principles-applied/&amp;sa=D&amp;source=docs&amp;ust=1774632785769324&amp;usg=AOvVaw1u3qkNtnb9GS0zLx_McsE6) that enables Flask, Django, FastAPI, Go, ExpressJS, and Spring Boot developers to set up a fully integrated and observable Kubernetes environment for their applications. This approach makes Juju more accessible to developers of all experience levels by eliminating the need to master charming. 
-
-In this talk, we will introduce the fast track approach for onboarding a software application into the Juju ecosystem. Using popular homelab apps as an example, we will walk through the steps to deploy an app using Juju, showing how straightforward it is to create [light and secure container images](https://documentation.ubuntu.com/rockcraft/stable/), initialize, and operate homelab applications. By the end of the talk, attendees will have a clear understanding of the fast track approach, its built-in integrations, the development process from source to deployment and beyond.
-</abstract>
-<description>Juju is adapting the way operation engineers manage their homelab applications. [Juju](https://canonical.com/juju) is an operator orchestration engine that provides a streamlined approach for handling the deployment, integration, and lifecycle management of applications while adhering to industry best practices. However, web application developers face a significant learning curve: They must familiarize themselves with Python, the [Juju operator framework](https://documentation.ubuntu.com/ops/latest/), and the [&quot;charm&quot; ecosystem](https://charmhub.io/) when they create a Juju operator for their application. To bridge the gap, we developed a “fast track” approach to the charming journey. The fast track, called [paas-charm](https://github.com/canonical/paas-charm), is a framework built around [12-factor principles](https://www.google.com/url?q=https://canonical-12-factor-app-support.readthedocs-hosted.com/latest/explanation/how-are-12-factor-principles-applied/&amp;sa=D&amp;source=docs&amp;ust=1774632785769324&amp;usg=AOvVaw1u3qkNtnb9GS0zLx_McsE6) that enables Flask, Django, FastAPI, Go, ExpressJS, and Spring Boot developers to set up a fully integrated and observable Kubernetes environment for their applications. This approach makes Juju more accessible to developers of all experience levels by eliminating the need to master charming. 
-
-In this talk, we will introduce the fast track approach for onboarding a software application into the Juju ecosystem. Using popular homelab apps as an example, we will walk through the steps to deploy an app using Juju, showing how straightforward it is to create [light and secure container images](https://documentation.ubuntu.com/rockcraft/stable/), initialize, and operate homelab applications. By the end of the talk, attendees will have a clear understanding of the fast track approach, its built-in integrations, the development process from source to deployment and beyond.
-</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3781">Erin Conley</person>
-<person id="3149">Grégory Schiano</person>
-</persons>
-</event>
-<event guid="YwrfJ9O-WSdsGHezpxFjjg" id="1095">
-<date>2026-06-26T19:30:00+02:00</date>
-<start>17:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1095-tu-maquina-tus-modelos-tus-reglas-el-poder-de-la-ia-sin-conexion</slug>
-<title>Tu máquina, tus modelos, tus reglas: El poder de la IA sin conexión</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>Todos hablan de Inteligencia Artificial, pero pocos te enseñan cómo aterrizarla en un negocio tradicional para ahorrar miles de euros. En este taller práctico, destriparemos el caso real de un negocio que eliminó sus altísimas facturas de procesado de catálogo de su Woocommerce (adiós, SaaS caros) montando su propia IA de código abierto.
-Trae tu portátil: nos mancharemos las manos configurando y desplegando desde cero un modelo de IA en local para que domines la tecnología, proceses información de forma masiva y dejes de depender económicamente de terceros.</abstract>
-<description>Todos hablan de Inteligencia Artificial, pero pocos te enseñan cómo aterrizarla en un negocio tradicional para ahorrar miles de euros. En este taller práctico, destriparemos el caso real de un negocio que eliminó sus altísimas facturas de procesado de catálogo de su Woocommerce (adiós, SaaS caros) montando su propia IA de código abierto.
-Trae tu portátil: nos mancharemos las manos configurando y desplegando desde cero un modelo de IA en local para que domines la tecnología, proceses información de forma masiva y dejes de depender económicamente de terceros.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="1352">Fede</person>
-</persons>
-</event>
-<event guid="XUaxEsUhQzsu3FW0eI-BLA" id="1082">
-<date>2026-06-26T20:30:00+02:00</date>
-<start>18:30</start>
-<duration>00:45</duration>
-<room>Sala Canillas 013</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1082-why-most-tech-communities-die-and-how-to-make-sure-yours-doesn-t</slug>
-<title>Why most tech communities die (and how to make sure yours doesn&#39;t)</title>
-<subtitle>Practical lessons from 15 years of building and sustaining communities</subtitle>
-<track></track>
-<abstract>Running a tech community doesn&#39;t require being a management expert. It requires concrete tactics, knowing about event formats, and learning from people who&#39;ve already tried.
-
-In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old ?? ?).
-
-I&#39;ll combine lessons gathered by collaborating with other organizers through [Community Builders](https://combuilderses.github.io/), open spaces, and other gatherings with community leaders ([like these](https://github.com/orgs/ComBuildersES/discussions/categories/encuentros)), and things I have learned while [contributing to an **open directory of 400+ tech communities**](https://combuilderses.github.io/communities-directory/en/) in Spain.
-
-I&#39;ll share tips &amp; ideas to attract new people, keep them engaged, encourage others to step up and lead events, fund your community without burning out, and avoid the whole thing collapsing when one person leaves.
-
-My goal is for you to walk away with resources and ideas to spin up a community, or help boost an existing one.</abstract>
-<description>Running a tech community doesn&#39;t require being a management expert. It requires concrete tactics, knowing about event formats, and learning from people who&#39;ve already tried.
-
-In this talk, I share what I have experienced, seen, and heard in 20+ years participating in communities and 15+ years running them ([it&#39;s true](https://www.rauljimenez.info/docs/about-me/open-culture), I&#39;m pretty old ?? ?).
-
-I&#39;ll combine lessons gathered by collaborating with other organizers through [Community Builders](https://combuilderses.github.io/), open spaces, and other gatherings with community leaders ([like these](https://github.com/orgs/ComBuildersES/discussions/categories/encuentros)), and things I have learned while [contributing to an **open directory of 400+ tech communities**](https://combuilderses.github.io/communities-directory/en/) in Spain.
-
-I&#39;ll share tips &amp; ideas to attract new people, keep them engaged, encourage others to step up and lead events, fund your community without burning out, and avoid the whole thing collapsing when one person leaves.
-
-My goal is for you to walk away with resources and ideas to spin up a community, or help boost an existing one.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="2452">Raúl Jiménez Ortega</person>
-</persons>
-</event>
-</room>
-<room name="Sala Benamocarra 23">
-<event guid="LWMh98JuP2FqrZjOSITiLg" id="1068">
-<date>2026-06-26T12:30:00+02:00</date>
-<start>10:30</start>
-<duration>00:45</duration>
-<room>Sala Benamocarra 23</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1068-growing-the-linux-app-ecosystem-with-risc-v-and-rva23-platforms</slug>
-<title>Growing the Linux App Ecosystem with RISC-V and RVA23 Platforms</title>
-<subtitle>RISC-V &amp; RVA23</subtitle>
-<track></track>
-<abstract>The Linux application ecosystem continues to expand as new hardware platforms and distribution channels bring Linux to more developers and users worldwide. One of the most promising developments in this space is the rapid growth of the RISC-V ecosystem, which introduces an open instruction set architecture designed to encourage innovation and collaboration across hardware and software communities.
-With the introduction of the RVA23 profile, RISC-V platforms are becoming more standardized and software-friendly, enabling better compatibility for operating systems, development tools, and applications. These improvements help reduce fragmentation and make it easier for developers to build and distribute applications that run reliably across multiple RISC-V devices.
-This session explores how emerging RISC-V platforms—particularly new developer systems and laptops—are helping expand the reach of Linux applications and create new opportunities for developers. We will discuss how standardized profiles like RVA23 support better software portability, how open hardware platforms can attract new contributors, and why growing the developer base is essential for sustaining the Linux app ecosystem.
-Attendees will gain insight into how hardware innovation and open-source collaboration can reinforce each other, enabling a broader and more resilient Linux ecosystem. The session will also highlight practical ways developers, distributions, and communities can participate in building a thriving Linux application landscape for the next generation of computing platforms.</abstract>
-<description>The Linux application ecosystem continues to expand as new hardware platforms and distribution channels bring Linux to more developers and users worldwide. One of the most promising developments in this space is the rapid growth of the RISC-V ecosystem, which introduces an open instruction set architecture designed to encourage innovation and collaboration across hardware and software communities.
-With the introduction of the RVA23 profile, RISC-V platforms are becoming more standardized and software-friendly, enabling better compatibility for operating systems, development tools, and applications. These improvements help reduce fragmentation and make it easier for developers to build and distribute applications that run reliably across multiple RISC-V devices.
-This session explores how emerging RISC-V platforms—particularly new developer systems and laptops—are helping expand the reach of Linux applications and create new opportunities for developers. We will discuss how standardized profiles like RVA23 support better software portability, how open hardware platforms can attract new contributors, and why growing the developer base is essential for sustaining the Linux app ecosystem.
-Attendees will gain insight into how hardware innovation and open-source collaboration can reinforce each other, enabling a broader and more resilient Linux ecosystem. The session will also highlight practical ways developers, distributions, and communities can participate in building a thriving Linux application landscape for the next generation of computing platforms.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3152">Yuning Liang</person>
+<person id="3173">Akarshan Kapoor</person>
 </persons>
 </event>
 <event guid="7hS_72gA4Uya7-E-Mvzt7g" id="1061">
@@ -1450,6 +1475,170 @@ En este taller aprenderás cómo usar técnicas y herramientas modernas de paque
 </room>
 </day>
 <day date="2026-06-27" index="2">
+<room name="Sala Fuengirola">
+<event guid="WsYmFZ82rihn59SuQFWZUw" id="1106">
+<date>2026-06-27T12:00:00+02:00</date>
+<start>10:00</start>
+<duration>00:45</duration>
+<room>Sala Fuengirola</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1106-our-ai-agents-are-finally-in-production-and-now-what</slug>
+<title>Our AI Agents Are Finally In Production — And Now What?</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>The profound impact of Agentic AIs in businesses is making all kind of organizations to focus on creating and launching AI agents. But how is it to do that at scale? 5? 500? 5000?
+In this talk we will present the common challenges that we are facing to build, deploy and run Agentic AI platforms at scale and how we are working to solve them. From the strong foundations of what we have learned while engineering software-intensive platforms for the past 10 years, to the newest, cutting edge aspects that &quot;I wish I had known six months ago&quot;.
+The key topics that will be shared during the talk are:
+- AI agent pipelines.
+- Evaluation: scoring, bias, etc.
+- Observability and feedback loops.
+- Agents as microservices.
+- Model selection and routing.
+The &quot;swiss army knife&quot; of AI-intensive platforms.
+</abstract>
+<description>The profound impact of Agentic AIs in businesses is making all kind of organizations to focus on creating and launching AI agents. But how is it to do that at scale? 5? 500? 5000?
+In this talk we will present the common challenges that we are facing to build, deploy and run Agentic AI platforms at scale and how we are working to solve them. From the strong foundations of what we have learned while engineering software-intensive platforms for the past 10 years, to the newest, cutting edge aspects that &quot;I wish I had known six months ago&quot;.
+The key topics that will be shared during the talk are:
+- AI agent pipelines.
+- Evaluation: scoring, bias, etc.
+- Observability and feedback loops.
+- Agents as microservices.
+- Model selection and routing.
+The &quot;swiss army knife&quot; of AI-intensive platforms.
+</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="94">Jorge Hidalgo</person>
+<person id="368">José María Gutiérrez Ramírez</person>
+</persons>
+</event>
+<event guid="df0Ldm-OmUvaN9Z50XvQfA" id="1031">
+<date>2026-06-27T13:00:00+02:00</date>
+<start>11:00</start>
+<duration>00:45</duration>
+<room>Sala Fuengirola</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1031-introduccion-a-los-componentes-internos-de-una-base-de-datos</slug>
+<title>Introducción a los componentes internos de una base de datos.</title>
+<subtitle></subtitle>
+<track></track>
+<abstract> Seguramente habrás usado bases de datos como Postgres, MySQL, Redis, MongoDB muchas veces en tus proyectos, ¿pero alguna
+  vez te has planteado como se hacen estos monumentos del software? ¿De que esta hecho una base de datos?
+  En esta charla te llevaré por los caminos y entresijos de un sistema de gestion de base de datos, veremos los componentes
+  más comunes, por que son necesarios y como la especialización de estos definen el mundo de las bases de datos.</abstract>
+<description> Seguramente habrás usado bases de datos como Postgres, MySQL, Redis, MongoDB muchas veces en tus proyectos, ¿pero alguna
+  vez te has planteado como se hacen estos monumentos del software? ¿De que esta hecho una base de datos?
+  En esta charla te llevaré por los caminos y entresijos de un sistema de gestion de base de datos, veremos los componentes
+  más comunes, por que son necesarios y como la especialización de estos definen el mundo de las bases de datos.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="2270">Iván Sánchez Valencia</person>
+</persons>
+</event>
+<event guid="3FcGqPAHWgWwViprjEkqfw" id="1086">
+<date>2026-06-27T14:00:00+02:00</date>
+<start>12:00</start>
+<duration>00:45</duration>
+<room>Sala Fuengirola</room>
+<type>Talk</type>
+<language>en</language>
+<slug>1086-renovate-your-life</slug>
+<title>Renovate Your Life</title>
+<subtitle>How we automated dependency updates for 1,300 Repos (and lived to tell the tale)</subtitle>
+<track></track>
+<abstract>Picture this: you&#39;re managing dependencies across 1,300+ repositories, security vulnerabilities pile up faster than dishes in a university dorm, and developers spend more time updating package.json than building features. That was us at Grafana Labs.
+
+What started as &quot;let&#39;s try this [Renovate](https://github.com/renovatebot/renovate) thing&quot; became a full automation adventure. We built a self-hosted Renovate system with opt-in/opt-out flexibility, vulnerability scanning via [OSV](https://osv.dev/) integration, automatic digest pinning, and smart automerge rules that know when to trust a patch versus demand human review.
+
+The real magic happened when we went meta: monitoring our dependency automation using [Grafana](https://github.com/grafana/grafana) dashboards with [Loki](https://github.com/grafana/loki) logs and [Infinity datasource](https://github.com/grafana/grafana-infinity-datasource). We can watch updates flow in real-time, spot bottlenecks, and prove to leadership that automation saves money.
+
+We&#39;ll share real stories behind our metrics, spectacular failures that taught us about rate limiting, creative solutions for monorepo versioning nightmares, and how we convinced skeptical teams that automated dependencies wouldn&#39;t end in disaster. If you&#39;re wondering whether large-scale dependency automation is worth it, this talk provides the roadmap we wish we&#39;d had.</abstract>
+<description>Picture this: you&#39;re managing dependencies across 1,300+ repositories, security vulnerabilities pile up faster than dishes in a university dorm, and developers spend more time updating package.json than building features. That was us at Grafana Labs.
+
+What started as &quot;let&#39;s try this [Renovate](https://github.com/renovatebot/renovate) thing&quot; became a full automation adventure. We built a self-hosted Renovate system with opt-in/opt-out flexibility, vulnerability scanning via [OSV](https://osv.dev/) integration, automatic digest pinning, and smart automerge rules that know when to trust a patch versus demand human review.
+
+The real magic happened when we went meta: monitoring our dependency automation using [Grafana](https://github.com/grafana/grafana) dashboards with [Loki](https://github.com/grafana/loki) logs and [Infinity datasource](https://github.com/grafana/grafana-infinity-datasource). We can watch updates flow in real-time, spot bottlenecks, and prove to leadership that automation saves money.
+
+We&#39;ll share real stories behind our metrics, spectacular failures that taught us about rate limiting, creative solutions for monorepo versioning nightmares, and how we convinced skeptical teams that automated dependencies wouldn&#39;t end in disaster. If you&#39;re wondering whether large-scale dependency automation is worth it, this talk provides the roadmap we wish we&#39;d had.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3787">Philip Hope</person>
+<person id="3788">Dimitrios Sotirakis</person>
+</persons>
+</event>
+<event guid="GEZs4HqsE2LCCE8zYM_waQ" id="1028">
+<date>2026-06-27T15:00:00+02:00</date>
+<start>13:00</start>
+<duration>00:45</duration>
+<room>Sala Fuengirola</room>
+<type>Talk</type>
+<language>es</language>
+<slug>1028-el-fin-de-las-contrasenas-passwordless-en-linux-con-sssd</slug>
+<title>¿El fin de las contraseñas? Passwordless en Linux con SSSD</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>La transición hacia entornos sin contraseñas (**passwordless**) es una realidad imparable, pero su adopción en el escritorio Linux y en sistemas gestionados centralizadamente presenta retos técnicos profundos. Mientras la web avanza rápido, las aplicaciones POSIX y las consolas han quedado rezagadas por las limitaciones históricas de los flujos de autenticación tradicionales.
+
+En esta charla, analizaremos cómo [SSSD](https://sssd.io/) está liderando esta transformación para ofrecer una experiencia passwordless nativa y segura. No se trata solo de añadir soporte para dispositivos externos, sino de rediseñar cómo el sistema operativo entiende la identidad, permitiendo una integración fluida entre el hardware y el software libre para garantizar la soberanía digital de la infraestructura.
+
+Exploraremos los pilares técnicos de esta evolución:
+
+- **FIDO2 y passkeys**: cómo hemos implementado el soporte para que llaves FIDO2 que permitan autenticarse localmente y obtener tickets de **Kerberos** de forma transparente.
+- **Modernización de PAM**: la extensión de la comunicación PAM mediante mensajes JSON, permitiendo flujos visuales (como códigos QR o desafíos biométricos) en entornos como GDM/GNOME que antes eran imposibles.
+- **Identidad federada**: el trabajo conjunto con [FreeIPA](https://www.freeipa.org/) para gestionar identidades externas sin comprometer la seguridad del sistema local.
+
+Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y realizaremos una **demo en vivo** de cómo SSSD está eliminando las barreras de las contraseñas en el ecosistema Linux, **apostando por un estándar abierto y colaborativo entre proyectos upstream**.</abstract>
+<description>La transición hacia entornos sin contraseñas (**passwordless**) es una realidad imparable, pero su adopción en el escritorio Linux y en sistemas gestionados centralizadamente presenta retos técnicos profundos. Mientras la web avanza rápido, las aplicaciones POSIX y las consolas han quedado rezagadas por las limitaciones históricas de los flujos de autenticación tradicionales.
+
+En esta charla, analizaremos cómo [SSSD](https://sssd.io/) está liderando esta transformación para ofrecer una experiencia passwordless nativa y segura. No se trata solo de añadir soporte para dispositivos externos, sino de rediseñar cómo el sistema operativo entiende la identidad, permitiendo una integración fluida entre el hardware y el software libre para garantizar la soberanía digital de la infraestructura.
+
+Exploraremos los pilares técnicos de esta evolución:
+
+- **FIDO2 y passkeys**: cómo hemos implementado el soporte para que llaves FIDO2 que permitan autenticarse localmente y obtener tickets de **Kerberos** de forma transparente.
+- **Modernización de PAM**: la extensión de la comunicación PAM mediante mensajes JSON, permitiendo flujos visuales (como códigos QR o desafíos biométricos) en entornos como GDM/GNOME que antes eran imposibles.
+- **Identidad federada**: el trabajo conjunto con [FreeIPA](https://www.freeipa.org/) para gestionar identidades externas sin comprometer la seguridad del sistema local.
+
+Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y realizaremos una **demo en vivo** de cómo SSSD está eliminando las barreras de las contraseñas en el ecosistema Linux, **apostando por un estándar abierto y colaborativo entre proyectos upstream**.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3740">Iker Pedrosa</person>
+</persons>
+</event>
+<event guid="5CzK3Ao3NhsZtbhPdfwxig" id="1137">
+<date>2026-06-27T15:45:00+02:00</date>
+<start>13:45</start>
+<duration>00:15</duration>
+<room>Sala Fuengirola</room>
+<type>Info</type>
+<language>es</language>
+<slug>1137-cierre-de-opensouthcode-2026-closing-opensouthcode-2026</slug>
+<title>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</abstract>
+<description>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
 <room name="Sala Benamargosa 21">
 <event guid="i5RmD0SRO8f7QR9K41-iMw" id="1141">
 <date>2026-06-27T12:00:00+02:00</date>
@@ -1665,6 +1854,190 @@ You’ll leave with concrete techniques, open-source tooling, and a mental model
 </persons>
 </event>
 </room>
+<room name="Sala Málaga">
+<event guid="arlbeW7t-6EfTXIav4n5dg" id="1134">
+<date>2026-06-27T12:00:00+02:00</date>
+<start>10:00</start>
+<duration>04:00</duration>
+<room>Sala Málaga</room>
+<type>Workshop 4h</type>
+<language>es</language>
+<slug>1134-opensouthkids</slug>
+<title>OpenSouthKids</title>
+<subtitle></subtitle>
+<track></track>
+<abstract>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
+
+OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
+
+Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
+
+OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
+
+Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
+
+Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
+
+Un resumen, con algunos de nuestros clásicos y también algunas novedades:
+
+- Programa un robot humano desenchufao
+- micro:bit para programar pequeños dispositivos
+- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
+- makey makey para jugar con la electricidad
+- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
+- Aprende cómo funcionan los NFCs
+- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
+- YesWeTech Squad Girls
+</abstract>
+<description>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
+
+OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
+
+Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
+
+OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
+
+Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
+
+Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
+
+Un resumen, con algunos de nuestros clásicos y también algunas novedades:
+
+- Programa un robot humano desenchufao
+- micro:bit para programar pequeños dispositivos
+- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
+- makey makey para jugar con la electricidad
+- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
+- Aprende cómo funcionan los NFCs
+- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
+- YesWeTech Squad Girls
+</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+<room name="Sala Frigiliana - 20">
+<event guid="0fWasxGYzhODwlqUlTVNGA" id="977">
+<date>2026-06-27T12:00:00+02:00</date>
+<start>10:00</start>
+<duration>02:00</duration>
+<room>Sala Frigiliana - 20</room>
+<type>Workshop</type>
+<language>en</language>
+<slug>977-how-to-prototype-impactful-products-using-ai</slug>
+<title>How to Prototype Impactful Products Using AI</title>
+<subtitle>Proposals to have a hands on prototyping</subtitle>
+<track></track>
+<abstract>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
+In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
+Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
+
+**The Workflow
+Ideation &amp; Framing**
+
+Using LLMs (ChatGPT / Claude) to sharpen problem statements, analyze user needs, and validate market opportunities before writing a single line of code.
+Rapid Prototyping
+
+Designing clickable, high-fidelity prototypes in Penpot — the open-source design tool — using Lucide Icons for a clean, consistent visual language. No Figma license required.
+AI Integration
+
+Running a local AI model with Ollama — fully open-source, no API keys, no cloud dependency — to power real intelligent features directly from your laptop.
+Functional Build
+
+Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
+Product Logic
+
+Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</abstract>
+<description>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
+In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
+Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
+
+**The Workflow
+Ideation &amp; Framing**
+
+Using LLMs (ChatGPT / Claude) to sharpen problem statements, analyze user needs, and validate market opportunities before writing a single line of code.
+Rapid Prototyping
+
+Designing clickable, high-fidelity prototypes in Penpot — the open-source design tool — using Lucide Icons for a clean, consistent visual language. No Figma license required.
+AI Integration
+
+Running a local AI model with Ollama — fully open-source, no API keys, no cloud dependency — to power real intelligent features directly from your laptop.
+Functional Build
+
+Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
+Product Logic
+
+Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3316">Amalia Gómez</person>
+</persons>
+</event>
+<event guid="K4zdG1vmKs7cHDE1ku-43w" id="990">
+<date>2026-06-27T14:00:00+02:00</date>
+<start>12:00</start>
+<duration>02:00</duration>
+<room>Sala Frigiliana - 20</room>
+<type>Workshop</type>
+<language>en</language>
+<slug>990-load-testing-workshop-with-k6-oss</slug>
+<title>Load testing workshop with k6 OSS</title>
+<subtitle>A hands-on introduction to performance and reliability testing</subtitle>
+<track></track>
+<abstract>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
+
+This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
+
+The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
+
+The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
+
+By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
+
+**Target audience**
+Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
+
+**Requirements**
+
+- An IDE installed to write k6 scripts
+- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
+- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
+- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</abstract>
+<description>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
+
+This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
+
+The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
+
+The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
+
+By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
+
+**Target audience**
+Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
+
+**Requirements**
+
+- An IDE installed to write k6 scripts
+- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
+- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
+- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</description>
+<recording>
+<license />
+<optout>false</optout>
+</recording>
+<persons>
+<person id="3667">Pepe Cano</person>
+</persons>
+</event>
+</room>
 <room name="Sala Canillas 013">
 <event guid="0xiHmTATRujcOtlwNy4HGg" id="1038">
 <date>2026-06-27T12:00:00+02:00</date>
@@ -1807,354 +2180,6 @@ Prepárate para una sesión que **cambiará tu forma de pensar sobre la interacc
 </recording>
 <persons>
 <person id="804">Alfredo Bautista Santos</person>
-</persons>
-</event>
-</room>
-<room name="Sala Frigiliana - 20">
-<event guid="0fWasxGYzhODwlqUlTVNGA" id="977">
-<date>2026-06-27T12:00:00+02:00</date>
-<start>10:00</start>
-<duration>02:00</duration>
-<room>Sala Frigiliana - 20</room>
-<type>Workshop</type>
-<language>en</language>
-<slug>977-how-to-prototype-impactful-products-using-ai</slug>
-<title>How to Prototype Impactful Products Using AI</title>
-<subtitle>Proposals to have a hands on prototyping</subtitle>
-<track></track>
-<abstract>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
-In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
-Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
-
-**The Workflow
-Ideation &amp; Framing**
-
-Using LLMs (ChatGPT / Claude) to sharpen problem statements, analyze user needs, and validate market opportunities before writing a single line of code.
-Rapid Prototyping
-
-Designing clickable, high-fidelity prototypes in Penpot — the open-source design tool — using Lucide Icons for a clean, consistent visual language. No Figma license required.
-AI Integration
-
-Running a local AI model with Ollama — fully open-source, no API keys, no cloud dependency — to power real intelligent features directly from your laptop.
-Functional Build
-
-Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
-Product Logic
-
-Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</abstract>
-<description>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
-In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
-Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
-
-**The Workflow
-Ideation &amp; Framing**
-
-Using LLMs (ChatGPT / Claude) to sharpen problem statements, analyze user needs, and validate market opportunities before writing a single line of code.
-Rapid Prototyping
-
-Designing clickable, high-fidelity prototypes in Penpot — the open-source design tool — using Lucide Icons for a clean, consistent visual language. No Figma license required.
-AI Integration
-
-Running a local AI model with Ollama — fully open-source, no API keys, no cloud dependency — to power real intelligent features directly from your laptop.
-Functional Build
-
-Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
-Product Logic
-
-Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3316">Amalia Gómez</person>
-</persons>
-</event>
-<event guid="K4zdG1vmKs7cHDE1ku-43w" id="990">
-<date>2026-06-27T14:00:00+02:00</date>
-<start>12:00</start>
-<duration>02:00</duration>
-<room>Sala Frigiliana - 20</room>
-<type>Workshop</type>
-<language>en</language>
-<slug>990-load-testing-workshop-with-k6-oss</slug>
-<title>Load testing workshop with k6 OSS</title>
-<subtitle>A hands-on introduction to performance and reliability testing</subtitle>
-<track></track>
-<abstract>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
-
-This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
-
-The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
-
-The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
-
-By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
-
-**Target audience**
-Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
-
-**Requirements**
-
-- An IDE installed to write k6 scripts
-- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
-- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
-- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</abstract>
-<description>Load testing is often treated as a specialized discipline, but as reliability becomes a shared responsibility across engineering teams, developers increasingly need to validate systems under traffic to prevent production issues.
-
-This hands-on workshop introduces the fundamentals of performance and load testing using k6 OSS. Participants will work with a simple demo application and follow guided exercises to learn how to write and run load tests with k6.
-
-The workshop focuses on learning by doing, using practical scenarios inspired by common performance testing challenges. Along the way, participants will explore core k6 OSS features, learn how to extend k6 to test infrastructure components such as databases, and see how AI-assisted tools can help generate test scenarios and accelerate test creation.
-
-The session is interactive, with dedicated time for questions and discussion, and concludes with additional resources to continue learning after the workshop.
-
-By the end of the session, participants will have a solid understanding of performance testing fundamentals and the practical knowledge needed to start applying load testing in their own projects using an open-source stack.
-
-**Target audience**
-Software developers, QA engineers, SREs, and platform engineers interested in performance and load testing or the k6 ecosystem. No prior experience with load testing or k6 is required, although basic programming and testing knowledge is recommended.
-
-**Requirements**
-
-- An IDE installed to write k6 scripts
-- Git and [Docker Compose](https://docs.docker.com/get-started/get-docker/) to run the demo app
-- [k6 OSS](https://grafana.com/docs/k6/latest/set-up/install-k6/) binary installed
-- [k6 studio](https://grafana.com/docs/k6-studio/set-up/install/) installed</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3667">Pepe Cano</person>
-</persons>
-</event>
-</room>
-<room name="Sala Fuengirola">
-<event guid="WsYmFZ82rihn59SuQFWZUw" id="1106">
-<date>2026-06-27T12:00:00+02:00</date>
-<start>10:00</start>
-<duration>00:45</duration>
-<room>Sala Fuengirola</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1106-our-ai-agents-are-finally-in-production-and-now-what</slug>
-<title>Our AI Agents Are Finally In Production — And Now What?</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>The profound impact of Agentic AIs in businesses is making all kind of organizations to focus on creating and launching AI agents. But how is it to do that at scale? 5? 500? 5000?
-In this talk we will present the common challenges that we are facing to build, deploy and run Agentic AI platforms at scale and how we are working to solve them. From the strong foundations of what we have learned while engineering software-intensive platforms for the past 10 years, to the newest, cutting edge aspects that &quot;I wish I had known six months ago&quot;.
-The key topics that will be shared during the talk are:
-- AI agent pipelines.
-- Evaluation: scoring, bias, etc.
-- Observability and feedback loops.
-- Agents as microservices.
-- Model selection and routing.
-The &quot;swiss army knife&quot; of AI-intensive platforms.
-</abstract>
-<description>The profound impact of Agentic AIs in businesses is making all kind of organizations to focus on creating and launching AI agents. But how is it to do that at scale? 5? 500? 5000?
-In this talk we will present the common challenges that we are facing to build, deploy and run Agentic AI platforms at scale and how we are working to solve them. From the strong foundations of what we have learned while engineering software-intensive platforms for the past 10 years, to the newest, cutting edge aspects that &quot;I wish I had known six months ago&quot;.
-The key topics that will be shared during the talk are:
-- AI agent pipelines.
-- Evaluation: scoring, bias, etc.
-- Observability and feedback loops.
-- Agents as microservices.
-- Model selection and routing.
-The &quot;swiss army knife&quot; of AI-intensive platforms.
-</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="94">Jorge Hidalgo</person>
-<person id="368">José María Gutiérrez Ramírez</person>
-</persons>
-</event>
-<event guid="df0Ldm-OmUvaN9Z50XvQfA" id="1031">
-<date>2026-06-27T13:00:00+02:00</date>
-<start>11:00</start>
-<duration>00:45</duration>
-<room>Sala Fuengirola</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1031-introduccion-a-los-componentes-internos-de-una-base-de-datos</slug>
-<title>Introducción a los componentes internos de una base de datos.</title>
-<subtitle></subtitle>
-<track></track>
-<abstract> Seguramente habrás usado bases de datos como Postgres, MySQL, Redis, MongoDB muchas veces en tus proyectos, ¿pero alguna
-  vez te has planteado como se hacen estos monumentos del software? ¿De que esta hecho una base de datos?
-  En esta charla te llevaré por los caminos y entresijos de un sistema de gestion de base de datos, veremos los componentes
-  más comunes, por que son necesarios y como la especialización de estos definen el mundo de las bases de datos.</abstract>
-<description> Seguramente habrás usado bases de datos como Postgres, MySQL, Redis, MongoDB muchas veces en tus proyectos, ¿pero alguna
-  vez te has planteado como se hacen estos monumentos del software? ¿De que esta hecho una base de datos?
-  En esta charla te llevaré por los caminos y entresijos de un sistema de gestion de base de datos, veremos los componentes
-  más comunes, por que son necesarios y como la especialización de estos definen el mundo de las bases de datos.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="2270">Iván Sánchez Valencia</person>
-</persons>
-</event>
-<event guid="3FcGqPAHWgWwViprjEkqfw" id="1086">
-<date>2026-06-27T14:00:00+02:00</date>
-<start>12:00</start>
-<duration>00:45</duration>
-<room>Sala Fuengirola</room>
-<type>Talk</type>
-<language>en</language>
-<slug>1086-renovate-your-life</slug>
-<title>Renovate Your Life</title>
-<subtitle>How we automated dependency updates for 1,300 Repos (and lived to tell the tale)</subtitle>
-<track></track>
-<abstract>Picture this: you&#39;re managing dependencies across 1,300+ repositories, security vulnerabilities pile up faster than dishes in a university dorm, and developers spend more time updating package.json than building features. That was us at Grafana Labs.
-
-What started as &quot;let&#39;s try this [Renovate](https://github.com/renovatebot/renovate) thing&quot; became a full automation adventure. We built a self-hosted Renovate system with opt-in/opt-out flexibility, vulnerability scanning via [OSV](https://osv.dev/) integration, automatic digest pinning, and smart automerge rules that know when to trust a patch versus demand human review.
-
-The real magic happened when we went meta: monitoring our dependency automation using [Grafana](https://github.com/grafana/grafana) dashboards with [Loki](https://github.com/grafana/loki) logs and [Infinity datasource](https://github.com/grafana/grafana-infinity-datasource). We can watch updates flow in real-time, spot bottlenecks, and prove to leadership that automation saves money.
-
-We&#39;ll share real stories behind our metrics, spectacular failures that taught us about rate limiting, creative solutions for monorepo versioning nightmares, and how we convinced skeptical teams that automated dependencies wouldn&#39;t end in disaster. If you&#39;re wondering whether large-scale dependency automation is worth it, this talk provides the roadmap we wish we&#39;d had.</abstract>
-<description>Picture this: you&#39;re managing dependencies across 1,300+ repositories, security vulnerabilities pile up faster than dishes in a university dorm, and developers spend more time updating package.json than building features. That was us at Grafana Labs.
-
-What started as &quot;let&#39;s try this [Renovate](https://github.com/renovatebot/renovate) thing&quot; became a full automation adventure. We built a self-hosted Renovate system with opt-in/opt-out flexibility, vulnerability scanning via [OSV](https://osv.dev/) integration, automatic digest pinning, and smart automerge rules that know when to trust a patch versus demand human review.
-
-The real magic happened when we went meta: monitoring our dependency automation using [Grafana](https://github.com/grafana/grafana) dashboards with [Loki](https://github.com/grafana/loki) logs and [Infinity datasource](https://github.com/grafana/grafana-infinity-datasource). We can watch updates flow in real-time, spot bottlenecks, and prove to leadership that automation saves money.
-
-We&#39;ll share real stories behind our metrics, spectacular failures that taught us about rate limiting, creative solutions for monorepo versioning nightmares, and how we convinced skeptical teams that automated dependencies wouldn&#39;t end in disaster. If you&#39;re wondering whether large-scale dependency automation is worth it, this talk provides the roadmap we wish we&#39;d had.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3787">Philip Hope</person>
-<person id="3788">Dimitrios Sotirakis</person>
-</persons>
-</event>
-<event guid="GEZs4HqsE2LCCE8zYM_waQ" id="1028">
-<date>2026-06-27T15:00:00+02:00</date>
-<start>13:00</start>
-<duration>00:45</duration>
-<room>Sala Fuengirola</room>
-<type>Talk</type>
-<language>es</language>
-<slug>1028-el-fin-de-las-contrasenas-passwordless-en-linux-con-sssd</slug>
-<title>¿El fin de las contraseñas? Passwordless en Linux con SSSD</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>La transición hacia entornos sin contraseñas (**passwordless**) es una realidad imparable, pero su adopción en el escritorio Linux y en sistemas gestionados centralizadamente presenta retos técnicos profundos. Mientras la web avanza rápido, las aplicaciones POSIX y las consolas han quedado rezagadas por las limitaciones históricas de los flujos de autenticación tradicionales.
-
-En esta charla, analizaremos cómo [SSSD](https://sssd.io/) está liderando esta transformación para ofrecer una experiencia passwordless nativa y segura. No se trata solo de añadir soporte para dispositivos externos, sino de rediseñar cómo el sistema operativo entiende la identidad, permitiendo una integración fluida entre el hardware y el software libre para garantizar la soberanía digital de la infraestructura.
-
-Exploraremos los pilares técnicos de esta evolución:
-
-- **FIDO2 y passkeys**: cómo hemos implementado el soporte para que llaves FIDO2 que permitan autenticarse localmente y obtener tickets de **Kerberos** de forma transparente.
-- **Modernización de PAM**: la extensión de la comunicación PAM mediante mensajes JSON, permitiendo flujos visuales (como códigos QR o desafíos biométricos) en entornos como GDM/GNOME que antes eran imposibles.
-- **Identidad federada**: el trabajo conjunto con [FreeIPA](https://www.freeipa.org/) para gestionar identidades externas sin comprometer la seguridad del sistema local.
-
-Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y realizaremos una **demo en vivo** de cómo SSSD está eliminando las barreras de las contraseñas en el ecosistema Linux, **apostando por un estándar abierto y colaborativo entre proyectos upstream**.</abstract>
-<description>La transición hacia entornos sin contraseñas (**passwordless**) es una realidad imparable, pero su adopción en el escritorio Linux y en sistemas gestionados centralizadamente presenta retos técnicos profundos. Mientras la web avanza rápido, las aplicaciones POSIX y las consolas han quedado rezagadas por las limitaciones históricas de los flujos de autenticación tradicionales.
-
-En esta charla, analizaremos cómo [SSSD](https://sssd.io/) está liderando esta transformación para ofrecer una experiencia passwordless nativa y segura. No se trata solo de añadir soporte para dispositivos externos, sino de rediseñar cómo el sistema operativo entiende la identidad, permitiendo una integración fluida entre el hardware y el software libre para garantizar la soberanía digital de la infraestructura.
-
-Exploraremos los pilares técnicos de esta evolución:
-
-- **FIDO2 y passkeys**: cómo hemos implementado el soporte para que llaves FIDO2 que permitan autenticarse localmente y obtener tickets de **Kerberos** de forma transparente.
-- **Modernización de PAM**: la extensión de la comunicación PAM mediante mensajes JSON, permitiendo flujos visuales (como códigos QR o desafíos biométricos) en entornos como GDM/GNOME que antes eran imposibles.
-- **Identidad federada**: el trabajo conjunto con [FreeIPA](https://www.freeipa.org/) para gestionar identidades externas sin comprometer la seguridad del sistema local.
-
-Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y realizaremos una **demo en vivo** de cómo SSSD está eliminando las barreras de las contraseñas en el ecosistema Linux, **apostando por un estándar abierto y colaborativo entre proyectos upstream**.</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-<person id="3740">Iker Pedrosa</person>
-</persons>
-</event>
-<event guid="5CzK3Ao3NhsZtbhPdfwxig" id="1137">
-<date>2026-06-27T15:45:00+02:00</date>
-<start>13:45</start>
-<duration>00:15</duration>
-<room>Sala Fuengirola</room>
-<type>Info</type>
-<language>es</language>
-<slug>1137-cierre-de-opensouthcode-2026-closing-opensouthcode-2026</slug>
-<title>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</abstract>
-<description>Cierre de OpenSouthCode 2026 / Closing OpenSouthCode 2026</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
-</persons>
-</event>
-</room>
-<room name="Sala Málaga">
-<event guid="arlbeW7t-6EfTXIav4n5dg" id="1134">
-<date>2026-06-27T12:00:00+02:00</date>
-<start>10:00</start>
-<duration>04:00</duration>
-<room>Sala Málaga</room>
-<type>Workshop 4h</type>
-<language>es</language>
-<slug>1134-opensouthkids</slug>
-<title>OpenSouthKids</title>
-<subtitle></subtitle>
-<track></track>
-<abstract>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
-
-OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
-
-Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
-
-OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
-
-Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
-
-Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
-
-Un resumen, con algunos de nuestros clásicos y también algunas novedades:
-
-- Programa un robot humano desenchufao
-- micro:bit para programar pequeños dispositivos
-- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
-- makey makey para jugar con la electricidad
-- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
-- Aprende cómo funcionan los NFCs
-- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
-- YesWeTech Squad Girls
-</abstract>
-<description>OpenSouthKids: Cultura y tecnologías abiertas para todas las edades
-
-OpenSouthKids son actividades educativas y entretenidas para todas las edades, pensadas para 5-15 años pero abiertas a todos, no dejes de traer a tus hermanos pequeños.
-
-Los padres pueden dejar allí a sus niños y niñas mientras ellos asisten a las charlas de mayores, pero recuerda que no es un servicio de guardería, así que siempre será bajo tu responsabilidad. No recomendamos dejar solos a los más peques.
-
-OpenSouthKids ofrece actividades abiertas y libres, que se pueden realizar en cualquier orden de forma flexible. No es necesario registro previo, todos sois bienvenidos, pero te agradecemos que tú o tus padres se inscriban en la web de la conferencia, es gratis.
-
-Al entrar los niños en la sala, tendrán que rellenar un pasaporte que luego podrán &quot;sellar&quot; al pasar por cada actividad. No tienen que traer ningún dispositivo, pero si traen un portátil, una tablet o un móvil podrán usarlo en algunas actividades.
-
-Si quieres spoilers, puedes ver las actividades mientras las estamos cocinando aquí: https://github.com/opensouthcode/2026/issues/4
-
-Un resumen, con algunos de nuestros clásicos y también algunas novedades:
-
-- Programa un robot humano desenchufao
-- micro:bit para programar pequeños dispositivos
-- Hackea el videojuego de zombies que han escrito Daniel y su amigo Darío
-- makey makey para jugar con la electricidad
-- Magnific (anteriormente Freepik) nos enseña a generar una escena de cuento con sus potentes Spaces
-- Aprende cómo funcionan los NFCs
-- FSFE nos trae el cuento Ada &amp; Zangemann sobre el software libre
-- YesWeTech Squad Girls
-</description>
-<recording>
-<license />
-<optout>false</optout>
-</recording>
-<persons>
 </persons>
 </event>
 </room>
