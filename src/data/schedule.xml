@@ -1,5 +1,5 @@
 <schedule>
-<version>658</version>
+<version>659</version>
 <conference>
 <acronym>opensouthcode2026</acronym>
 <title>OpenSouthCode 2026</title>
@@ -11,7 +11,7 @@
 <day date="2026-06-26" index="1">
 <room name="Sala Fuengirola">
 <event guid="D_4dMixF7kPoot4gPq-1wg" id="1136">
-<date>2026-06-26T11:15:00+02:00</date>
+<date>2026-06-26T09:15:00+02:00</date>
 <start>09:15</start>
 <duration>00:15</duration>
 <room>Sala Fuengirola</room>
@@ -31,7 +31,7 @@
 </persons>
 </event>
 <event guid="yb3jaCSldQJ4suUeE11hQQ" id="1012">
-<date>2026-06-26T11:30:00+02:00</date>
+<date>2026-06-26T09:30:00+02:00</date>
 <start>09:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -82,7 +82,7 @@ Outline (45 minutes):
 </persons>
 </event>
 <event guid="K42D5La2wFITAx30Jcp4Uw" id="1046">
-<date>2026-06-26T12:30:00+02:00</date>
+<date>2026-06-26T10:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -131,7 +131,7 @@ Si te apasiona la privacidad, el código abierto y quieres dejar de depender de 
 </persons>
 </event>
 <event guid="Yhwmvsh6FYcoLbtytb7D0A" id="1094">
-<date>2026-06-26T13:30:00+02:00</date>
+<date>2026-06-26T11:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -164,7 +164,7 @@ Para resolverlas, entraremos en detalle en el _hardening_ a nivel de host e imag
 </persons>
 </event>
 <event guid="sKMzbLdKNBiIG921Te-0xA" id="1090">
-<date>2026-06-26T14:30:00+02:00</date>
+<date>2026-06-26T12:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -194,7 +194,7 @@ Explicamos por qué elegimos SparkSQL sobre Beam o Flink, cómo gestionamos dato
 </persons>
 </event>
 <event guid="Ifztt32jJsNqpT6oOALW1Q" id="1130">
-<date>2026-06-26T15:30:00+02:00</date>
+<date>2026-06-26T13:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:30</duration>
 <room>Sala Fuengirola</room>
@@ -230,11 +230,11 @@ Esta actividad ha sido promovida por [Open Bokeron](https://openbokeron.uma.es/)
 </persons>
 </event>
 <event guid="iH5xFMEMavBUk16DoLpDUA" id="1102">
-<date>2026-06-26T17:30:00+02:00</date>
+<date>2026-06-26T15:30:00+02:00</date>
 <start>15:30</start>
-<duration>00:45</duration>
+<duration>00:30</duration>
 <room>Sala Fuengirola</room>
-<type>Talk</type>
+<type>Talk 30m</type>
 <language>en</language>
 <slug>1102-defending-router-freedom-in-the-eu</slug>
 <title>Defending Router Freedom in the EU</title>
@@ -255,7 +255,7 @@ This talk will explain the current state of Router Freedom in Europe and why the
 </persons>
 </event>
 <event guid="SKxPe2JywZ-t38-38eUbKw" id="1072">
-<date>2026-06-26T18:30:00+02:00</date>
+<date>2026-06-26T16:30:00+02:00</date>
 <start>16:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -280,7 +280,7 @@ In this talk, we will present a full open source stack that provides competitive
 </persons>
 </event>
 <event guid="4_5y8vF29BZtLOZvjMqkNA" id="1138">
-<date>2026-06-26T19:30:00+02:00</date>
+<date>2026-06-26T17:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -305,7 +305,7 @@ Habrá código en vivo con ejemplos, y seguro que nos echamos algunas risas. Pro
 </persons>
 </event>
 <event guid="OIqm38scUzTaeLsZzijNjA" id="1135">
-<date>2026-06-26T20:30:00+02:00</date>
+<date>2026-06-26T18:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -336,7 +336,7 @@ We will reveal how we designed the app and then developed it from scratch with A
 </room>
 <room name="Sala Canillas 013">
 <event guid="2YRsoZdINrGTM6JPrwdxNg" id="1101">
-<date>2026-06-26T11:30:00+02:00</date>
+<date>2026-06-26T09:30:00+02:00</date>
 <start>09:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -367,7 +367,7 @@ Ya seas desarrollador, administrador de sistemas o entusiasta de la seguridad, d
 </persons>
 </event>
 <event guid="TvUPa0loi2L55dfbvPwjXw" id="1079">
-<date>2026-06-26T12:30:00+02:00</date>
+<date>2026-06-26T10:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -405,7 +405,7 @@ Designed to be vendor-agnostic, the operator runs seamlessly on any Kubernetes d
 </persons>
 </event>
 <event guid="Q9m8_paOU7lP2tTzEcZ7Zw" id="979">
-<date>2026-06-26T13:30:00+02:00</date>
+<date>2026-06-26T11:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -437,7 +437,7 @@ El sistema no solo se enfoca en el control remoto, sino que prioriza la segurida
 </persons>
 </event>
 <event guid="LWMh98JuP2FqrZjOSITiLg" id="1068">
-<date>2026-06-26T14:30:00+02:00</date>
+<date>2026-06-26T12:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -464,7 +464,7 @@ Attendees will gain insight into how hardware innovation and open-source collabo
 </persons>
 </event>
 <event guid="xC8BWRkC1Z3s1fMns4Ld5Q" id="1089">
-<date>2026-06-26T15:30:00+02:00</date>
+<date>2026-06-26T13:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -497,7 +497,7 @@ Finally, we will outline the value proposition for maintainers seeking mentored 
 </persons>
 </event>
 <event guid="4D15vhJJ6jv8-7RD-XHBbg" id="1067">
-<date>2026-06-26T17:30:00+02:00</date>
+<date>2026-06-26T15:30:00+02:00</date>
 <start>15:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -604,7 +604,7 @@ https://code.visualstudio.com/docs/copilot/overview#_getting-started</descriptio
 </persons>
 </event>
 <event guid="c5ZMduzjN5Z0uImV8dBU9Q" id="1080">
-<date>2026-06-26T18:30:00+02:00</date>
+<date>2026-06-26T16:30:00+02:00</date>
 <start>16:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -632,7 +632,7 @@ In this talk, we will introduce the fast track approach for onboarding a softwar
 </persons>
 </event>
 <event guid="YwrfJ9O-WSdsGHezpxFjjg" id="1095">
-<date>2026-06-26T19:30:00+02:00</date>
+<date>2026-06-26T17:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -655,7 +655,7 @@ Trae tu portátil: nos mancharemos las manos configurando y desplegando desde ce
 </persons>
 </event>
 <event guid="XUaxEsUhQzsu3FW0eI-BLA" id="1082">
-<date>2026-06-26T20:30:00+02:00</date>
+<date>2026-06-26T18:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -694,7 +694,7 @@ My goal is for you to walk away with resources and ideas to spin up a community,
 </room>
 <room name="Sala Benalmádena 002">
 <event guid="NzGvmbT7IOXwfUTYyOyhnw" id="1133">
-<date>2026-06-26T11:30:00+02:00</date>
+<date>2026-06-26T09:30:00+02:00</date>
 <start>09:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -724,7 +724,7 @@ Finalmente, se analizarán más en detalle las limitaciones de estos algoritmos:
 </persons>
 </event>
 <event guid="TffTP86gfQOacjWoIx6uPw" id="1122">
-<date>2026-06-26T12:30:00+02:00</date>
+<date>2026-06-26T10:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -757,7 +757,7 @@ Whether you are a designer trying to make an impact in a developer-heavy project
 </persons>
 </event>
 <event guid="O1SP3Z7lyOiEUSsPCA2xUw" id="1035">
-<date>2026-06-26T13:30:00+02:00</date>
+<date>2026-06-26T11:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -782,7 +782,7 @@ As a practical example, we’ll introduce the [Kafka Data Source plugin](https:/
 </persons>
 </event>
 <event guid="XwTR7dGRZAm_HEzveRZ9Cw" id="1132">
-<date>2026-06-26T14:30:00+02:00</date>
+<date>2026-06-26T12:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -837,7 +837,7 @@ Technical writers, DevOps, developers, open-source people, and anyone interested
 </persons>
 </event>
 <event guid="f2MWNbOkfd546vEk71L59A" id="1001">
-<date>2026-06-26T15:30:00+02:00</date>
+<date>2026-06-26T13:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -872,7 +872,7 @@ Finalmente, demostraremos cómo Aspire elimina la fricción en el despliegue hac
 </persons>
 </event>
 <event guid="F9cJKo9VPGkWw6K8nds_Hw" id="1077">
-<date>2026-06-26T17:30:00+02:00</date>
+<date>2026-06-26T15:30:00+02:00</date>
 <start>15:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -905,7 +905,7 @@ This talk is ideal for developers who enjoy creative constraints, want to sharpe
 </persons>
 </event>
 <event guid="Q2idDdkoRhJtTXaIfmlA5w" id="1042">
-<date>2026-06-26T18:30:00+02:00</date>
+<date>2026-06-26T16:30:00+02:00</date>
 <start>16:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -934,7 +934,7 @@ Hay mucho para profundizar en estos dos conceptos y nunca se habla lo suficiente
 </persons>
 </event>
 <event guid="Wd1PQHYnJtY-HxO9sSvfrw" id="1054">
-<date>2026-06-26T19:30:00+02:00</date>
+<date>2026-06-26T17:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -955,7 +955,7 @@ Hay mucho para profundizar en estos dos conceptos y nunca se habla lo suficiente
 </persons>
 </event>
 <event guid="r4A8_3p-ZFvlHsSq-plNNQ" id="1088">
-<date>2026-06-26T20:30:00+02:00</date>
+<date>2026-06-26T18:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -990,7 +990,7 @@ We&#39;ll also look at what&#39;s next for xcover: removing the kernel trap cost
 </room>
 <room name="Sala Benamocarra 23">
 <event guid="0Jfe13-eXRsZF81Jb60Ftw" id="1118">
-<date>2026-06-26T12:30:00+02:00</date>
+<date>2026-06-26T10:30:00+02:00</date>
 <start>10:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1066,7 +1066,7 @@ See also the videos linked above.
 </persons>
 </event>
 <event guid="7hS_72gA4Uya7-E-Mvzt7g" id="1061">
-<date>2026-06-26T13:30:00+02:00</date>
+<date>2026-06-26T11:30:00+02:00</date>
 <start>11:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1107,7 +1107,7 @@ Participants will learn how Newelle brings state‑of‑the‑art NLP to a light
 </persons>
 </event>
 <event guid="IxamYLwRLNo8040YYqEeWQ" id="1087">
-<date>2026-06-26T14:30:00+02:00</date>
+<date>2026-06-26T12:30:00+02:00</date>
 <start>12:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1136,7 +1136,7 @@ En esta charla hablaré de un proyecto que tengo actualmente en el que busco imp
 </persons>
 </event>
 <event guid="FgZuRIZGa12gIQE5E90M1w" id="1081">
-<date>2026-06-26T15:30:00+02:00</date>
+<date>2026-06-26T13:30:00+02:00</date>
 <start>13:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1165,7 +1165,7 @@ En esta charla le daremos una vuelta de tuerca a varios cuentos clásicos, que u
 </persons>
 </event>
 <event guid="Riv34VdQN5YoDoPGPMrq5g" id="1139">
-<date>2026-06-26T17:30:00+02:00</date>
+<date>2026-06-26T15:30:00+02:00</date>
 <start>15:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1202,7 +1202,7 @@ Una sesión práctica y muy visual para entender la ciberdefensa en un entorno r
 </persons>
 </event>
 <event guid="pMe6IbQIGQeX6rKdB3YadA" id="1055">
-<date>2026-06-26T19:30:00+02:00</date>
+<date>2026-06-26T17:30:00+02:00</date>
 <start>17:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1271,7 +1271,7 @@ Todo el código fuente de la sesión se encuentra en [este repositorio público]
 </persons>
 </event>
 <event guid="Je62ab3KSerJ6Nk-bhhYIw" id="1040">
-<date>2026-06-26T20:30:00+02:00</date>
+<date>2026-06-26T18:30:00+02:00</date>
 <start>18:30</start>
 <duration>00:45</duration>
 <room>Sala Benamocarra 23</room>
@@ -1302,7 +1302,7 @@ En esta charla, usando para ello mi experiencia personal, veremos qué es el Sof
 </room>
 <room name="Patio del tiempo">
 <event guid="pLaBoOFFmuvj-LTm8GMtsg" id="1143">
-<date>2026-06-26T16:15:00+02:00</date>
+<date>2026-06-26T14:15:00+02:00</date>
 <start>14:15</start>
 <duration>01:15</duration>
 <room>Patio del tiempo</room>
@@ -1326,7 +1326,7 @@ We will have 2h for networking with a snacks for all the attendies at the event.
 </persons>
 </event>
 <event guid="gHuIez4mLmQYjaA-3maVOQ" id="1142">
-<date>2026-06-26T21:15:00+02:00</date>
+<date>2026-06-26T19:15:00+02:00</date>
 <start>19:15</start>
 <duration>02:00</duration>
 <room>Patio del tiempo</room>
@@ -1352,7 +1352,7 @@ If you are speaker / sponsor or has donated in the donation campaign, you can ac
 </room>
 <room name="Sala Benamargosa 21">
 <event guid="SiJGxXcsDK53dgNLlO9crA" id="1140">
-<date>2026-06-26T17:30:00+02:00</date>
+<date>2026-06-26T15:30:00+02:00</date>
 <start>15:30</start>
 <duration>04:00</duration>
 <room>Sala Benamargosa 21</room>
@@ -1383,7 +1383,7 @@ Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouth
 </room>
 <room name="Sala Frigiliana - 20">
 <event guid="J26A28sTcEgzhZAChhqrDQ" id="1092">
-<date>2026-06-26T17:30:00+02:00</date>
+<date>2026-06-26T15:30:00+02:00</date>
 <start>15:30</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1428,7 +1428,7 @@ Es un formato de hacking en vivo que ya hemos impartido en muchas ocasiones, per
 </persons>
 </event>
 <event guid="NDe4bX7DxZ2eb2lpHASi6Q" id="1073">
-<date>2026-06-26T19:30:00+02:00</date>
+<date>2026-06-26T17:30:00+02:00</date>
 <start>17:30</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1477,7 +1477,7 @@ En este taller aprenderás cómo usar técnicas y herramientas modernas de paque
 <day date="2026-06-27" index="2">
 <room name="Sala Fuengirola">
 <event guid="WsYmFZ82rihn59SuQFWZUw" id="1106">
-<date>2026-06-27T12:00:00+02:00</date>
+<date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -1517,7 +1517,7 @@ The &quot;swiss army knife&quot; of AI-intensive platforms.
 </persons>
 </event>
 <event guid="df0Ldm-OmUvaN9Z50XvQfA" id="1031">
-<date>2026-06-27T13:00:00+02:00</date>
+<date>2026-06-27T11:00:00+02:00</date>
 <start>11:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -1544,7 +1544,7 @@ The &quot;swiss army knife&quot; of AI-intensive platforms.
 </persons>
 </event>
 <event guid="3FcGqPAHWgWwViprjEkqfw" id="1086">
-<date>2026-06-27T14:00:00+02:00</date>
+<date>2026-06-27T12:00:00+02:00</date>
 <start>12:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -1578,7 +1578,7 @@ We&#39;ll share real stories behind our metrics, spectacular failures that taugh
 </persons>
 </event>
 <event guid="GEZs4HqsE2LCCE8zYM_waQ" id="1028">
-<date>2026-06-27T15:00:00+02:00</date>
+<date>2026-06-27T13:00:00+02:00</date>
 <start>13:00</start>
 <duration>00:45</duration>
 <room>Sala Fuengirola</room>
@@ -1619,7 +1619,7 @@ Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y
 </persons>
 </event>
 <event guid="5CzK3Ao3NhsZtbhPdfwxig" id="1137">
-<date>2026-06-27T15:45:00+02:00</date>
+<date>2026-06-27T13:45:00+02:00</date>
 <start>13:45</start>
 <duration>00:15</duration>
 <room>Sala Fuengirola</room>
@@ -1641,7 +1641,7 @@ Veremos el estado actual del proyecto, los problemas de arquitectura resueltos y
 </room>
 <room name="Sala Benamargosa 21">
 <event guid="i5RmD0SRO8f7QR9K41-iMw" id="1141">
-<date>2026-06-27T12:00:00+02:00</date>
+<date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>04:00</duration>
 <room>Sala Benamargosa 21</room>
@@ -1672,7 +1672,7 @@ Tecnología y cultura abiertas fusionadas... ¡solo en OpenSouthCode y OpenSouth
 </room>
 <room name="Sala Benalmádena 002">
 <event guid="-zva3lmS90NhlEJ5Kzne9w" id="1085">
-<date>2026-06-27T12:00:00+02:00</date>
+<date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1747,7 +1747,7 @@ En esta charla veremos:
 </persons>
 </event>
 <event guid="WDE-XKeQgR64vJV8_Q5VAw" id="995">
-<date>2026-06-27T13:00:00+02:00</date>
+<date>2026-06-27T11:00:00+02:00</date>
 <start>11:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1778,7 +1778,7 @@ cómo construir dispositivos y servicios que sigan siendo inteligentes… sin vo
 </persons>
 </event>
 <event guid="RgDyrw-Mx-BzAdULEP6bUA" id="1053">
-<date>2026-06-27T14:00:00+02:00</date>
+<date>2026-06-27T12:00:00+02:00</date>
 <start>12:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1813,7 +1813,7 @@ By the end of this talk, you will have a clear understanding of how to use obser
 </persons>
 </event>
 <event guid="OkZfLIs93QxN_3NOcIRDNg" id="1128">
-<date>2026-06-27T15:00:00+02:00</date>
+<date>2026-06-27T13:00:00+02:00</date>
 <start>13:00</start>
 <duration>00:45</duration>
 <room>Sala Benalmádena 002</room>
@@ -1856,7 +1856,7 @@ You’ll leave with concrete techniques, open-source tooling, and a mental model
 </room>
 <room name="Sala Málaga">
 <event guid="arlbeW7t-6EfTXIav4n5dg" id="1134">
-<date>2026-06-27T12:00:00+02:00</date>
+<date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>04:00</duration>
 <room>Sala Málaga</room>
@@ -1922,7 +1922,7 @@ Un resumen, con algunos de nuestros clásicos y también algunas novedades:
 </room>
 <room name="Sala Frigiliana - 20">
 <event guid="0fWasxGYzhODwlqUlTVNGA" id="977">
-<date>2026-06-27T12:00:00+02:00</date>
+<date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -1981,7 +1981,7 @@ Grounding every technical decision in user value and measurable outcomes. This i
 </persons>
 </event>
 <event guid="K4zdG1vmKs7cHDE1ku-43w" id="990">
-<date>2026-06-27T14:00:00+02:00</date>
+<date>2026-06-27T12:00:00+02:00</date>
 <start>12:00</start>
 <duration>02:00</duration>
 <room>Sala Frigiliana - 20</room>
@@ -2040,7 +2040,7 @@ Software developers, QA engineers, SREs, and platform engineers interested in pe
 </room>
 <room name="Sala Canillas 013">
 <event guid="0xiHmTATRujcOtlwNy4HGg" id="1038">
-<date>2026-06-27T12:00:00+02:00</date>
+<date>2026-06-27T10:00:00+02:00</date>
 <start>10:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -2073,7 +2073,7 @@ comprobar en tiempo real el rendimiento de los módulos.</description>
 </persons>
 </event>
 <event guid="3Lryarf7k56494n8yppULg" id="1116">
-<date>2026-06-27T13:00:00+02:00</date>
+<date>2026-06-27T11:00:00+02:00</date>
 <start>11:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -2124,7 +2124,7 @@ The goal is to establish a usable mental model for engineers building on top of 
 </persons>
 </event>
 <event guid="DZndMUqP8kcmtzyLgi94fg" id="1108">
-<date>2026-06-27T14:00:00+02:00</date>
+<date>2026-06-27T12:00:00+02:00</date>
 <start>12:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
@@ -2154,7 +2154,7 @@ El objetivo es que los asistentes no solo vean como usar IA, sino que entiendan 
 </persons>
 </event>
 <event guid="Qb-53OdSe0T34wJDKY-ZhA" id="996">
-<date>2026-06-27T15:00:00+02:00</date>
+<date>2026-06-27T13:00:00+02:00</date>
 <start>13:00</start>
 <duration>00:45</duration>
 <room>Sala Canillas 013</room>
