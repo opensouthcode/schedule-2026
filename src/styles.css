@@ -749,3 +749,69 @@ h1 {
   z-index: 0;
   border-radius: inherit;
 }
+
+/* Storage error banner */
+.storage-error-banner {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  width: min(560px, calc(100% - 32px));
+  padding: 12px 16px;
+  border: 1px solid #c05621;
+  border-radius: 12px;
+  background: #fff7ed;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
+  color: #7c2d12;
+  transform: translateX(-50%);
+}
+
+.storage-error-text {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  font-size: 0.875rem;
+}
+
+.storage-error-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.storage-error-clear {
+  padding: 6px 12px;
+  border: 1px solid #c05621;
+  border-radius: 999px;
+  background: #c05621;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.storage-error-clear:hover {
+  background: #9a3412;
+  border-color: #9a3412;
+}
+
+.storage-error-dismiss {
+  padding: 6px 10px;
+  border: none;
+  background: transparent;
+  color: #9a3412;
+  font-size: 0.8125rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.storage-error-dismiss:hover {
+  color: #7c2d12;
+}
