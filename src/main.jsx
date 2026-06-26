@@ -29,6 +29,9 @@ const translations = {
     unstar: 'Remove saved session',
     starredOnly: 'Show saved sessions',
     donations: 'Donors',
+    storageErrorNotice: 'Some saved sessions could not be read and were reset.',
+    storageErrorClear: 'Clear saved sessions',
+    storageErrorDismiss: 'Dismiss',
     donationsTitle: 'Donations',
     donationsRegisterPrefix: 'The conference is free to attend; you only need to register on the',
     donationsRegisterLink: 'website',
@@ -60,6 +63,9 @@ const translations = {
     unstar: 'Quitar sesión guardada',
     starredOnly: 'Mostrar sesiones guardadas',
     donations: 'Donors',
+    storageErrorNotice: 'Algunos datos guardados no se pudieron leer y se han restablecido.',
+    storageErrorClear: 'Limpiar sesiones guardadas',
+    storageErrorDismiss: 'Ignorar',
     donationsTitle: 'Donaciones',
     donationsRegisterPrefix: 'La conferencia es de libre acceso, solo tienes que registrarte en la',
     donationsRegisterLink: 'web',
@@ -182,13 +188,35 @@ function App() {
   const [showStarredOnly, setShowStarredOnly] = useState(false);
   const [starredIds, setStarredIds] = useState(() => {
     const stored = window.localStorage.getItem(starredStorageKey);
-    return new Set(stored ? JSON.parse(stored) : []);
+    if (!stored) return new Set();
+    try {
+      const parsed = JSON.parse(stored);
+      return new Set(Array.isArray(parsed) ? parsed : []);
+    } catch {
+      return new Set();
+    }
+  });
+  const [storageError, setStorageError] = useState(() => {
+    const stored = window.localStorage.getItem(starredStorageKey);
+    if (!stored) return false;
+    try {
+      const parsed = JSON.parse(stored);
+      return !Array.isArray(parsed);
+    } catch {
+      return true;
+    }
   });
   const [expandedEventId, setExpandedEventId] = useState(null);
   const [clickedExpandedEventId, setClickedExpandedEventId] = useState(null);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [showDonations, setShowDonations] = useState(false);
   const cardRefs = useRef(new Map());
+
+  function clearStorage() {
+    window.localStorage.removeItem(starredStorageKey);
+    setStarredIds(new Set());
+    setStorageError(false);
+  }
   const labels = translations[locale];
   const activeSchedule = schedule.find((day) => day.date === activeDay) ?? schedule[0];
   const normalizedQuery = normalize(query.trim());
@@ -309,6 +337,19 @@ function App() {
 
   return (
     <>
+      {storageError && (
+        <div className="storage-error-banner" role="alert">
+          <p className="storage-error-text">{labels.storageErrorNotice}</p>
+          <div className="storage-error-actions">
+            <button className="storage-error-clear" onClick={clearStorage} type="button">
+              {labels.storageErrorClear}
+            </button>
+            <button className="storage-error-dismiss" onClick={() => setStorageError(false)} type="button">
+              {labels.storageErrorDismiss}
+            </button>
+          </div>
+        </div>
+      )}
       <main className="app-shell">
         <section className="hero">
           <div className="hero-title">
