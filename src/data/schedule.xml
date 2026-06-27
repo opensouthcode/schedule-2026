@@ -1,5 +1,5 @@
 <schedule>
-<version>659</version>
+<version>661</version>
 <conference>
 <acronym>opensouthcode2026</acronym>
 <title>OpenSouthCode 2026</title>
@@ -78,7 +78,7 @@ Outline (45 minutes):
 <optout>false</optout>
 </recording>
 <persons>
-<person id="3246">antfperez</person>
+<person id="3246">Antonio F. Pérez Rodríguez</person>
 </persons>
 </event>
 <event guid="K42D5La2wFITAx30Jcp4Uw" id="1046">
@@ -507,7 +507,9 @@ Finally, we will outline the value proposition for maintainers seeking mentored 
 <title>WordPress &amp; MCP: Integración con Clientes de IA para una administración simple</title>
 <subtitle>Del &#39;clic&#39; al &#39;prompt&#39;: Implementación del protocolo MCP para la administración de sitios WordPress</subtitle>
 <track></track>
-<abstract>La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
+<abstract>Update: Presentación: https://docs.google.com/presentation/d/1AkpbHiEYTwA0AYuydQLCEo6sQLjbTYG48XDGN8azum8/edit?usp=sharing
+
+La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
 
 En esta sesión práctica, daremos un paso más allá para aplicar esta tecnología a cualquier sitio WordPress (no solo los alojados en plataformas específicas).
 
@@ -551,7 +553,9 @@ https://github.com/kradyy/wordpress-wae
 
 6. VS Code con Github Copilot o Claude Desktop en tu equipo.
 https://code.visualstudio.com/docs/copilot/overview#_getting-started</abstract>
-<description>La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
+<description>Update: Presentación: https://docs.google.com/presentation/d/1AkpbHiEYTwA0AYuydQLCEo6sQLjbTYG48XDGN8azum8/edit?usp=sharing
+
+La forma en que interactuamos con nuestros sitios web está cambiando gracias a la IA y los **clientes MCP**. Llevamos más de dos décadas atrapados en la misma metáfora de &quot;apuntar y hacer clic&quot; en el dashboard de administración. Así que ahora le vamos a decir a nuestra web qué hacer.
 
 En esta sesión práctica, daremos un paso más allá para aplicar esta tecnología a cualquier sitio WordPress (no solo los alojados en plataformas específicas).
 
@@ -1951,7 +1955,9 @@ Functional Build
 Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
 Product Logic
 
-Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</abstract>
+Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.
+
+Notice: Bring your laptop to get the most out of this workshop.</abstract>
 <description>**From Idea to Impact: AI-Driven Prototyping for the Open Web**
 In an era of rapid technological shifts, the challenge isn&#39;t just building faster — it&#39;s building the right product. This hands-on workshop explores how to leverage artificial intelligence and open technologies to create products that solve real-world problems, bridging the gap between product thinking and technical execution — moving beyond basic automation to focus on meaningful impact.
 Participants will navigate a compressed product cycle, treating AI as a collaborative partner rather than a mere shortcut.
@@ -1971,7 +1977,9 @@ Functional Build
 Bringing the prototype to life as a working app using Python and Streamlit — open-source frameworks that turn an idea into a testable product in minutes, not weeks.
 Product Logic
 
-Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.</description>
+Grounding every technical decision in user value and measurable outcomes. This is not a purely technical workshop.
+
+Notice: Bring your laptop to get the most out of this workshop.</description>
 <recording>
 <license />
 <optout>false</optout>
