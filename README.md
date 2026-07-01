@@ -2,6 +2,8 @@
 
 Interactive React schedule for OpenSouthCode 2026, designed for GitHub Pages.
 
+Based on official source from https://www.opensouthcode.org/conferences/opensouthcode2026/schedule
+
 ## Development
 
 ```bash
